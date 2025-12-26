@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totem World</title>
+    <link rel="icon" href="../img/favicon.ico" sizes="any">
+    <meta name="description" content="Desarrollo de software, aplicaciones Android y contenido familiar.">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="#" class="logo-container">
+        <img src="../img/totemworld_logo.png" alt="">
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#ecosistema">Apps</a></li>
+        <li><a href="#todopeques">Todopeques</a></li>
+    </ul>
+</nav>
+
+<header id="hero" class="hero-section">
+    <div class="container text-center">
+        <span class="badge">🚀 Developer & Senior Quality Assurance</span>
+        <h1>Bienvenido a <span class="gradient-text">Totem World</span></h1>
+        <p class="subtitle">Un ecosistema de aplicaciones diseñadas para el entretenimiento, las finanzas y la familia.</p>
+        <div class="hero-buttons">
+            <a href="#ecosistema" class="btn btn-primary">Ver Proyectos</a>
+        </div>
+    </div>
+</header>
+
+<main id="ecosistema" class="container">
+
+    <section class="card app-card theme-guide">
+        <div class="card-content">
+            <div class="card-header">
+                <i class="fa-solid fa-tv icon-bg"></i>
+                <h2>Totem Guide</h2>
+            </div>
+            <p>Tu navegador de guías EPG definitivo. Usa las fuentes preconfiguradas o carga tus propios XMLTV (URL/Local). Una interfaz rápida diseñada tanto para pantallas táctiles como para mando de TV.</p>
+
+            <button class="btn-details" onclick="toggleDetails(this)">
+                Ver características <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="details-content">
+                <ul>
+                    <li><i class="fa-solid fa-bolt"></i> <strong>Listo para usar:</strong> Incluye fuentes EPG preconfiguradas.</li>
+                    <li><i class="fa-solid fa-file-code"></i> <strong>Personalizable:</strong> Añade XMLTV desde URL o archivo local.</li>
+                    <li><i class="fa-solid fa-mobile-screen-button"></i> <strong>Híbrido:</strong> Optimizado para Móvil y Fire TV (mando).</li>
+                    <li><i class="fa-solid fa-clock"></i> <strong>En vivo:</strong> Barra de progreso real y vista "Ahora en TV".</li>
+                    <li><i class="fa-solid fa-calendar-days"></i> <strong>Parrilla Multi-día:</strong> Consulta hoy, mañana y más allá.</li>
+                    <li><i class="fa-solid fa-rotate"></i> <strong>Smart:</strong> Actualizaciones diarias automáticas.</li>
+                    <li style="opacity: 0.7; font-style: italic; margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 5px;">
+                        <i class="fa-solid fa-circle-info"></i> Nota: Solo visualizador de guía, no reproduce vídeo.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="store-buttons">
+                <a href="https://www.amazon.es/Tivivo-Stream-Totem-Guide/dp/B0FYHL6Q3F" target="_blank" class="btn-store amazon"><i class="fa-brands fa-amazon"></i> Amazon Store</a>
+                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button>
+            </div>
+        </div>
+        <div class="card-image-placeholder">
+            <img src="../img/totemguide_logo.png" alt="Totem Guide Logo">
+        </div>
+    </section>
+
+    <section class="card app-card theme-stream">
+        <div class="card-content">
+            <div class="card-header">
+                <i class="fa-solid fa-play icon-bg"></i>
+                <h2>Totem Stream</h2>
+            </div>
+
+            <p>Redescubre la televisión con un reproductor IPTV de alto rendimiento basado en <strong>Material Design 3</strong>. Fluidez absoluta, soporte VOD y diseño exquisito para Móvil y Android TV.</p>
+
+            <button class="btn-details" onclick="toggleDetails(this)">
+                Ver características <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="details-content">
+                <ul>
+                    <li><i class="fa-solid fa-layer-group"></i> <strong>Multi-formato:</strong> Soporte total para Xtream Codes, M3U y M3U8.</li>
+                    <li><i class="fa-solid fa-wand-magic-sparkles"></i> <strong>Diseño MD3:</strong> Interfaz moderna, limpia y con Modo Oscuro real.</li>
+                    <li><i class="fa-solid fa-film"></i> <strong>Cine y Series:</strong> Gestión con seguimiento de episodios vistos.</li>
+                    <li><i class="fa-solid fa-bolt"></i> <strong>Potencia:</strong> Zapping rápido, reproducción 4K y HDR.</li>
+                    <li><i class="fa-solid fa-list-ul"></i> <strong>EPG Avanzada:</strong> Guía de programación integrada en el reproductor.</li>
+                    <li><i class="fa-solid fa-user-shield"></i> <strong>Privacidad Total:</strong> Sin rastreo. Tus listas se guardan localmente.</li>
+
+                    <li style="opacity: 0.7; font-style: italic; margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 5px; font-size: 0.85rem;">
+                        <i class="fa-solid fa-circle-exclamation"></i> Aviso: Totem Stream es un reproductor. No incluye listas de canales de pago. El usuario es el único responsable de añadir sus propias listas de reproducción y contenido legal.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="store-buttons">
+                <button class="btn-store amazon disabled"><i class="fa-brands fa-amazon"></i> Próximamente</button>
+                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button>
+            </div>
+        </div>
+        <div class="card-image-placeholder">
+            <img src="../img/totemstream_logo.png" alt="Totem Stream Logo">
+        </div>
+    </section>
+
+    <section class="card app-card theme-finance">
+        <div class="card-content">
+            <div class="card-header">
+                <i class="fa-solid fa-chart-line icon-bg"></i>
+                <h2>Totem Finance</h2>
+            </div>
+            <p>Gestión financiera personal avanzada. Controla gastos, ingresos y ahorros con gráficas detalladas.</p>
+
+            <button class="btn-details" onclick="toggleDetails(this)">
+                Ver características <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="details-content">
+                <ul>
+                    <li><i class="fa-solid fa-wallet"></i> <strong>Control Total:</strong> Registro rápido de ingresos, gastos y transferencias.</li>
+                    <li><i class="fa-solid fa-chart-pie"></i> <strong>Análisis Visual:</strong> Gráficas intuitivas para entender dónde va tu dinero.</li>
+                    <li><i class="fa-solid fa-piggy-bank"></i> <strong>Presupuestos:</strong> Establece límites de gasto y metas de ahorro.</li>
+                    <li><i class="fa-solid fa-file-export"></i> <strong>Exportación:</strong> Genera informes en Excel/CSV para tu contabilidad.</li>
+                    <li><i class="fa-solid fa-calculator"></i> <strong>Herramientas:</strong> Calculadoras de préstamos y conversión de divisas.</li>
+                    <li><i class="fa-solid fa-lock"></i> <strong>100% Privado:</strong> Base de datos local. Tus finanzas no salen de tu móvil.</li>
+
+                    <li style="opacity: 0.7; font-style: italic; margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 5px; font-size: 0.85rem;">
+                        <i class="fa-solid fa-circle-check"></i> Sin cuentas en la nube ni conexión bancaria requerida.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="store-buttons">
+                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> Próximamente</button>
+            </div>
+        </div>
+        <div class="card-image-placeholder">
+            <img src="../img/totemfinance_logo.png" alt="Totem Finance Logo">
+        </div>
+    </section>
+</main>
+
+<section id="todopeques" class="todopeques-section">
+    <div class="container">
+        <div class="tp-content">
+            <span class="tp-label">Contenido Web</span>
+            <h2>Todopeques</h2>
+            <p>Un espacio dedicado al cuidado, crianza y diversión de los más pequeños. Artículos, noticias y consejos para padres modernos.</p>
+            <a href="http://todopeques.atwebpages.com/" target="_blank" rel="noopener noreferrer" class="btn btn-peques">
+                Visitar Web <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="tp-visual">
+            <div class="circle-deco"><img src="../img/todopeques_logo.png" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-content">
+        <div class="footer-left">
+            <p>&copy; 2025 Totem World.</p>
+            <p class="footer-sub">Desarrollado con ❤️ y código limpio.</p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">
+                <a href="privacy.html" style="text-decoration: underline; color: var(--text-muted);">Política de Privacidad</a>
+            </p>
+        </div>
+        <div class="socials">
+            <span class="social-label">Sígueme en:</span>
+            <a href="https://github.com/alejandroelix" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/alejandro-alonso-barrio"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

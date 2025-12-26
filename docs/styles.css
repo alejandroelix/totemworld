@@ -1,0 +1,378 @@
+/* --- VARIABLES GLOBALES --- */
+:root {
+    /* Colores Base (Modo Oscuro Moderno) */
+    --bg-dark: #0f172a;       /* Slate 900 */
+    --bg-card: #1e293b;       /* Slate 800 */
+    --text-main: #f8fafc;     /* Slate 50 */
+    --text-muted: #94a3b8;    /* Slate 400 */
+
+    /* Colores Temáticos Totem */
+    --color-guide: #8b5cf6;   /* Violeta */
+    --color-stream: #f43f5e;  /* Rojo/Rosa */
+    --color-finance: #10b981; /* Esmeralda */
+    --color-peques: #f59e0b;  /* Ambar/Naranja */
+
+    --font-main: 'Inter', sans-serif;
+}
+
+/* --- RESET Y BASE --- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; transition: 0.3s; }
+ul { list-style: none; }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.logo { font-weight: 900; font-size: 1.5rem; letter-spacing: -1px; }
+
+.nav-links { display: flex; gap: 30px; align-items: center; }
+.nav-links a:hover { color: var(--color-guide); }
+
+.btn-nav {
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+/* --- HERO SECTION --- */
+.hero-section {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center { text-align: center; }
+
+.badge {
+    background: rgba(255,255,255,0.1);
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    color: var(--color-guide);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 20px 0;
+    line-height: 1.1;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #60a5fa, #a78bfa, #f472b6);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.subtitle { color: var(--text-muted); font-size: 1.2rem; max-width: 600px; margin: 0 auto 40px; }
+
+/* Botones Generales */
+.btn {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-block;
+}
+.btn-primary { background: white; color: var(--bg-dark); }
+.btn-primary:hover { background: #e2e8f0; transform: translateY(-2px); }
+.btn-outline { border: 1px solid rgba(255,255,255,0.2); margin-left: 10px; }
+.btn-outline:hover { border-color: white; }
+
+/* --- SECCIÓN APPS (TARJETAS) --- */
+#ecosistema { display: flex; flex-direction: column; gap: 40px; margin-bottom: 80px; }
+
+.app-card {
+    display: flex;
+    background: var(--bg-card);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: transform 0.3s;
+}
+
+/* Lógica de Temas por Tarjeta */
+.theme-guide { border-left: 4px solid var(--color-guide); }
+.theme-stream { border-left: 4px solid var(--color-stream); }
+.theme-finance { border-left: 4px solid var(--color-finance); }
+
+.theme-guide h2 { color: var(--color-guide); }
+.theme-stream h2 { color: var(--color-stream); }
+.theme-finance h2 { color: var(--color-finance); }
+
+.card-content { padding: 40px; flex: 1; }
+.card-image-placeholder {
+    width: 300px;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+}
+
+.store-buttons { margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
+.btn-store {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+}
+.amazon { background: #FF9900; color: black; font-weight: bold; }
+.google { background: #34A853; }
+.disabled { opacity: 0.5; cursor: not-allowed; background: #334155; color: #94a3b8; }
+
+/* --- SECCIÓN TODOPEQUES --- */
+.todopeques-section {
+    background: radial-gradient(circle at right top, rgba(245, 158, 11, 0.1), transparent);
+    padding: 80px 0;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.todopeques-section .container { display: flex; align-items: center; justify-content: space-between; }
+.tp-label { color: var(--color-peques); font-weight: bold; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 2px; }
+.tp-content h2 { font-size: 3rem; margin-bottom: 20px; }
+.btn-peques { background: var(--color-peques); color: black; margin-top: 20px; }
+
+.circle-deco {
+    font-size: 5rem;
+    background: rgba(245, 158, 11, 0.2);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- CONTACTO --- */
+.contact-section { padding: 80px 20px; text-align: center; }
+.form-box {
+    max-width: 500px;
+    margin: 40px auto 0;
+    background: var(--bg-card);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+}
+.form-group { margin-bottom: 20px; }
+label { display: block; margin-bottom: 8px; font-size: 0.9rem; color: var(--text-muted); }
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background: var(--bg-dark);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    font-family: inherit;
+}
+input:focus, textarea:focus { outline: none; border-color: var(--color-guide); }
+.full-width { width: 100%; text-align: center; margin-top: 10px; cursor: pointer; border: none;}
+
+/* --- FOOTER --- */
+footer { padding: 40px 0; border-top: 1px solid rgba(255,255,255,0.05); color: var(--text-muted); font-size: 0.9rem; }
+.footer-content { display: flex; justify-content: space-between; }
+.socials a { margin-left: 20px; font-size: 1.2rem; }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .app-card { flex-direction: column; }
+    .card-image-placeholder { width: 100%; height: 200px; }
+    .todopeques-section .container { flex-direction: column; text-align: center; }
+    .tp-visual { margin-top: 30px; }
+    h1 { font-size: 2.5rem; }
+    .nav-links { display: none; } /* En una versión completa haríamos menú hamburguesa */
+}
+
+/* =========================================
+   AJUSTES DE IMÁGENES (Añadir al styles.css)
+   ========================================= */
+
+/* 1. LOGO DEL NAVBAR (Totem World) */
+.logo-container img {
+    height: 60px; /* Altura fija para no romper el menú */
+    width: auto;  /* El ancho se ajusta solo */
+    object-fit: contain; /* Asegura que se vea entero sin recortes */
+    display: block;
+}
+
+/* 2. LOGOS DE LAS APPS (Guide, Stream, Finance) */
+/* Modificamos el contenedor para que sea flexible */
+.card-image-placeholder {
+    width: 300px;
+    height: auto; /* Dejamos que la altura se adapte */
+    min-height: 250px; /* Altura mínima para uniformidad */
+    background: rgba(0,0,0,0.2); /* Fondo sutil por si el logo es PNG transparente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Espacio para que el logo "respire" */
+    border-left: 1px solid rgba(255,255,255,0.05); /* Separador visual */
+}
+
+/* Controlamos la imagen dentro de la tarjeta */
+.card-image-placeholder img {
+    max-width: 100%;      /* No salirse del ancho */
+    max-height: 200px;    /* Límite de altura */
+    width: auto;
+    height: auto;
+    object-fit: contain;  /* Mantiene proporciones, no estira */
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3)); /* Sombra para resaltar el logo */
+    transition: transform 0.3s ease;
+}
+
+/* Efecto Hover: El logo crece un poco al pasar el ratón por la tarjeta */
+.app-card:hover .card-image-placeholder img {
+    transform: scale(1.05);
+}
+
+/* 3. LOGO DE TODOPEQUES (Círculo) */
+.circle-deco {
+    /* Mantenemos las dimensiones del círculo */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; /* Importante: recorta lo que sobre del círculo */
+    background: white; /* Fondo blanco por si el logo tiene transparencias */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid var(--color-peques); /* Borde del color temático */
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3); /* Resplandor */
+}
+
+.circle-deco img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 'Cover' llena el círculo, 'Contain' muestra el logo entero */
+    /* Nota: Si el logo se corta, cambia 'cover' por 'contain' y añade padding: 10px; */
+}
+
+/* AJUSTE RESPONSIVE (Móvil) */
+@media (max-width: 768px) {
+    .card-image-placeholder {
+        width: 100%; /* En móvil ocupa todo el ancho */
+        border-left: none;
+        border-top: 1px solid rgba(255,255,255,0.05);
+        min-height: 200px;
+    }
+
+    .logo-container img {
+        height: 40px; /* Logo un poco más pequeño en móvil */
+    }
+}
+
+/* --- UTILITY CLASSES (IMPORTANTE) --- */
+/* Esto hace que el spinner desaparezca cuando tiene la clase 'hidden' */
+.hidden {
+    display: none !important;
+}
+
+/* Opcional: Para que el icono de carga gire suavemente */
+.fa-spin {
+    animation: fa-spin 2s infinite linear;
+}
+@keyframes fa-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* =========================================
+   ESTILOS DEL ACORDEÓN (DETALLES APPS)
+   ========================================= */
+
+/* El botón para desplegar */
+.btn-details {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.btn-details:hover {
+    color: white;
+}
+
+.btn-details i {
+    transition: transform 0.3s ease;
+}
+
+/* Cuando está abierto, rotamos la flechita */
+.btn-details.active i {
+    transform: rotate(180deg);
+}
+
+/* El contenedor oculto (Estado inicial) */
+.details-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+/* El contenedor visible (Estado abierto) */
+.details-content.show {
+    max-height: 300px; /* Altura máxima suficiente para el texto */
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la lista interior */
+.details-content ul {
+    list-style: none;
+    padding-left: 5px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding-top: 10px;
+}
+
+.details-content li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Coloreamos los checks según el tema de la tarjeta */
+.theme-guide .details-content i { color: var(--color-guide); }
+.theme-stream .details-content i { color: var(--color-stream); }
+.theme-finance .details-content i { color: var(--color-finance); }
