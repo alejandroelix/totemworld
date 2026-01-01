@@ -1,0 +1,22 @@
+[
+  {
+    "name": "EPG_dobleM",
+    "description": "Programación de la mayoría de las plataformas españolas y también la programación de algunos canales ingleses, franceses, alemanes y portugueses",
+    "url": "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml"
+  },
+  {
+    "name": "TDT Channels EPG",
+    "description": "Spanish EPG",
+    "url": "https://www.tdtchannels.com/epg/TV.xml"
+  },
+  {
+    "name": "TDT Channels EPG GZ",
+    "description": "Spanish EPG GZ",
+    "url": "https://www.tdtchannels.com/epg/TV.xml.gz"
+  },
+  {
+    "name": "EPGTalk",
+    "description": "Enjoy a unified EPG experience for US, UK, and Mexico channels",
+    "url": "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/guide.xml"
+  }
+]
