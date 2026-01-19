@@ -1,22 +1,1640 @@
 [
   {
-    "name": "EPG_dobleM",
-    "description": "Programación de la mayoría de las plataformas españolas y también la programación de algunos canales ingleses, franceses, alemanes y portugueses",
+    "name": "EPG Source 1",
+    "group": "Others",
+    "subgroup": "Others",
+    "description": "Recommended!! Programming of most Spanish platforms and also the programming of some English, French, German and Portuguese channels",
     "url": "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml"
   },
   {
-    "name": "TDT Channels EPG",
+    "name": "EPG Spanish Source 1",
+    "group": "Others",
+    "subgroup": "Spanish",
     "description": "Spanish EPG",
     "url": "https://www.tdtchannels.com/epg/TV.xml"
   },
   {
-    "name": "TDT Channels EPG GZ",
+    "name": "EPG Spanish Source 2",
+    "group": "Others",
+    "subgroup": "Spanish",
     "description": "Spanish EPG GZ",
     "url": "https://www.tdtchannels.com/epg/TV.xml.gz"
   },
   {
-    "name": "EPGTalk",
+    "name": "EPG Spanish Source 3",
+    "group": "Others",
+    "subgroup": "Spanish",
+    "description": "EPG for IPTV Spain",
+    "url": "https://raw.githubusercontent.com/vk496/IPTVspain/master/guide.xml"
+  },
+  {
+    "name": "Albania - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Albania",
+    "description": "EPG for Albania",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Albania/albania1.xml"
+  },
+  {
+    "name": "Argentina - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Argentina",
+    "description": "EPG for Argentina",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Argentina/argentina1.xml"
+  },
+  {
+    "name": "Argentina - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Argentina",
+    "description": "EPG for Argentina",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Argentina/argentina2.xml"
+  },
+  {
+    "name": "Argentina - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Argentina",
+    "description": "EPG for Argentina",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Argentina/argentina3.xml"
+  },
+  {
+    "name": "Argentina - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Argentina",
+    "description": "EPG for Argentina",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Argentina/argentina4.xml"
+  },
+  {
+    "name": "Argentina - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Argentina",
+    "description": "EPG for Argentina",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Argentina/argentina5.xml"
+  },
+  {
+    "name": "Australia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Australia",
+    "description": "EPG for Australia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Australia/australia1.xml"
+  },
+  {
+    "name": "Australia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Australia",
+    "description": "EPG for Australia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Australia/australia2.xml"
+  },
+  {
+    "name": "Australia - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Australia",
+    "description": "EPG for Australia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Australia/australia3.xml"
+  },
+  {
+    "name": "Australia - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Australia",
+    "description": "EPG for Australia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Australia/australia4.xml"
+  },
+  {
+    "name": "Austria - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Austria",
+    "description": "EPG for Austria",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Austria/austria1.xml"
+  },
+  {
+    "name": "Austria - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Austria",
+    "description": "EPG for Austria",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Austria/austria2.xml"
+  },
+  {
+    "name": "Austria - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Austria",
+    "description": "EPG for Austria",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Austria/austria3.xml"
+  },
+  {
+    "name": "Belgium - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Belgium",
+    "description": "EPG for Belgium",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Belgium/belgium1.xml"
+  },
+  {
+    "name": "Belgium - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Belgium",
+    "description": "EPG for Belgium",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Belgium/belgium2.xml"
+  },
+  {
+    "name": "Belgium - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Belgium",
+    "description": "EPG for Belgium",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Belgium/belgium3.xml"
+  },
+  {
+    "name": "Belgium - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Belgium",
+    "description": "EPG for Belgium",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Belgium/belgium4.xml"
+  },
+  {
+    "name": "Bolivia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Bolivia",
+    "description": "EPG for Bolivia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Bolivia/bolivia1.xml"
+  },
+  {
+    "name": "Bolivia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Bolivia",
+    "description": "EPG for Bolivia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Bolivia/bolivia2.xml"
+  },
+  {
+    "name": "Bosnia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Bosnia",
+    "description": "EPG for Bosnia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Bosnia/bosnia1.xml"
+  },
+  {
+    "name": "Brazil - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Brazil",
+    "description": "EPG for Brazil",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil1.xml"
+  },
+  {
+    "name": "Brazil - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Brazil",
+    "description": "EPG for Brazil",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil2.xml"
+  },
+  {
+    "name": "Brazil - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Brazil",
+    "description": "EPG for Brazil",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil3.xml"
+  },
+  {
+    "name": "Brazil - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Brazil",
+    "description": "EPG for Brazil",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil4.xml"
+  },
+  {
+    "name": "Bulgaria - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Bulgaria",
+    "description": "EPG for Bulgaria",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Bulgaria/bulgaria1.xml"
+  },
+  {
+    "name": "Bulgaria - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Bulgaria",
+    "description": "EPG for Bulgaria",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Bulgaria/bulgaria2.xml"
+  },
+  {
+    "name": "Canada - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Canada",
+    "description": "EPG for Canada",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Canada/canada1.xml"
+  },
+  {
+    "name": "Canada - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Canada",
+    "description": "EPG for Canada",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Canada/canada2.xml"
+  },
+  {
+    "name": "Canada - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Canada",
+    "description": "EPG for Canada",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Canada/canada3.xml"
+  },
+  {
+    "name": "Caribbean - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Caribbean",
+    "description": "EPG for Caribbean",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Caribbean/caribbean1.xml"
+  },
+  {
+    "name": "Chile - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Chile",
+    "description": "EPG for Chile",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Chile/chile1.xml"
+  },
+  {
+    "name": "Chile - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Chile",
+    "description": "EPG for Chile",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Chile/chile2.xml"
+  },
+  {
+    "name": "China - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "China",
+    "description": "EPG for China",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/China/china1.xml"
+  },
+  {
+    "name": "China - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "China",
+    "description": "EPG for China",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/China/china2.xml"
+  },
+  {
+    "name": "Colombia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Colombia",
+    "description": "EPG for Colombia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Colombia/colombia1.xml"
+  },
+  {
+    "name": "Colombia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Colombia",
+    "description": "EPG for Colombia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Colombia/colombia2.xml"
+  },
+  {
+    "name": "Costarica - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Costarica",
+    "description": "EPG for Costarica",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Costarica/costarica1.xml"
+  },
+  {
+    "name": "Croatia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Croatia",
+    "description": "EPG for Croatia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Croatia/croatia1.xml"
+  },
+  {
+    "name": "Croatia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Croatia",
+    "description": "EPG for Croatia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Croatia/croatia2.xml"
+  },
+  {
+    "name": "Croatia - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Croatia",
+    "description": "EPG for Croatia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Croatia/croatia3.xml"
+  },
+  {
+    "name": "Croatia - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Croatia",
+    "description": "EPG for Croatia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Croatia/croatia4.xml"
+  },
+  {
+    "name": "Croatia - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Croatia",
+    "description": "EPG for Croatia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Croatia/croatia5.xml"
+  },
+  {
+    "name": "Cyprus - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Cyprus",
+    "description": "EPG for Cyprus",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Cyprus/cyprus1.xml"
+  },
+  {
+    "name": "Czech - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Czech",
+    "description": "EPG for Czech",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Czech/czech1.xml"
+  },
+  {
+    "name": "Czech - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Czech",
+    "description": "EPG for Czech",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Czech/czech2.xml"
+  },
+  {
+    "name": "Denmark - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Denmark",
+    "description": "EPG for Denmark",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark1.xml"
+  },
+  {
+    "name": "Denmark - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Denmark",
+    "description": "EPG for Denmark",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark2.xml"
+  },
+  {
+    "name": "Denmark - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Denmark",
+    "description": "EPG for Denmark",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark3.xml"
+  },
+  {
+    "name": "Denmark - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Denmark",
+    "description": "EPG for Denmark",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark4.xml"
+  },
+  {
+    "name": "Denmark - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Denmark",
+    "description": "EPG for Denmark",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark5.xml"
+  },
+  {
+    "name": "Denmark - EPG Source 6",
+    "group": "Global EPG",
+    "subgroup": "Denmark",
+    "description": "EPG for Denmark",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Denmark/denmark6.xml"
+  },
+  {
+    "name": "Dominican - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Dominican",
+    "description": "EPG for Dominican",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Dominican/dominican1.xml"
+  },
+  {
+    "name": "Ecuador - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Ecuador",
+    "description": "EPG for Ecuador",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Ecuador/ecuador1.xml"
+  },
+  {
+    "name": "Egypt - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Egypt",
+    "description": "EPG for Egypt",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Egypt/egypt1.xml"
+  },
+  {
+    "name": "Egypt - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Egypt",
+    "description": "EPG for Egypt",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Egypt/egypt2.xml"
+  },
+  {
+    "name": "Elsalvador - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Elsalvador",
+    "description": "EPG for Elsalvador",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Elsalvador/elsalvador1.xml"
+  },
+  {
+    "name": "Estonia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Estonia",
+    "description": "EPG for Estonia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Estonia/estonia1.xml"
+  },
+  {
+    "name": "Finland - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Finland",
+    "description": "EPG for Finland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Finland/finland1.xml"
+  },
+  {
+    "name": "Finland - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Finland",
+    "description": "EPG for Finland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Finland/finland2.xml"
+  },
+  {
+    "name": "Finland - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Finland",
+    "description": "EPG for Finland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Finland/finland3.xml"
+  },
+  {
+    "name": "Finland - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Finland",
+    "description": "EPG for Finland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Finland/finland4.xml"
+  },
+  {
+    "name": "France - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "France",
+    "description": "EPG for France",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/France/france1.xml"
+  },
+  {
+    "name": "France - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "France",
+    "description": "EPG for France",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/France/france2.xml"
+  },
+  {
+    "name": "Georgia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Georgia",
+    "description": "EPG for Georgia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Georgia/georgia1.xml"
+  },
+  {
+    "name": "Georgia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Georgia",
+    "description": "EPG for Georgia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Georgia/georgia2.xml"
+  },
+  {
+    "name": "Germany - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Germany",
+    "description": "EPG for Germany",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Germany/germany1.xml"
+  },
+  {
+    "name": "Germany - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Germany",
+    "description": "EPG for Germany",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Germany/germany2.xml"
+  },
+  {
+    "name": "Germany - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Germany",
+    "description": "EPG for Germany",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Germany/germany3.xml"
+  },
+  {
+    "name": "Germany - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Germany",
+    "description": "EPG for Germany",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Germany/germany4.xml"
+  },
+  {
+    "name": "Ghana - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Ghana",
+    "description": "EPG for Ghana",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Ghana/ghana1.xml"
+  },
+  {
+    "name": "Greece - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Greece",
+    "description": "EPG for Greece",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Greece/greece1.xml"
+  },
+  {
+    "name": "Greece - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Greece",
+    "description": "EPG for Greece",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Greece/greece2.xml"
+  },
+  {
+    "name": "Greece - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Greece",
+    "description": "EPG for Greece",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Greece/greece3.xml"
+  },
+  {
+    "name": "Guatemala - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Guatemala",
+    "description": "EPG for Guatemala",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Guatemala/guatemala1.xml"
+  },
+  {
+    "name": "Honduras - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Honduras",
+    "description": "EPG for Honduras",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Honduras/honduras1.xml"
+  },
+  {
+    "name": "Hongkong - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Hongkong",
+    "description": "EPG for Hongkong",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Hongkong/hongkong1.xml"
+  },
+  {
+    "name": "Hongkong - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Hongkong",
+    "description": "EPG for Hongkong",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Hongkong/hongkong2.xml"
+  },
+  {
+    "name": "Hongkong - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Hongkong",
+    "description": "EPG for Hongkong",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Hongkong/hongkong3.xml"
+  },
+  {
+    "name": "Hungary - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Hungary",
+    "description": "EPG for Hungary",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Hungary/hungary1.xml"
+  },
+  {
+    "name": "Iceland - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Iceland",
+    "description": "EPG for Iceland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Iceland/iceland1.xml"
+  },
+  {
+    "name": "Iceland - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Iceland",
+    "description": "EPG for Iceland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Iceland/iceland2.xml"
+  },
+  {
+    "name": "Iceland - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Iceland",
+    "description": "EPG for Iceland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Iceland/iceland3.xml"
+  },
+  {
+    "name": "India - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "India",
+    "description": "EPG for India",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/India/india1.xml"
+  },
+  {
+    "name": "India - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "India",
+    "description": "EPG for India",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/India/india2.xml"
+  },
+  {
+    "name": "India - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "India",
+    "description": "EPG for India",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/India/india3.xml"
+  },
+  {
+    "name": "India - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "India",
+    "description": "EPG for India",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/India/india4.xml"
+  },
+  {
+    "name": "India - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "India",
+    "description": "EPG for India",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/India/india5.xml"
+  },
+  {
+    "name": "Indonesia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Indonesia",
+    "description": "EPG for Indonesia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Indonesia/indonesia1.xml"
+  },
+  {
+    "name": "Indonesia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Indonesia",
+    "description": "EPG for Indonesia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Indonesia/indonesia2.xml"
+  },
+  {
+    "name": "Indonesia - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Indonesia",
+    "description": "EPG for Indonesia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Indonesia/indonesia3.xml"
+  },
+  {
+    "name": "Indonesia - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Indonesia",
+    "description": "EPG for Indonesia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Indonesia/indonesia4.xml"
+  },
+  {
+    "name": "Indonesia - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Indonesia",
+    "description": "EPG for Indonesia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Indonesia/indonesia5.xml"
+  },
+  {
+    "name": "Indonesia - EPG Source 6",
+    "group": "Global EPG",
+    "subgroup": "Indonesia",
+    "description": "EPG for Indonesia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Indonesia/indonesia6.xml"
+  },
+  {
+    "name": "Ireland - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Ireland",
+    "description": "EPG for Ireland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Ireland/ireland1.xml"
+  },
+  {
+    "name": "Israel - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Israel",
+    "description": "EPG for Israel",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Israel/israel1.xml"
+  },
+  {
+    "name": "Israel - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Israel",
+    "description": "EPG for Israel",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Israel/israel2.xml"
+  },
+  {
+    "name": "Italy - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Italy",
+    "description": "EPG for Italy",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Italy/italy1.xml"
+  },
+  {
+    "name": "Italy - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Italy",
+    "description": "EPG for Italy",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Italy/italy2.xml"
+  },
+  {
+    "name": "Italy - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Italy",
+    "description": "EPG for Italy",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Italy/italy3.xml"
+  },
+  {
+    "name": "Italy - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Italy",
+    "description": "EPG for Italy",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Italy/italy4.xml"
+  },
+  {
+    "name": "Italy - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Italy",
+    "description": "EPG for Italy",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Italy/italy5.xml"
+  },
+  {
+    "name": "Ivorycoast - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Ivorycoast",
+    "description": "EPG for Ivorycoast",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Ivorycoast/ivorycoast1.xml"
+  },
+  {
+    "name": "Jamaica - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Jamaica",
+    "description": "EPG for Jamaica",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Jamaica/jamaica1.xml"
+  },
+  {
+    "name": "Kenya - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Kenya",
+    "description": "EPG for Kenya",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Kenya/kenya1.xml"
+  },
+  {
+    "name": "Korea - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Korea",
+    "description": "EPG for Korea",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Korea/korea1.xml"
+  },
+  {
+    "name": "Latvia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Latvia",
+    "description": "EPG for Latvia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Latvia/latvia1.xml"
+  },
+  {
+    "name": "Latvia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Latvia",
+    "description": "EPG for Latvia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Latvia/latvia2.xml"
+  },
+  {
+    "name": "Lithuania - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Lithuania",
+    "description": "EPG for Lithuania",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Lithuania/lithuania1.xml"
+  },
+  {
+    "name": "Lithuania - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Lithuania",
+    "description": "EPG for Lithuania",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Lithuania/lithuania2.xml"
+  },
+  {
+    "name": "Lithuania - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Lithuania",
+    "description": "EPG for Lithuania",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Lithuania/lithuania3.xml"
+  },
+  {
+    "name": "Luxembourg - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Luxembourg",
+    "description": "EPG for Luxembourg",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Luxembourg/luxembourg1.xml"
+  },
+  {
+    "name": "Macau - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Macau",
+    "description": "EPG for Macau",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Macau/macau1.xml"
+  },
+  {
+    "name": "Madagascar - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Madagascar",
+    "description": "EPG for Madagascar",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Madagascar/madagascar1.xml"
+  },
+  {
+    "name": "Malawi - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Malawi",
+    "description": "EPG for Malawi",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Malawi/malawi1.xml"
+  },
+  {
+    "name": "Malaysia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Malaysia",
+    "description": "EPG for Malaysia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Malaysia/malaysia1.xml"
+  },
+  {
+    "name": "Malaysia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Malaysia",
+    "description": "EPG for Malaysia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Malaysia/malaysia2.xml"
+  },
+  {
+    "name": "Malaysia - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Malaysia",
+    "description": "EPG for Malaysia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Malaysia/malaysia3.xml"
+  },
+  {
+    "name": "Malta - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Malta",
+    "description": "EPG for Malta",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Malta/malta1.xml"
+  },
+  {
+    "name": "Mauritius - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Mauritius",
+    "description": "EPG for Mauritius",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Mauritius/mauritius1.xml"
+  },
+  {
+    "name": "Mexico - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Mexico",
+    "description": "EPG for Mexico",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Mexico/mexico1.xml"
+  },
+  {
+    "name": "Mexico - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Mexico",
+    "description": "EPG for Mexico",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Mexico/mexico2.xml"
+  },
+  {
+    "name": "Mongolia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Mongolia",
+    "description": "EPG for Mongolia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Mongolia/mongolia1.xml"
+  },
+  {
+    "name": "Montenegro - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Montenegro",
+    "description": "EPG for Montenegro",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Montenegro/montenegro1.xml"
+  },
+  {
+    "name": "Morocco - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Morocco",
+    "description": "EPG for Morocco",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Morocco/morocco1.xml"
+  },
+  {
+    "name": "Morocco - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Morocco",
+    "description": "EPG for Morocco",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Morocco/morocco2.xml"
+  },
+  {
+    "name": "Mozambique - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Mozambique",
+    "description": "EPG for Mozambique",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Mozambique/mozambique1.xml"
+  },
+  {
+    "name": "Namibia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Namibia",
+    "description": "EPG for Namibia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Namibia/namibia1.xml"
+  },
+  {
+    "name": "Netherlands - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Netherlands",
+    "description": "EPG for Netherlands",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Netherlands/netherlands1.xml"
+  },
+  {
+    "name": "Netherlands - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Netherlands",
+    "description": "EPG for Netherlands",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Netherlands/netherlands2.xml"
+  },
+  {
+    "name": "Newcaledonia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Newcaledonia",
+    "description": "EPG for Newcaledonia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Newcaledonia/newcaledonia1.xml"
+  },
+  {
+    "name": "Newzealand - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Newzealand",
+    "description": "EPG for Newzealand",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Newzealand/newzealand1.xml"
+  },
+  {
+    "name": "Nigeria - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Nigeria",
+    "description": "EPG for Nigeria",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Nigeria/nigeria1.xml"
+  },
+  {
+    "name": "Norway - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Norway",
+    "description": "EPG for Norway",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Norway/norway1.xml"
+  },
+  {
+    "name": "Norway - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Norway",
+    "description": "EPG for Norway",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Norway/norway2.xml"
+  },
+  {
+    "name": "Pakistan - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Pakistan",
+    "description": "EPG for Pakistan",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Pakistan/pakistan1.xml"
+  },
+  {
+    "name": "Pakistan - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Pakistan",
+    "description": "EPG for Pakistan",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Pakistan/pakistan2.xml"
+  },
+  {
+    "name": "Panama - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Panama",
+    "description": "EPG for Panama",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Panama/panama1.xml"
+  },
+  {
+    "name": "Paraguay - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Paraguay",
+    "description": "EPG for Paraguay",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Paraguay/paraguay1.xml"
+  },
+  {
+    "name": "Paraguay - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Paraguay",
+    "description": "EPG for Paraguay",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Paraguay/paraguay2.xml"
+  },
+  {
+    "name": "Peru - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Peru",
+    "description": "EPG for Peru",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Peru/peru1.xml"
+  },
+  {
+    "name": "Peru - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Peru",
+    "description": "EPG for Peru",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Peru/peru2.xml"
+  },
+  {
+    "name": "Philippines - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Philippines",
+    "description": "EPG for Philippines",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Philippines/philippines1.xml"
+  },
+  {
+    "name": "Philippines - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Philippines",
+    "description": "EPG for Philippines",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Philippines/philippines2.xml"
+  },
+  {
+    "name": "Philippines - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Philippines",
+    "description": "EPG for Philippines",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Philippines/philippines3.xml"
+  },
+  {
+    "name": "Poland - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Poland",
+    "description": "EPG for Poland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Poland/poland1.xml"
+  },
+  {
+    "name": "Poland - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Poland",
+    "description": "EPG for Poland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Poland/poland2.xml"
+  },
+  {
+    "name": "Portugal - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Portugal",
+    "description": "EPG for Portugal",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Portugal/portugal1.xml"
+  },
+  {
+    "name": "Portugal - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Portugal",
+    "description": "EPG for Portugal",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Portugal/portugal2.xml"
+  },
+  {
+    "name": "Puertorico - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Puertorico",
+    "description": "EPG for Puertorico",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Puertorico/puertorico1.xml"
+  },
+  {
+    "name": "Puertorico - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Puertorico",
+    "description": "EPG for Puertorico",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Puertorico/puertorico2.xml"
+  },
+  {
+    "name": "Qatar - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Qatar",
+    "description": "EPG for Qatar",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Qatar/qatar1.xml"
+  },
+  {
+    "name": "Qatar - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Qatar",
+    "description": "EPG for Qatar",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Qatar/qatar2.xml"
+  },
+  {
+    "name": "Qatar - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Qatar",
+    "description": "EPG for Qatar",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Qatar/qatar3.xml"
+  },
+  {
+    "name": "Qatar - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Qatar",
+    "description": "EPG for Qatar",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Qatar/qatar4.xml"
+  },
+  {
+    "name": "Qatar - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Qatar",
+    "description": "EPG for Qatar",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Qatar/qatar5.xml"
+  },
+  {
+    "name": "Qatar - EPG Source 6",
+    "group": "Global EPG",
+    "subgroup": "Qatar",
+    "description": "EPG for Qatar",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Qatar/qatar6.xml"
+  },
+  {
+    "name": "Romania - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Romania",
+    "description": "EPG for Romania",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Romania/romania1.xml"
+  },
+  {
+    "name": "Romania - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Romania",
+    "description": "EPG for Romania",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Romania/romania2.xml"
+  },
+  {
+    "name": "Russia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Russia",
+    "description": "EPG for Russia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Russia/russia1.xml"
+  },
+  {
+    "name": "Russia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Russia",
+    "description": "EPG for Russia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Russia/russia2.xml"
+  },
+  {
+    "name": "Russia - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Russia",
+    "description": "EPG for Russia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Russia/russia3.xml"
+  },
+  {
+    "name": "Saudiarabia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Saudiarabia",
+    "description": "EPG for Saudiarabia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Saudiarabia/saudiarabia1.xml"
+  },
+  {
+    "name": "Saudiarabia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Saudiarabia",
+    "description": "EPG for Saudiarabia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Saudiarabia/saudiarabia2.xml"
+  },
+  {
+    "name": "Saudiarabia - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Saudiarabia",
+    "description": "EPG for Saudiarabia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Saudiarabia/saudiarabia3.xml"
+  },
+  {
+    "name": "Saudiarabia - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Saudiarabia",
+    "description": "EPG for Saudiarabia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Saudiarabia/saudiarabia4.xml"
+  },
+  {
+    "name": "Scotland - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Scotland",
+    "description": "EPG for Scotland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Scotland/scotland1.xml"
+  },
+  {
+    "name": "Serbia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Serbia",
+    "description": "EPG for Serbia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Serbia/serbia1.xml"
+  },
+  {
+    "name": "Serbia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Serbia",
+    "description": "EPG for Serbia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Serbia/serbia2.xml"
+  },
+  {
+    "name": "Serbia - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Serbia",
+    "description": "EPG for Serbia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Serbia/serbia3.xml"
+  },
+  {
+    "name": "Singapore - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Singapore",
+    "description": "EPG for Singapore",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Singapore/singapore1.xml"
+  },
+  {
+    "name": "Singapore - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Singapore",
+    "description": "EPG for Singapore",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Singapore/singapore2.xml"
+  },
+  {
+    "name": "Singapore - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Singapore",
+    "description": "EPG for Singapore",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Singapore/singapore3.xml"
+  },
+  {
+    "name": "Slovakia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Slovakia",
+    "description": "EPG for Slovakia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Slovakia/slovakia1.xml"
+  },
+  {
+    "name": "Slovakia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Slovakia",
+    "description": "EPG for Slovakia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Slovakia/slovakia2.xml"
+  },
+  {
+    "name": "Slovakia - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Slovakia",
+    "description": "EPG for Slovakia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Slovakia/slovakia3.xml"
+  },
+  {
+    "name": "Slovenia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Slovenia",
+    "description": "EPG for Slovenia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Slovenia/slovenia1.xml"
+  },
+  {
+    "name": "Slovenia - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Slovenia",
+    "description": "EPG for Slovenia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Slovenia/slovenia2.xml"
+  },
+  {
+    "name": "Southafrica - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Southafrica",
+    "description": "EPG for Southafrica",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Southafrica/southafrica1.xml"
+  },
+  {
+    "name": "Southafrica - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Southafrica",
+    "description": "EPG for Southafrica",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Southafrica/southafrica2.xml"
+  },
+  {
+    "name": "Spain - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Spain",
+    "description": "EPG for Spain",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Spain/spain1.xml"
+  },
+  {
+    "name": "Spain - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Spain",
+    "description": "EPG for Spain",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Spain/spain2.xml"
+  },
+  {
+    "name": "Spain - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Spain",
+    "description": "EPG for Spain",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Spain/spain3.xml"
+  },
+  {
+    "name": "Spain - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Spain",
+    "description": "EPG for Spain",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Spain/spain4.xml"
+  },
+  {
+    "name": "Spain - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Spain",
+    "description": "EPG for Spain",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Spain/spain5.xml"
+  },
+  {
+    "name": "Sports - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Sports",
+    "description": "EPG for Sports",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Sports/sports1.xml"
+  },
+  {
+    "name": "Sports - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Sports",
+    "description": "EPG for Sports",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Sports/sports2.xml"
+  },
+  {
+    "name": "Sports - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Sports",
+    "description": "EPG for Sports",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Sports/sports3.xml"
+  },
+  {
+    "name": "Sweden - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Sweden",
+    "description": "EPG for Sweden",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Sweden/sweden1.xml"
+  },
+  {
+    "name": "Sweden - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Sweden",
+    "description": "EPG for Sweden",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Sweden/sweden2.xml"
+  },
+  {
+    "name": "Sweden - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Sweden",
+    "description": "EPG for Sweden",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Sweden/sweden3.xml"
+  },
+  {
+    "name": "Sweden - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Sweden",
+    "description": "EPG for Sweden",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Sweden/sweden4.xml"
+  },
+  {
+    "name": "Switzerland - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Switzerland",
+    "description": "EPG for Switzerland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Switzerland/switzerland1.xml"
+  },
+  {
+    "name": "Switzerland - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Switzerland",
+    "description": "EPG for Switzerland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Switzerland/switzerland2.xml"
+  },
+  {
+    "name": "Switzerland - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Switzerland",
+    "description": "EPG for Switzerland",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Switzerland/switzerland3.xml"
+  },
+  {
+    "name": "Taiwan - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Taiwan",
+    "description": "EPG for Taiwan",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Taiwan/taiwan1.xml"
+  },
+  {
+    "name": "Taiwan - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Taiwan",
+    "description": "EPG for Taiwan",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Taiwan/taiwan2.xml"
+  },
+  {
+    "name": "Thailand - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Thailand",
+    "description": "EPG for Thailand",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Thailand/thailand1.xml"
+  },
+  {
+    "name": "Thailand - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Thailand",
+    "description": "EPG for Thailand",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Thailand/thailand2.xml"
+  },
+  {
+    "name": "Turkey - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Turkey",
+    "description": "EPG for Turkey",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Turkey/turkey1.xml"
+  },
+  {
+    "name": "Turkey - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Turkey",
+    "description": "EPG for Turkey",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Turkey/turkey2.xml"
+  },
+  {
+    "name": "Turkey - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Turkey",
+    "description": "EPG for Turkey",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Turkey/turkey3.xml"
+  },
+  {
+    "name": "Turkey - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Turkey",
+    "description": "EPG for Turkey",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Turkey/turkey4.xml"
+  },
+  {
+    "name": "Turkey - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Turkey",
+    "description": "EPG for Turkey",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Turkey/turkey5.xml"
+  },
+  {
+    "name": "Uae - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Uae",
+    "description": "EPG for Uae",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Uae/uae1.xml"
+  },
+  {
+    "name": "Uae - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Uae",
+    "description": "EPG for Uae",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Uae/uae2.xml"
+  },
+  {
+    "name": "Uganda - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Uganda",
+    "description": "EPG for Uganda",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Uganda/uganda1.xml"
+  },
+  {
+    "name": "Ukraine - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Ukraine",
+    "description": "EPG for Ukraine",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Ukraine/ukraine1.xml"
+  },
+  {
+    "name": "Unitedkingdom - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Unitedkingdom",
+    "description": "EPG for Unitedkingdom",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Unitedkingdom/unitedkingdom1.xml"
+  },
+  {
+    "name": "Unitedkingdom - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Unitedkingdom",
+    "description": "EPG for Unitedkingdom",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Unitedkingdom/unitedkingdom2.xml"
+  },
+  {
+    "name": "Unitedkingdom - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Unitedkingdom",
+    "description": "EPG for Unitedkingdom",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Unitedkingdom/unitedkingdom3.xml"
+  },
+  {
+    "name": "Unitedkingdom - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Unitedkingdom",
+    "description": "EPG for Unitedkingdom",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Unitedkingdom/unitedkingdom4.xml"
+  },
+  {
+    "name": "Unitedkingdom - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Unitedkingdom",
+    "description": "EPG for Unitedkingdom",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Unitedkingdom/unitedkingdom5.xml"
+  },
+  {
+    "name": "Uruguay - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Uruguay",
+    "description": "EPG for Uruguay",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Uruguay/uruguay1.xml"
+  },
+  {
+    "name": "Uruguay - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Uruguay",
+    "description": "EPG for Uruguay",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Uruguay/uruguay2.xml"
+  },
+  {
+    "name": "Usa - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Usa",
+    "description": "EPG for Usa",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa1.xml"
+  },
+  {
+    "name": "Usa - EPG Source 2",
+    "group": "Global EPG",
+    "subgroup": "Usa",
+    "description": "EPG for Usa",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa2.xml"
+  },
+  {
+    "name": "Usa - EPG Source 3",
+    "group": "Global EPG",
+    "subgroup": "Usa",
+    "description": "EPG for Usa",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa3.xml"
+  },
+  {
+    "name": "Usa - EPG Source 4",
+    "group": "Global EPG",
+    "subgroup": "Usa",
+    "description": "EPG for Usa",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa4.xml"
+  },
+  {
+    "name": "Usa - EPG Source 5",
+    "group": "Global EPG",
+    "subgroup": "Usa",
+    "description": "EPG for Usa",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa5.xml"
+  },
+  {
+    "name": "Usa - EPG Source 6",
+    "group": "Global EPG",
+    "subgroup": "Usa",
+    "description": "EPG for Usa",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa6.xml"
+  },
+  {
+    "name": "Uzbekistan - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Uzbekistan",
+    "description": "EPG for Uzbekistan",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Uzbekistan/uzbekistan1.xml"
+  },
+  {
+    "name": "Vietnam - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Vietnam",
+    "description": "EPG for Vietnam",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Vietnam/vietnam1.xml"
+  },
+  {
+    "name": "Zambia - EPG Source 1",
+    "group": "Global EPG",
+    "subgroup": "Zambia",
+    "description": "EPG for Zambia",
+    "url": "https://raw.githubusercontent.com/globetvapp/epg/main/Zambia/zambia1.xml"
+  },
+  {
+    "name": "EPG Source All",
+    "group": "Others",
+    "subgroup": "EPG US, UK, and Mexico",
     "description": "Enjoy a unified EPG experience for US, UK, and Mexico channels",
     "url": "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/guide.xml"
+  },
+  {
+    "name": "EPG Source Latino",
+    "group": "Others",
+    "subgroup": "EPG US, UK, and Mexico",
+    "description": "Enjoy a unified EPG experience for Mexico channels",
+    "url": "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/Latino_guide.xml.gz"
+  },
+  {
+    "name": "EPG Source UK 1",
+    "group": "Others",
+    "subgroup": "EPG US, UK, and Mexico",
+    "description": "Enjoy a unified EPG experience for UK channels",
+    "url": "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/UK_guide.xml.gz"
+  },
+  {
+    "name": "EPG Source US 1",
+    "group": "Others",
+    "subgroup": "EPG US, UK, and Mexico",
+    "description": "Enjoy a unified EPG experience for US channels",
+    "url": "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_guide.xml.gz"
+  },
+  {
+    "name": "EPG Source US 2",
+    "group": "Others",
+    "subgroup": "EPG US, UK, and Mexico",
+    "description": "Enjoy a unified EPG experience for US channels",
+    "url": "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_local_guide.xml.gz"
+  },
+  {
+    "name": "EPG Source All2",
+    "group": "Others",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+  },
+  {
+    "name": "EPG Source UK 2",
+    "group": "Others",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG UK experience",
+    "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
   }
 ]
