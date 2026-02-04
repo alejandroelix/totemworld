@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totem Player API | Documentación Oficial</title>
+    <link rel="icon" type="image/png" href="img/totemworld_logo.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="logo-container">
+        <img src="img/totemworld_logo.png" alt="Totem World Logo">
+        <span class="logo-text">Totem World <span style="font-weight:300; opacity:0.7;">| Developers</span></span>
+    </a>
+    <a href="index.html" class="btn-nav"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+</nav>
+
+<div class="api-container">
+    <header style="margin-bottom: 50px; text-align: center;">
+        <h1 style="color: var(--color-player); font-size: 3rem;">Totem Player API</h1>
+        <p style="color: var(--text-muted); font-size: 1.2rem;">Controla la reproducción en tu Android TV remotamente.</p>
+    </header>
+
+    <div class="endpoint-block">
+        <h3><i class="fa-solid fa-circle-info"></i> Información General</h3>
+        <p>El servidor corre localmente en el dispositivo Android TV.</p>
+        <ul style="margin-top: 10px; color: var(--text-muted);">
+            <li><strong>Puerto por defecto:</strong> 8085</li>
+            <li><strong>Prefijo base:</strong> <code>/v1</code></li>
+            <li><strong>Base URL:</strong> <code>http://&lt;TV_IP&gt;:8085/v1</code></li>
+        </ul>
+    </div>
+
+    <div class="endpoint-block">
+        <h2>1. Reproducir Contenido</h2>
+        <p>Inicia la reproducción de un vídeo. Si hay algo sonando, lo interrumpe inmediatamente.</p>
+
+        <div style="margin: 20px 0;">
+            <span class="method post">POST</span>
+            <span class="url">/play</span>
+        </div>
+
+        <h4>Body (JSON):</h4>
+        <div class="code-box">
+            {
+            "url": "https://ejemplo.com/video.mp4",  <span style="color:#6b7280">// Requerido</span>
+            "title": "Big Buck Bunny",                 <span style="color:#6b7280">// Opcional</span>
+            "posterUrl": "https://...",                <span style="color:#6b7280">// Opcional (Fondo)</span>
+            "userAgent": "TotemClient/1.0",            <span style="color:#6b7280">// Opcional</span>
+            "metadata": "Extra info"                   <span style="color:#6b7280">// Opcional</span>
+            "startPosition": "0"                       <span style="color:#6b7280">// Opcional</span>
+            }
+        </div>
+    </div>
+
+    <div class="endpoint-block">
+        <h2>2. Control Remoto</h2>
+        <p>Envía comandos de transporte y configuración al reproductor activo.</p>
+
+        <div style="margin: 20px 0;">
+            <span class="method post">POST</span>
+            <span class="url">/command</span>
+        </div>
+
+        <h4>Body (JSON):</h4>
+        <div class="code-box">
+            {
+            "command": "PLAY",
+            "value": "" <span style="color:#6b7280">// Opcional según comando</span>
+            }
+        </div>
+
+        <h4>Comandos Soportados:</h4>
+        <table class="param-table">
+            <thead>
+            <tr>
+                <th>Comando</th>
+                <th>Valor (value)</th>
+                <th>Descripción</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr><td>PLAY</td><td>-</td><td>Reanuda la reproducción.</td></tr>
+            <tr><td>PAUSE</td><td>-</td><td>Pausa la reproducción.</td></tr>
+            <tr><td>STOP</td><td>-</td><td>Detiene y vuelve al inicio.</td></tr>
+            <tr><td>SEEK</td><td>Long (ms)</td><td>Salta a la posición (ej: "15000").</td></tr>
+            <tr><td>FORWARD</td><td>-</td><td>Avanza 10 segundos.</td></tr>
+            <tr><td>REWIND</td><td>-</td><td>Retrocede 10 segundos.</td></tr>
+            <tr><td>METADATA</td><td>String</td><td>Cambiar el subtitulo de la imagen</td></tr>
+            <tr><td>MESSAGE</td><td>String</td><td>Enviar mensaje a la pantalla</td></tr>
+            <tr><td>VOLUME</td><td>Float (0.0 - 1.0)</td><td>Fija volumen (ej: "0.5").</td></tr>
+            <tr><td>SPEED</td><td>Float</td><td>Fija velocidad (ej: "1.5").</td></tr>
+            <tr><td>POSTER</td><td>String</td><td>Cambia la url de la imagen principal</td></tr>
+            <tr><td>VIDEO</td><td>String (iso)</td><td>Cambia audio (ej: "es", "en").</td></tr>
+            <tr><td>AUDIO</td><td>String (iso)</td><td>Cambia audio (ej: "es", "en").</td></tr>
+            <tr><td>SUBTITLE</td><td>String (iso)</td><td>Cambia subtítulo (ej: "en", "off").</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="endpoint-block">
+        <h2>3. Obtener Estado</h2>
+        <p>Realiza polling para sincronizar la interfaz de tu mando a distancia.</p>
+
+        <div style="margin: 20px 0;">
+            <span class="method get">GET</span>
+            <span class="url">/status</span>
+        </div>
+
+        <h4>Respuesta Exitosa (200 OK):</h4>
+        <div class="code-box">
+            {
+            "state": "PLAYING",      <span style="color:#6b7280">// IDLE, BUFFERING, PLAYING, PAUSED...</span>
+            "currentPosition": 15000,<span style="color:#6b7280">// ms actuales</span>
+            "duration": 60000,       <span style="color:#6b7280">// ms totales</span>
+            "isLive": false,
+            "volume": 1.0,
+            "speed": 1.0,
+            "title": "Big Buck Bunny",
+            "audioTracks": List_TrackDefinition,
+            "subtitleTracks": List_TrackDefinition,
+            "videoQualities": List_TrackDefinition
+            }
+        </div>
+        <p style="margin-top: 15px; color: #f43f5e; font-size: 0.9rem;">
+            <i class="fa-solid fa-triangle-exclamation"></i> Error 503: Si el reproductor no está inicializado.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container footer-content" style="justify-content: center;">
+        <p>&copy; 2025 Totem World. Documentación para desarrolladores.</p>
+    </div>
+</footer>
+
+</body>
+</html>
