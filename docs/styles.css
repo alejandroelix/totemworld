@@ -11,6 +11,7 @@
     --color-stream: #f43f5e;  /* Rojo/Rosa */
     --color-finance: #10b981; /* Esmeralda */
     --color-peques: #f59e0b;  /* Ambar/Naranja */
+    --color-player: #06b6d4; /* Cyan - Para Totem Player */
 
     --font-main: 'Inter', sans-serif;
 }
@@ -350,7 +351,7 @@ footer { padding: 40px 0; border-top: 1px solid rgba(255,255,255,0.05); color: v
 
 /* El contenedor visible (Estado abierto) */
 .details-content.show {
-    max-height: 300px; /* Altura máxima suficiente para el texto */
+    max-height: 2000px; /* Altura máxima suficiente para el texto */
     opacity: 1;
     margin-bottom: 20px;
 }
@@ -376,3 +377,75 @@ footer { padding: 40px 0; border-top: 1px solid rgba(255,255,255,0.05); color: v
 .theme-guide .details-content i { color: var(--color-guide); }
 .theme-stream .details-content i { color: var(--color-stream); }
 .theme-finance .details-content i { color: var(--color-finance); }
+
+/* --- ESTILOS REDES SOCIALES (FOOTER) --- */
+
+/* Clase base para los enlaces sociales */
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+/* Efecto hover general */
+.social-link:hover {
+    transform: translateY(-2px); /* Pequeño saltito al pasar el ratón */
+}
+
+/* Color específico para Telegram (Azul oficial) */
+.social-link.telegram:hover {
+    color: #229ED9;
+    text-shadow: 0 0 10px rgba(34, 158, 217, 0.4);
+}
+
+/* Ajuste para móviles: que los iconos no se peguen mucho */
+@media (max-width: 768px) {
+    .socials {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+/* --- AL FINAL DEL ARCHIVO (Estilos para la documentación API) --- */
+/* Tema Totem Player */
+.theme-player { border-left: 4px solid var(--color-player); }
+.theme-player h2 { color: var(--color-player); }
+.theme-player .details-content i { color: var(--color-player); }
+
+/* Estilos para api.html */
+.api-container { max-width: 900px; margin: 40px auto; padding: 20px; }
+.endpoint-block {
+    background: var(--bg-card);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.method {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+}
+.method.post { background: #f59e0b; color: black; } /* POST en Amarillo */
+.method.get { background: #10b981; color: black; }  /* GET en Verde */
+
+.url { font-family: monospace; color: var(--text-main); font-size: 1.1rem; }
+.code-box {
+    background: #0b1120; /* Más oscuro que el card */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    color: #a5b4fc;
+    overflow-x: auto;
+    margin: 15px 0;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.param-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+.param-table th { text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 10px; color: var(--color-player); }
+.param-table td { border-bottom: 1px solid rgba(255,255,255,0.05); padding: 10px; font-size: 0.9rem; }
+.badge-req { color: #f43f5e; font-size: 0.8rem; }
+.badge-opt { color: #94a3b8; font-size: 0.8rem; }
