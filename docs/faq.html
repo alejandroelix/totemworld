@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte y FAQ | Totem World</title>
+    <link rel="icon" type="image/png" href="img/totemworld_logo.png">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Estilos exclusivos para la guía paso a paso */
+        .guide-container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+
+        .alert-box {
+            background: rgba(244, 63, 94, 0.1);
+            border-left: 4px solid var(--color-stream);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .step-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .step-number {
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            font-size: 6rem;
+            font-weight: 900;
+            color: rgba(255,255,255,0.03);
+            pointer-events: none;
+        }
+
+        .step-title { margin-bottom: 15px; color: white; font-size: 1.4rem; display: flex; align-items: center; gap: 10px; }
+
+        .highlight-stream { color: var(--color-stream); font-weight: bold; }
+        .highlight-player { color: var(--color-player); font-weight: bold; }
+
+        .screenshot-area {
+            margin-top: 20px;
+            background: #000;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .screenshot-area img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .beta-badge {
+            background: #f59e0b;
+            color: black;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+
+        /* Estilo para el botón de idioma */
+        .lang-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.3s ease;
+        }
+        .lang-btn:hover { background: rgba(255, 255, 255, 0.2); }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="logo-container">
+        <img src="img/totemworld_logo.png" alt="Totem World Logo">
+        <span class="logo-text">Totem World <span style="font-weight:300; opacity:0.7;">| Support</span></span>
+    </a>
+    <div style="display: flex; gap: 10px; align-items: center;">
+        <button id="langToggle" class="lang-btn">
+            <i class="fa-solid fa-globe"></i> <span id="langLabel">EN</span>
+        </button>
+        <a href="index.html" class="btn-nav" data-i18n="nav_back"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+    </div>
+</nav>
+
+<div class="guide-container">
+
+    <header style="text-align: center; margin-bottom: 50px;">
+        <h1 style="font-size: 2.5rem; margin-bottom: 15px;" data-i18n="main_title">Integración de Reproductores</h1>
+        <p style="color: var(--text-muted); font-size: 1.1rem;" data-i18n="main_subtitle">Cómo conectar Totem Stream con Totem Player para una experiencia perfecta.</p>
+    </header>
+
+    <div class="alert-box">
+        <h3 style="color: var(--color-stream); margin-bottom: 10px;"><i class="fa-solid fa-circle-info"></i> <span data-i18n="why_title">¿Por qué usar Totem Player?</span></h3>
+        <p style="color: #cbd5e1;" data-i18n="why_desc">
+            Aunque <strong>Totem Stream</strong> incluye una función de "Cast" (enviar a pantalla), esta tecnología tiene limitaciones y no soporta todos los formatos de vídeo o códecs de audio modernos.
+        </p>
+        <p style="margin-top: 10px; color: white;">
+            💡 <strong data-i18n="plan_b_title">El Plan B Definitivo:</strong> <span data-i18n="plan_b_desc">Para asegurar la máxima compatibilidad y fluidez, hemos creado <strong>Totem Player</strong>, un receptor avanzado que funciona en conjunto con tu móvil.</span>
+        </p>
+    </div>
+
+    <div class="step-card">
+        <span class="step-number">1</span>
+        <h2 class="step-title">
+            <i class="fa-solid fa-download highlight-player"></i>
+            <span data-i18n="step1_title">Instalar Totem Player (TV)</span>
+        </h2>
+        <p data-i18n="step1_desc">Lo primero es instalar la aplicación receptora en tu Android TV o Fire TV Stick. Actualmente se encuentra en <strong>Fase de Pruebas</strong>.</p>
+
+        <div class="store-buttons" style="margin-top: 20px; justify-content: flex-start;">
+            <a href="#" class="btn-store amazon">
+                <i class="fa-brands fa-amazon"></i> Amazon Store <span class="beta-badge">BETA</span>
+            </a>
+            <a href="#" class="btn-store google">
+                <i class="fa-brands fa-google-play"></i> Google Play <span class="beta-badge">TEST</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="step-card">
+        <span class="step-number">2</span>
+        <h2 class="step-title">
+            <i class="fa-solid fa-tv highlight-player"></i>
+            <span data-i18n="step2_title">Arrancar el Receptor</span>
+        </h2>
+        <p data-i18n="step2_desc">Abre <span class="highlight-player">Totem Player</span> en tu TV. Verás una pantalla de espera indicando que está listo para recibir contenido. Asegúrate de que tanto el móvil como la TV estén conectados a la misma red WiFi.</p>
+
+        <div class="screenshot-area">
+            <img src="img/faq_step2_launch.png" alt="Totem Player Launch Screen" onerror="this.style.display='none'">
+        </div>
+    </div>
+
+    <div class="step-card">
+        <span class="step-number">3</span>
+        <h2 class="step-title">
+            <i class="fa-solid fa-gear highlight-stream"></i>
+            <span data-i18n="step3_title">Vincular desde Totem Stream</span>
+        </h2>
+        <p data-i18n="step3_desc_intro">En tu móvil, abre <span class="highlight-stream">Totem Stream</span>:</p>
+        <ul style="margin-left: 20px; margin-top: 10px; color: var(--text-muted);">
+            <li data-i18n="step3_li1">Ve a <strong>Ajustes (Settings)</strong>.</li>
+            <li data-i18n="step3_li2">Busca la sección de <strong>"Conexión Remota"</strong>.</li>
+            <li data-i18n="step3_li3">Selecciona tu dispositivo de la lista (lo detectará automáticamente).</li>
+        </ul>
+
+        <div class="screenshot-area">
+            <img src="img/faq_step3_settings.jpg" alt="Totem Stream Settings" onerror="this.style.display='none'">
+        </div>
+    </div>
+
+    <div class="step-card">
+        <span class="step-number">4</span>
+        <h2 class="step-title">
+            <i class="fa-regular fa-circle-play highlight-stream"></i>
+            <span data-i18n="step4_title">Enviar y Reproducir</span>
+        </h2>
+        <p data-i18n="step4_desc_intro">¡Todo listo! Navega por tu contenido favorito en Totem Stream:</p>
+        <ol style="margin-left: 20px; margin-top: 10px; color: var(--text-muted);">
+            <li data-i18n="step4_li1">Haz <strong>pulsación larga</strong> sobre el canal o película.</li>
+            <li data-i18n="step4_li2">Aparecerá una ventana emergente con opciones.</li>
+            <li data-i18n="step4_li3">Pulsa en <strong>"Reproducir en TV"</strong> (o el icono de Play).</li>
+        </ol>
+        <p style="margin-top: 10px;" data-i18n="step4_outro">El vídeo comenzará en tu TV instantáneamente a través de Totem Player.</p>
+
+        <div class="screenshot-area">
+            <img src="img/faq_step4_play.jpg" alt="Play Popup" onerror="this.style.display='none'">
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container footer-content" style="justify-content: center;">
+        <p>&copy; 2025 Totem World. <span data-i18n="footer_rights">Soporte Técnico.</span></p>
+    </div>
+</footer>
+
+<script>
+    // 1. Diccionario de Traducciones
+    const translations = {
+        es: {
+            nav_back: '<i class="fa-solid fa-arrow-left"></i> Volver',
+            main_title: 'Integración de Reproductores',
+            main_subtitle: 'Cómo conectar Totem Stream con Totem Player para una experiencia perfecta.',
+            why_title: '¿Por qué usar Totem Player?',
+            why_desc: 'Aunque <strong>Totem Stream</strong> incluye una función de "Cast" (enviar a pantalla), esta tecnología tiene limitaciones y no soporta todos los formatos de vídeo o códecs de audio modernos.',
+            plan_b_title: 'El Plan B Definitivo:',
+            plan_b_desc: 'Para asegurar la máxima compatibilidad y fluidez, hemos creado <strong>Totem Player</strong>, un receptor avanzado que funciona en conjunto con tu móvil.',
+            step1_title: 'Instalar Totem Player (TV)',
+            step1_desc: 'Lo primero es instalar la aplicación receptora en tu Android TV o Fire TV Stick. Actualmente se encuentra en <strong>Fase de Pruebas</strong>.',
+            step2_title: 'Arrancar el Receptor',
+            step2_desc: 'Abre <span class="highlight-player">Totem Player</span> en tu TV. Verás una pantalla de espera indicando que está listo para recibir contenido. Asegúrate de que tanto el móvil como la TV estén conectados a la misma red WiFi.',
+            step3_title: 'Vincular desde Totem Stream',
+            step3_desc_intro: 'En tu móvil, abre <span class="highlight-stream">Totem Stream</span>:',
+            step3_li1: 'Ve a <strong>Ajustes (Settings)</strong>.',
+            step3_li2: 'Busca la sección de <strong>"Conexión Remota"</strong>.',
+            step3_li3: 'Selecciona tu dispositivo de la lista (lo detectará automáticamente).',
+            step4_title: 'Enviar y Reproducir',
+            step4_desc_intro: '¡Todo listo! Navega por tu contenido favorito en Totem Stream:',
+            step4_li1: 'Haz <strong>pulsación larga</strong> sobre el canal o película.',
+            step4_li2: 'Aparecerá una ventana emergente con opciones.',
+            step4_li3: 'Pulsa en <strong>"Reproducir en TV"</strong> (o el icono de Play).',
+            step4_outro: 'El vídeo comenzará en tu TV instantáneamente a través de Totem Player.',
+            footer_rights: 'Soporte Técnico.',
+            lang_label: 'EN' // Texto del botón para cambiar al OTRO idioma
+        },
+        en: {
+            nav_back: '<i class="fa-solid fa-arrow-left"></i> Back',
+            main_title: 'Player Integration',
+            main_subtitle: 'How to connect Totem Stream with Totem Player for a seamless experience.',
+            why_title: 'Why use Totem Player?',
+            why_desc: 'Although <strong>Totem Stream</strong> includes a "Cast" function, this technology has limitations and does not support all modern video formats or audio codecs.',
+            plan_b_title: 'The Ultimate Plan B:',
+            plan_b_desc: 'To ensure maximum compatibility and fluidity, we have created <strong>Totem Player</strong>, an advanced receiver that works in conjunction with your mobile.',
+            step1_title: 'Install Totem Player (TV)',
+            step1_desc: 'First, install the receiver app on your Android TV or Fire TV Stick. It is currently in <strong>Beta Testing Phase</strong>.',
+            step2_title: 'Launch the Receiver',
+            step2_desc: 'Open <span class="highlight-player">Totem Player</span> on your TV. You will see a standby screen indicating it is ready to receive content. Ensure both mobile and TV are on the same WiFi network.',
+            step3_title: 'Link from Totem Stream',
+            step3_desc_intro: 'On your mobile, open <span class="highlight-stream">Totem Stream</span>:',
+            step3_li1: 'Go to <strong>Settings</strong>.',
+            step3_li2: 'Find the <strong>"Remote Connection"</strong> section.',
+            step3_li3: 'Select your device from the list (it will be detected automatically).',
+            step4_title: 'Send and Play',
+            step4_desc_intro: 'All set! Browse your favorite content in Totem Stream:',
+            step4_li1: '<strong>Long press</strong> on the channel or movie.',
+            step4_li2: 'A popup with options will appear.',
+            step4_li3: 'Tap on <strong>"Play on TV"</strong> (or the Play icon).',
+            step4_outro: 'The video will start playing on your TV instantly via Totem Player.',
+            footer_rights: 'Technical Support.',
+            lang_label: 'ES' // Texto del botón para cambiar al OTRO idioma
+        }
+    };
+
+    // 2. Lógica de Cambio de Idioma
+    const langToggleBtn = document.getElementById('langToggle');
+    const langLabel = document.getElementById('langLabel');
+    let currentLang = localStorage.getItem('totem_lang') || 'es'; // Por defecto Español
+
+    function updateContent(lang) {
+        // Recorremos todos los elementos con atributo data-i18n
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            if (translations[lang][key]) {
+                element.innerHTML = translations[lang][key];
+            }
+        });
+
+        // Actualizamos el botón para que muestre la opción contraria
+        langLabel.innerText = translations[lang].lang_label;
+
+        // Guardamos preferencia
+        localStorage.setItem('totem_lang', lang);
+        document.documentElement.lang = lang;
+    }
+
+    // Evento Click
+    langToggleBtn.addEventListener('click', () => {
+        currentLang = currentLang === 'es' ? 'en' : 'es';
+        updateContent(currentLang);
+    });
+
+    // Cargar idioma al inicio
+    document.addEventListener('DOMContentLoaded', () => {
+        updateContent(currentLang);
+    });
+</script>
+
+</body>
+</html>
