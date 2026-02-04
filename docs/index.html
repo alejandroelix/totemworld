@@ -106,7 +106,6 @@
             </div>
 
             <div class="store-buttons">
-                <button class="btn-store amazon disabled"><i class="fa-brands fa-amazon"></i> Próximamente</button>
                 <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button>
             </div>
         </div>
@@ -143,12 +142,46 @@
             </div>
 
             <div class="store-buttons">
-                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> Próximamente</button>
+                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button>
             </div>
         </div>
         <div class="card-image-placeholder">
             <img src="img/totemfinance_logo.png" alt="Totem Finance Logo">
         </div>
+    </section>
+    <section class="card app-card theme-player">
+        <div class="card-content">
+            <div class="card-header">
+                <i class="fa-solid fa-network-wired icon-bg"></i>
+                <h2>Totem Player</h2>
+            </div>
+
+            <p>El reproductor inteligente para integraciones. Controla tu TV mediante <strong>comandos API REST</strong>. Ideal para domótica, hoteles o control remoto personalizado.</p>
+
+            <button class="btn-details" onclick="toggleDetails(this)">
+                Ver capacidades <i class="fa-solid fa-chevron-down"></i>
+            </button>
+
+            <div class="details-content">
+                <ul>
+                    <li><i class="fa-solid fa-server"></i> <strong>Servidor Local:</strong> Escucha en el puerto 8085 de tu TV.</li>
+                    <li><i class="fa-solid fa-code"></i> <strong>API RESTful:</strong> Control total vía JSON (Play, Pause, Seek).</li>
+                    <li><i class="fa-solid fa-rotate"></i> <strong>Feedback Real:</strong> Consulta el estado (tiempo, volumen) al instante.</li>
+                    <li><i class="fa-solid fa-robot"></i> <strong>Automatizable:</strong> Intégralo con Home Assistant o scripts propios.</li>
+                </ul>
+            </div>
+
+            <div class="store-buttons" style="margin-top: 20px;">
+                <a href="api.html" class="btn-store" style="background: var(--color-player); color: black; font-weight: bold;">
+                    <i class="fa-solid fa-book"></i> Ver Documentación API
+                </a>
+                <button class="btn-store amazon disabled"><i class="fa-brands fa-amazon"></i> En pruebas</button>
+                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button>
+            </div>
+        </div>
+        <div class="card-image-placeholder">
+            <img src="img/totemplayer_logo.png" alt="Totem Player Logo" onerror="this.style.display='none'">
+            <span style="display:none">📡 API Player</span> </div>
     </section>
 </main>
 
@@ -176,13 +209,21 @@
             <p style="margin-top: 10px; font-size: 0.8rem;">
                 <a href="privacy.html" style="text-decoration: underline; color: var(--text-muted);">Política de Privacidad</a>
             </p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">
+                <a href="terms.html" style="text-decoration: underline; color: var(--text-muted);">Condiciones del Servicio</a>
+            </p>
         </div>
         <div class="socials">
             <span class="social-label">Sígueme en:</span>
+            <a href="https://t.me/ChollosOfertasAmazon" target="_blank" class="social-link telegram" aria-label="Canal de Ofertas">
+                <i class="fa-brands fa-telegram"></i> Ofertas Amazon
+            </a>
             <a href="https://github.com/alejandroelix" target="_blank" aria-label="GitHub">
                 <i class="fa-brands fa-github"></i> GitHub
             </a>
-            <a href="https://www.linkedin.com/in/alejandro-alonso-barrio"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/alejandro-alonso-barrio">
+                <i class="fa-brands fa-linkedin"></i> Linkedin
+            </a>
         </div>
     </div>
 </footer>
