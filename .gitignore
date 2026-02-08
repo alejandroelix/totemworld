@@ -1,0 +1,12 @@
+# 1. Ignorar TODO por defecto (archivos y carpetas)
+*
+
+# 2. Hacer una excepción para la carpeta 'docs'
+!docs/
+
+# 3. Hacer una excepción para todo el contenido dentro de 'docs'
+!docs/**
+
+# 4. (Opcional) Hacer una excepción para el propio .gitignore
+# para que se suba y se guarden estas reglas
+!.gitignore

@@ -448,4 +448,8 @@ footer { padding: 40px 0; border-top: 1px solid rgba(255,255,255,0.05); color: v
 .param-table th { text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 10px; color: var(--color-player); }
 .param-table td { border-bottom: 1px solid rgba(255,255,255,0.05); padding: 10px; font-size: 0.9rem; }
 .badge-req { color: #f43f5e; font-size: 0.8rem; }
+<<<<<<< Updated upstream
 .badge-opt { color: #94a3b8; font-size: 0.8rem; }
+=======
+.badge-opt { color: #94a3b8; font-size: 0.8rem; }
+>>>>>>> Stashed changes
