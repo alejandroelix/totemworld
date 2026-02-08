@@ -1,15 +1,56 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="en"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Totem Player API | Documentación Oficial</title>
+    <title>Totem Player API | Official Documentation</title>
     <link rel="icon" type="image/png" href="img/totemworld_logo.png">
     <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Estilo del selector (Reutilizado) */
+        .lang-select {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 5px;
+            border-radius: 5px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .lang-select option { background: #1e293b; color: white; }
+
+        /* Ajustes específicos de la API */
+        .api-container { max-width: 900px; margin: 40px auto; padding: 20px; }
+        .endpoint-block {
+            background: var(--bg-card);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        .method { font-weight: bold; padding: 5px 10px; border-radius: 5px; margin-right: 10px; font-size: 0.9rem; }
+        .method.post { background: #f59e0b; color: black; }
+        .method.get { background: #10b981; color: black; }
+        .url { font-family: monospace; color: var(--text-main); font-size: 1.1rem; }
+        .code-box {
+            background: #0b1120;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            color: #a5b4fc;
+            overflow-x: auto;
+            margin: 15px 0;
+            border: 1px solid rgba(255,255,255,0.1);
+            white-space: pre; /* Mantiene formato */
+        }
+        .param-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .param-table th { text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 10px; color: var(--color-player); }
+        .param-table td { border-bottom: 1px solid rgba(255,255,255,0.05); padding: 10px; font-size: 0.9rem; }
+    </style>
 </head>
 <body>
 
@@ -18,28 +59,39 @@
         <img src="img/totemworld_logo.png" alt="Totem World Logo">
         <span class="logo-text">Totem World <span style="font-weight:300; opacity:0.7;">| Developers</span></span>
     </a>
-    <a href="index.html" class="btn-nav"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+    <div style="display: flex; gap: 10px; align-items: center;">
+        <a href="index.html" class="btn-nav" data-i18n="nav_back"><i class="fa-solid fa-arrow-left"></i> Back</a>
+
+        <select id="langSelector" class="lang-select">
+            <option value="en">🇬🇧 EN</option>
+            <option value="es">🇪🇸 ES</option>
+            <option value="fr">🇫🇷 FR</option>
+            <option value="de">🇩🇪 DE</option>
+            <option value="pt">🇵🇹 PT</option>
+            <option value="it">🇮🇹 IT</option>
+        </select>
+    </div>
 </nav>
 
 <div class="api-container">
     <header style="margin-bottom: 50px; text-align: center;">
-        <h1 style="color: var(--color-player); font-size: 3rem;">Totem Player API</h1>
-        <p style="color: var(--text-muted); font-size: 1.2rem;">Controla la reproducción en tu Android TV remotamente.</p>
+        <h1 style="color: var(--color-player); font-size: 3rem;" data-i18n="api_title">Totem Player API</h1>
+        <p style="color: var(--text-muted); font-size: 1.2rem;" data-i18n="api_subtitle">Control playback on your Android TV remotely.</p>
     </header>
 
     <div class="endpoint-block">
-        <h3><i class="fa-solid fa-circle-info"></i> Información General</h3>
-        <p>El servidor corre localmente en el dispositivo Android TV.</p>
+        <h3><i class="fa-solid fa-circle-info"></i> <span data-i18n="api_gen_title">General Information</span></h3>
+        <p data-i18n="api_gen_desc">The server runs locally on the Android TV device.</p>
         <ul style="margin-top: 10px; color: var(--text-muted);">
-            <li><strong>Puerto por defecto:</strong> 8085</li>
-            <li><strong>Prefijo base:</strong> <code>/v1</code></li>
-            <li><strong>Base URL:</strong> <code>http://&lt;TV_IP&gt;:8085/v1</code></li>
+            <li><strong data-i18n="api_gen_port">Default Port:</strong> 8085</li>
+            <li><strong data-i18n="api_gen_prefix">Base Prefix:</strong> <code>/v1</code></li>
+            <li><strong data-i18n="api_gen_base">Base URL:</strong> <code>http://&lt;TV_IP&gt;:8085/v1</code></li>
         </ul>
     </div>
 
     <div class="endpoint-block">
-        <h2>1. Reproducir Contenido</h2>
-        <p>Inicia la reproducción de un vídeo. Si hay algo sonando, lo interrumpe inmediatamente.</p>
+        <h2 data-i18n="api_ep1_title">1. Play Content</h2>
+        <p data-i18n="api_ep1_desc">Starts video playback. If something is playing, it interrupts it immediately.</p>
 
         <div style="margin: 20px 0;">
             <span class="method post">POST</span>
@@ -47,21 +99,19 @@
         </div>
 
         <h4>Body (JSON):</h4>
-        <div class="code-box">
-            {
-            "url": "https://ejemplo.com/video.mp4",  <span style="color:#6b7280">// Requerido</span>
-            "title": "Big Buck Bunny",                 <span style="color:#6b7280">// Opcional</span>
-            "posterUrl": "https://...",                <span style="color:#6b7280">// Opcional (Fondo)</span>
-            "userAgent": "TotemClient/1.0",            <span style="color:#6b7280">// Opcional</span>
-            "metadata": "Extra info"                   <span style="color:#6b7280">// Opcional</span>
-            "startPosition": "0"                       <span style="color:#6b7280">// Opcional</span>
-            }
-        </div>
+        <div class="code-box">{
+            "url": "https://...",            <span style="color:#6b7280" data-i18n="json_req">// Required</span>
+            "title": "Big Buck Bunny",       <span style="color:#6b7280" data-i18n="json_opt">// Optional</span>
+            "posterUrl": "https://...",      <span style="color:#6b7280" data-i18n="json_opt_bg">// Optional (Background)</span>
+            "userAgent": "TotemClient/1.0",  <span style="color:#6b7280" data-i18n="json_opt">// Optional</span>
+            "metadata": "Extra info",        <span style="color:#6b7280" data-i18n="json_opt">// Optional</span>
+            "startPosition": "0"             <span style="color:#6b7280" data-i18n="json_opt">// Optional</span>
+            }</div>
     </div>
 
     <div class="endpoint-block">
-        <h2>2. Control Remoto</h2>
-        <p>Envía comandos de transporte y configuración al reproductor activo.</p>
+        <h2 data-i18n="api_ep2_title">2. Remote Control</h2>
+        <p data-i18n="api_ep2_desc">Sends transport and configuration commands to the active player.</p>
 
         <div style="margin: 20px 0;">
             <span class="method post">POST</span>
@@ -69,56 +119,53 @@
         </div>
 
         <h4>Body (JSON):</h4>
-        <div class="code-box">
-            {
+        <div class="code-box">{
             "command": "PLAY",
-            "value": "" <span style="color:#6b7280">// Opcional según comando</span>
-            }
-        </div>
+            "value": "" <span style="color:#6b7280" data-i18n="json_opt_cmd">// Optional depending on command</span>
+            }</div>
 
-        <h4>Comandos Soportados:</h4>
+        <h4 data-i18n="api_table_title">Supported Commands:</h4>
         <table class="param-table">
             <thead>
             <tr>
-                <th>Comando</th>
-                <th>Valor (value)</th>
-                <th>Descripción</th>
+                <th data-i18n="api_col_cmd">Command</th>
+                <th data-i18n="api_col_val">Value (value)</th>
+                <th data-i18n="api_col_desc">Description</th>
             </tr>
             </thead>
             <tbody>
-            <tr><td>PLAY</td><td>-</td><td>Reanuda la reproducción.</td></tr>
-            <tr><td>PAUSE</td><td>-</td><td>Pausa la reproducción.</td></tr>
-            <tr><td>STOP</td><td>-</td><td>Detiene y vuelve al inicio.</td></tr>
-            <tr><td>SEEK</td><td>Long (ms)</td><td>Salta a la posición (ej: "15000").</td></tr>
-            <tr><td>FORWARD</td><td>-</td><td>Avanza 10 segundos.</td></tr>
-            <tr><td>REWIND</td><td>-</td><td>Retrocede 10 segundos.</td></tr>
-            <tr><td>METADATA</td><td>String</td><td>Cambiar el subtitulo de la imagen</td></tr>
-            <tr><td>MESSAGE</td><td>String</td><td>Enviar mensaje a la pantalla</td></tr>
-            <tr><td>VOLUME</td><td>Float (0.0 - 1.0)</td><td>Fija volumen (ej: "0.5").</td></tr>
-            <tr><td>SPEED</td><td>Float</td><td>Fija velocidad (ej: "1.5").</td></tr>
-            <tr><td>POSTER</td><td>String</td><td>Cambia la url de la imagen principal</td></tr>
-            <tr><td>VIDEO</td><td>String (iso)</td><td>Cambia audio (ej: "es", "en").</td></tr>
-            <tr><td>AUDIO</td><td>String (iso)</td><td>Cambia audio (ej: "es", "en").</td></tr>
-            <tr><td>SUBTITLE</td><td>String (iso)</td><td>Cambia subtítulo (ej: "en", "off").</td></tr>
+            <tr><td>PLAY</td><td>-</td><td data-i18n="cmd_play">Resumes playback.</td></tr>
+            <tr><td>PAUSE</td><td>-</td><td data-i18n="cmd_pause">Pauses playback.</td></tr>
+            <tr><td>STOP</td><td>-</td><td data-i18n="cmd_stop">Stops and returns to start.</td></tr>
+            <tr><td>SEEK</td><td>Long (ms)</td><td data-i18n="cmd_seek">Jumps to position (e.g., "15000").</td></tr>
+            <tr><td>FORWARD</td><td>-</td><td data-i18n="cmd_fwd">Forward 10 seconds.</td></tr>
+            <tr><td>REWIND</td><td>-</td><td data-i18n="cmd_rwd">Rewind 10 seconds.</td></tr>
+            <tr><td>METADATA</td><td>String</td><td data-i18n="cmd_meta">Change image subtitle.</td></tr>
+            <tr><td>MESSAGE</td><td>String</td><td data-i18n="cmd_msg">Send message to screen.</td></tr>
+            <tr><td>VOLUME</td><td>Float (0.0 - 1.0)</td><td data-i18n="cmd_vol">Set volume (e.g., "0.5").</td></tr>
+            <tr><td>SPEED</td><td>Float</td><td data-i18n="cmd_spd">Set speed (e.g., "1.5").</td></tr>
+            <tr><td>POSTER</td><td>String</td><td data-i18n="cmd_poster">Change main image URL.</td></tr>
+            <tr><td>VIDEO</td><td>String (iso)</td><td data-i18n="cmd_video">Change video track (e.g., "es", "en").</td></tr>
+            <tr><td>AUDIO</td><td>String (iso)</td><td data-i18n="cmd_audio">Change audio track (e.g., "es", "en").</td></tr>
+            <tr><td>SUBTITLE</td><td>String (iso)</td><td data-i18n="cmd_sub">Change subtitle (e.g., "en", "off").</td></tr>
             </tbody>
         </table>
     </div>
 
     <div class="endpoint-block">
-        <h2>3. Obtener Estado</h2>
-        <p>Realiza polling para sincronizar la interfaz de tu mando a distancia.</p>
+        <h2 data-i18n="api_ep3_title">3. Get Status</h2>
+        <p data-i18n="api_ep3_desc">Polling to synchronize your remote control interface.</p>
 
         <div style="margin: 20px 0;">
             <span class="method get">GET</span>
             <span class="url">/status</span>
         </div>
 
-        <h4>Respuesta Exitosa (200 OK):</h4>
-        <div class="code-box">
-            {
-            "state": "PLAYING",      <span style="color:#6b7280">// IDLE, BUFFERING, PLAYING, PAUSED...</span>
-            "currentPosition": 15000,<span style="color:#6b7280">// ms actuales</span>
-            "duration": 60000,       <span style="color:#6b7280">// ms totales</span>
+        <h4 data-i18n="api_res_200">Success Response (200 OK):</h4>
+        <div class="code-box">{
+            "state": "PLAYING",      <span style="color:#6b7280" data-i18n="json_states">// IDLE, BUFFERING, PLAYING, PAUSED...</span>
+            "currentPosition": 15000,<span style="color:#6b7280" data-i18n="json_cur_ms">// current ms</span>
+            "duration": 60000,       <span style="color:#6b7280" data-i18n="json_tot_ms">// total ms</span>
             "isLive": false,
             "volume": 1.0,
             "speed": 1.0,
@@ -126,10 +173,9 @@
             "audioTracks": List_TrackDefinition,
             "subtitleTracks": List_TrackDefinition,
             "videoQualities": List_TrackDefinition
-            }
-        </div>
+            }</div>
         <p style="margin-top: 15px; color: #f43f5e; font-size: 0.9rem;">
-            <i class="fa-solid fa-triangle-exclamation"></i> Error 503: Si el reproductor no está inicializado.
+            <i class="fa-solid fa-triangle-exclamation"></i> <span data-i18n="api_err_503">Error 503: If the player is not initialized.</span>
         </p>
     </div>
 
@@ -137,9 +183,11 @@
 
 <footer>
     <div class="container footer-content" style="justify-content: center;">
-        <p>&copy; 2025 Totem World. Documentación para desarrolladores.</p>
+        <p>&copy; 2025 Totem World. <span data-i18n="footer_dev_rights">Developer Documentation.</span></p>
     </div>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

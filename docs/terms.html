@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions | Totem World</title>
+    <link rel="icon" href="img/favicon.ico" sizes="any">
+    <meta name="robots" content="noindex">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Estilos específicos reutilizados */
+        .legal-content {
+            background: var(--bg-card);
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .legal-content h2 { margin-top: 30px; margin-bottom: 15px; color: var(--color-guide); }
+        .legal-content h3 { margin-top: 20px; margin-bottom: 10px; color: var(--text-main); font-size: 1.1rem; }
+        .legal-content p, .legal-content li { color: var(--text-muted); margin-bottom: 15px; }
+        .legal-content ul { list-style: disc; padding-left: 20px; color: var(--text-muted); }
+        .last-updated { font-size: 0.9rem; opacity: 0.6; margin-bottom: 30px; display: block; }
+
+        /* Estilo del selector */
+        .lang-select {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 5px;
+            border-radius: 5px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .lang-select option { background: #1e293b; color: white; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="logo-container">
+        <img src="img/totemworld_logo.png" alt="Totem World Logo">
+    </a>
+    <div style="display:flex; align-items:center;">
+        <a href="index.html" class="btn-nav" data-i18n="nav_back_home"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+        <select id="langSelector" class="lang-select">
+            <option value="en">🇬🇧 EN</option>
+            <option value="es">🇪🇸 ES</option>
+            <option value="fr">🇫🇷 FR</option>
+            <option value="de">🇩🇪 DE</option>
+            <option value="pt">🇵🇹 PT</option>
+            <option value="it">🇮🇹 IT</option>
+        </select>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="legal-content">
+        <h1 data-i18n="terms_title">Terms and Conditions of Service</h1>
+        <span class="last-updated" data-i18n="terms_updated">Last updated: January 5, 2026</span>
+
+        <p data-i18n="terms_intro">Welcome to <strong>Totem World</strong>. By downloading, accessing, or using our mobile applications (including <em>Totem Finance</em>, <em>Totem Guide</em>, and <em>Totem Stream</em>), you agree to be bound by the following Terms and Conditions ("Terms"). If you do not agree with these terms, please do not use our services.</p>
+
+        <h2 data-i18n="terms_sec1_title">1. License of Use</h2>
+        <p data-i18n="terms_sec1_desc">Totem World grants you a limited, non-exclusive, non-transferable, and revocable license to use our applications for personal, non-commercial purposes. You are not allowed to:</p>
+        <ul>
+            <li data-i18n="terms_sec1_li1">Modify, decompile, or reverse engineer the application.</li>
+            <li data-i18n="terms_sec1_li2">Use the application for illegal or unauthorized activities.</li>
+            <li data-i18n="terms_sec1_li3">Attempt to circumvent security measures or usage limits of the application.</li>
+        </ul>
+
+        <h2 data-i18n="terms_sec2_title">2. Use of Totem Finance and Financial Data</h2>
+        <p><strong data-i18n="terms_finance_strong">Totem Finance</strong> <span data-i18n="terms_sec2_desc">is a tool designed to help you manage your personal finances. However:</span></p>
+        <ul>
+            <li><strong data-i18n="terms_sec2_li1_strong">Not financial advice:</strong> <span data-i18n="terms_sec2_li1_desc">The information provided by the app is for informational and organizational purposes. It does not constitute professional financial, tax, or legal advice.</span></li>
+            <li><strong data-i18n="terms_sec2_li2_strong">Data responsibility:</strong> <span data-i18n="terms_sec2_li2_desc">You are solely responsible for the accuracy of the data you enter. Totem World does not store your financial data on its own servers; it remains on your device or your personal Google Drive account (if backups are enabled).</span></li>
+        </ul>
+
+        <h2 data-i18n="terms_sec3_title">3. Cloud Services and Google Drive</h2>
+        <p data-i18n="terms_sec3_desc">Totem Finance offers cloud backup functionality by integrating with <strong>Google Drive</strong>. By using this feature, you agree to the following:</p>
+
+        <h3 data-i18n="terms_sec3_1_title">3.1. Access and Permissions</h3>
+        <p data-i18n="terms_sec3_1_desc">The application uses Google Drive APIs to create, edit, and delete only the files created by the application itself (backups and exported spreadsheets). <strong>Totem Finance does not have access to other files in your Google Drive</strong> that were not created by the application.</p>
+
+        <h3 data-i18n="terms_sec3_2_title">3.2. Backup Responsibility</h3>
+        <p data-i18n="terms_sec3_2_desc">Although we strive to ensure the reliability of the backup system, <strong>Totem World does not guarantee</strong> that the service will be free of errors or interruptions. You are responsible for:</p>
+        <ul>
+            <li data-i18n="terms_sec3_2_li1">Maintaining access and security of your Google account.</li>
+            <li data-i18n="terms_sec3_2_li2">Periodically verifying that your backups are being performed correctly.</li>
+        </ul>
+        <p data-i18n="terms_sec3_2_note">Totem World is not responsible for data loss caused by Google service failures, connection errors, or accidental deletion of files by the user.</p>
+
+        <h2 data-i18n="terms_sec4_title">4. Intellectual Property</h2>
+        <p data-i18n="terms_sec4_desc">All intellectual property rights regarding the applications, including design, source code, logos, and graphics, are the exclusive property of Totem World. Using the application does not grant you any ownership rights over it.</p>
+
+        <h2 data-i18n="terms_sec5_title">5. Disclaimer of Warranties and Limitation of Liability</h2>
+        <p data-i18n="terms_sec5_desc1">Our applications are provided "as is" and "as available". Totem World offers no explicit or implied warranties regarding uninterrupted or error-free operation of the applications.</p>
+        <p data-i18n="terms_sec5_desc2">To the maximum extent permitted by law, Totem World shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use our applications, including loss of financial data or configuration.</p>
+
+        <h2 data-i18n="terms_sec6_title">6. Links to Third Parties</h2>
+        <p data-i18n="terms_sec6_desc">Our applications may contain links to third-party websites or services (such as Google AdMob ads). We do not control or assume responsibility for the content, privacy policies, or practices of third-party services.</p>
+
+        <h2 data-i18n="terms_sec7_title">7. Modifications to the Terms</h2>
+        <p data-i18n="terms_sec7_desc">We reserve the right to modify these Terms at any time. Modifications will take effect immediately upon posting on this page. Continued use of the application after such changes constitutes your acceptance of the new Terms.</p>
+
+        <h2 data-i18n="terms_sec8_title">8. Applicable Law and Jurisdiction</h2>
+        <p data-i18n="terms_sec8_desc">These Terms shall be governed and interpreted in accordance with the laws of <strong>Spain</strong>. Any dispute arising from these terms will be submitted to the exclusive jurisdiction of the courts of Madrid, Spain.</p>
+
+        <h2 data-i18n="terms_sec9_title">9. Contact</h2>
+        <p data-i18n="terms_sec9_desc">If you have any questions about these Terms and Conditions, please contact us through the support channels provided in the application or on our website.</p>
+    </div>
+</div>
+
+<footer>
+    <div class="container footer-content" style="justify-content: center;">
+        <p>&copy; 2025 Totem World. <span data-i18n="footer_rights">All rights reserved.</span></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

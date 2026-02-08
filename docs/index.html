@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="en"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Totem World</title>
     <link rel="icon" href="img/favicon.ico" sizes="any">
-    <meta name="description" content="Desarrollo de software, aplicaciones Android y contenido familiar.">
+    <meta name="description" content="Software development, Android applications, and family content.">
 
     <link rel="stylesheet" href="styles.css">
 
@@ -13,28 +12,55 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Estilo simple para el selector de idioma */
+        .lang-select {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 5px;
+            border-radius: 5px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .lang-select option {
+            background: #1e293b; /* Color oscuro para el desplegable */
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
 <nav class="navbar">
     <a href="#" class="logo-container">
-        <img src="img/totemworld_logo.png" alt="">
+        <img src="img/totemworld_logo.png" alt="Totem World Logo">
     </a>
 
     <ul class="nav-links">
-        <li><a href="#hero">Inicio</a></li>
-        <li><a href="#ecosistema">Apps</a></li>
-        <li><a href="#todopeques">Todopeques</a></li>
+        <li><a href="#hero" data-i18n="nav_home">Home</a></li>
+        <li><a href="#ecosistema" data-i18n="nav_apps">Apps</a></li>
+        <li><a href="#todopeques" data-i18n="nav_todopeques">Todopeques</a></li>
+        <li>
+            <select id="langSelector" class="lang-select">
+                <option value="en">🇬🇧 EN</option>
+                <option value="es">🇪🇸 ES</option>
+                <option value="fr">🇫🇷 FR</option>
+                <option value="de">🇩🇪 DE</option>
+                <option value="pt">🇵🇹 PT</option>
+                <option value="it">🇮🇹 IT</option>
+            </select>
+        </li>
     </ul>
 </nav>
 
 <header id="hero" class="hero-section">
     <div class="container text-center">
-        <span class="badge">🚀 Developer & Senior Quality Assurance</span>
-        <h1>Bienvenido a <span class="gradient-text">Totem World</span></h1>
-        <p class="subtitle">Un ecosistema de aplicaciones diseñadas para el entretenimiento, las finanzas y la familia.</p>
+        <span class="badge" data-i18n="hero_badge">🚀 Developer & Senior Quality Assurance</span>
+        <h1><span data-i18n="hero_welcome">Welcome to</span> <span class="gradient-text">Totem World</span></h1>
+        <p class="subtitle" data-i18n="hero_subtitle">An ecosystem of applications designed for entertainment, finance, and family.</p>
         <div class="hero-buttons">
-            <a href="#ecosistema" class="btn btn-primary">Ver Proyectos</a>
+            <a href="#ecosistema" class="btn btn-primary" data-i18n="btn_projects">View Projects</a>
         </div>
     </div>
 </header>
@@ -47,29 +73,29 @@
                 <i class="fa-solid fa-tv icon-bg"></i>
                 <h2>Totem Guide</h2>
             </div>
-            <p>Tu navegador de guías EPG definitivo. Usa las fuentes preconfiguradas o carga tus propios XMLTV (URL/Local). Una interfaz rápida diseñada tanto para pantallas táctiles como para mando de TV.</p>
+            <p data-i18n="guide_desc">Your ultimate EPG browser. Use preconfigured sources or load your own XMLTV (URL/Local). A fast interface designed for both touchscreens and TV remotes.</p>
 
             <button class="btn-details" onclick="toggleDetails(this)">
-                Ver características <i class="fa-solid fa-chevron-down"></i>
+                <span data-i18n="btn_details">View features</span> <i class="fa-solid fa-chevron-down"></i>
             </button>
 
             <div class="details-content">
                 <ul>
-                    <li><i class="fa-solid fa-bolt"></i> <strong>Listo para usar:</strong> Incluye fuentes EPG preconfiguradas.</li>
-                    <li><i class="fa-solid fa-file-code"></i> <strong>Personalizable:</strong> Añade XMLTV desde URL o archivo local.</li>
-                    <li><i class="fa-solid fa-mobile-screen-button"></i> <strong>Híbrido:</strong> Optimizado para Móvil y Fire TV (mando).</li>
-                    <li><i class="fa-solid fa-clock"></i> <strong>En vivo:</strong> Barra de progreso real y vista "Ahora en TV".</li>
-                    <li><i class="fa-solid fa-calendar-days"></i> <strong>Parrilla Multi-día:</strong> Consulta hoy, mañana y más allá.</li>
-                    <li><i class="fa-solid fa-rotate"></i> <strong>Smart:</strong> Actualizaciones diarias automáticas.</li>
+                    <li><i class="fa-solid fa-bolt"></i> <strong data-i18n="guide_feat1_title">Ready to use:</strong> <span data-i18n="guide_feat1_desc">Includes preconfigured EPG sources.</span></li>
+                    <li><i class="fa-solid fa-file-code"></i> <strong data-i18n="guide_feat2_title">Customizable:</strong> <span data-i18n="guide_feat2_desc">Add XMLTV from URL or local file.</span></li>
+                    <li><i class="fa-solid fa-mobile-screen-button"></i> <strong data-i18n="guide_feat3_title">Hybrid:</strong> <span data-i18n="guide_feat3_desc">Optimized for Mobile and Fire TV (remote).</span></li>
+                    <li><i class="fa-solid fa-clock"></i> <strong data-i18n="guide_feat4_title">Live:</strong> <span data-i18n="guide_feat4_desc">Real-time progress bar and "Now on TV" view.</span></li>
+                    <li><i class="fa-solid fa-calendar-days"></i> <strong data-i18n="guide_feat5_title">Multi-day Grid:</strong> <span data-i18n="guide_feat5_desc">Check today, tomorrow, and beyond.</span></li>
+                    <li><i class="fa-solid fa-rotate"></i> <strong data-i18n="guide_feat6_title">Smart:</strong> <span data-i18n="guide_feat6_desc">Automatic daily updates.</span></li>
                     <li style="opacity: 0.7; font-style: italic; margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 5px;">
-                        <i class="fa-solid fa-circle-info"></i> Nota: Solo visualizador de guía, no reproduce vídeo.
+                        <i class="fa-solid fa-circle-info"></i> <span data-i18n="guide_note">Note: EPG viewer only, does not play video.</span>
                     </li>
                 </ul>
             </div>
 
             <div class="store-buttons">
                 <a href="https://www.amazon.es/Tivivo-Stream-Totem-Guide/dp/B0FYHL6Q3F" target="_blank" class="btn-store amazon"><i class="fa-brands fa-amazon"></i> Amazon Store</a>
-                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button>
+                <a href="https://play.google.com/store/apps/details?id=com.totemworld.totemguide" target="_blank" class="btn-store google"><i class="fa-brands fa-google-play"></i> Google Play Store</a>
             </div>
         </div>
         <div class="card-image-placeholder">
@@ -84,31 +110,31 @@
                 <h2>Totem Stream</h2>
             </div>
 
-            <p>Redescubre la televisión con un reproductor IPTV de alto rendimiento basado en <strong>Material Design 3</strong>. Fluidez absoluta, soporte VOD y diseño exquisito para Móvil y Android TV.</p>
+            <p data-i18n="stream_desc">Rediscover television with a high-performance IPTV player based on <strong>Material Design 3</strong>. Absolute fluidity, VOD support, and exquisite design for Mobile and Android TV.</p>
 
             <button class="btn-details" onclick="toggleDetails(this)">
-                Ver características <i class="fa-solid fa-chevron-down"></i>
+                <span data-i18n="btn_details">View features</span> <i class="fa-solid fa-chevron-down"></i>
             </button>
 
             <div class="details-content">
                 <ul>
-                    <li><i class="fa-solid fa-layer-group"></i> <strong>Multi-formato:</strong> Soporte total para Xtream Codes, M3U y M3U8.</li>
-                    <li><i class="fa-solid fa-wand-magic-sparkles"></i> <strong>Diseño MD3:</strong> Interfaz moderna, limpia y con Modo Oscuro real.</li>
-                    <li><i class="fa-solid fa-film"></i> <strong>Cine y Series:</strong> Gestión con seguimiento de episodios vistos.</li>
-                    <li><i class="fa-solid fa-bolt"></i> <strong>Potencia:</strong> Zapping rápido, reproducción 4K y HDR.</li>
-                    <li><i class="fa-solid fa-list-ul"></i> <strong>EPG Avanzada:</strong> Guía de programación integrada en el reproductor.</li>
-                    <li><i class="fa-solid fa-user-shield"></i> <strong>Privacidad Total:</strong> Sin rastreo. Tus listas se guardan localmente.</li>
+                    <li><i class="fa-solid fa-layer-group"></i> <strong data-i18n="stream_feat1_title">Multi-format:</strong> <span data-i18n="stream_feat1_desc">Total support for Xtream Codes, M3U, and M3U8.</span></li>
+                    <li><i class="fa-solid fa-wand-magic-sparkles"></i> <strong data-i18n="stream_feat2_title">MD3 Design:</strong> <span data-i18n="stream_feat2_desc">Modern, clean interface with real Dark Mode.</span></li>
+                    <li><i class="fa-solid fa-film"></i> <strong data-i18n="stream_feat3_title">Movies & Series:</strong> <span data-i18n="stream_feat3_desc">Management with watched episode tracking.</span></li>
+                    <li><i class="fa-solid fa-bolt"></i> <strong data-i18n="stream_feat4_title">Power:</strong> <span data-i18n="stream_feat4_desc">Fast zapping, 4K and HDR playback.</span></li>
+                    <li><i class="fa-solid fa-list-ul"></i> <strong data-i18n="stream_feat5_title">Advanced EPG:</strong> <span data-i18n="stream_feat5_desc">Programming guide integrated into the player.</span></li>
+                    <li><i class="fa-solid fa-user-shield"></i> <strong data-i18n="stream_feat6_title">Total Privacy:</strong> <span data-i18n="stream_feat6_desc">No tracking. Your lists are saved locally.</span></li>
 
                     <li style="opacity: 0.7; font-style: italic; margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 5px; font-size: 0.85rem;">
-                        <i class="fa-solid fa-circle-exclamation"></i> Aviso: Totem Stream es un reproductor. No incluye listas de canales de pago. El usuario es el único responsable de añadir sus propias listas de reproducción y contenido legal.
+                        <i class="fa-solid fa-circle-exclamation"></i> <span data-i18n="stream_warning">Warning: Totem Stream is a player. It does not include paid channel lists. The user is solely responsible for adding their own playlists and legal content.</span>
                     </li>
                 </ul>
             </div>
 
             <div class="store-buttons">
-                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button><br>
-                <a href="faq.html" style="color: var(--text-muted); text-decoration: underline; font-size: 0.9rem;">
-                    ¿Problemas con el Cast? Ver Guía de Solución
+                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> <span data-i18n="btn_testing">In testing</span></button><br>
+                <a href="faq.html" style="color: var(--text-muted); text-decoration: underline; font-size: 0.9rem;" data-i18n="link_faq_cast">
+                    Problems with Cast? See Solution Guide
                 </a>
             </div>
         </div>
@@ -123,29 +149,29 @@
                 <i class="fa-solid fa-chart-line icon-bg"></i>
                 <h2>Totem Finance</h2>
             </div>
-            <p>Gestión financiera personal avanzada. Controla gastos, ingresos y ahorros con gráficas detalladas.</p>
+            <p data-i18n="finance_desc">Advanced personal finance management. Control expenses, income, and savings with detailed charts.</p>
 
             <button class="btn-details" onclick="toggleDetails(this)">
-                Ver características <i class="fa-solid fa-chevron-down"></i>
+                <span data-i18n="btn_details">View features</span> <i class="fa-solid fa-chevron-down"></i>
             </button>
 
             <div class="details-content">
                 <ul>
-                    <li><i class="fa-solid fa-wallet"></i> <strong>Control Total:</strong> Registro rápido de ingresos, gastos y transferencias.</li>
-                    <li><i class="fa-solid fa-chart-pie"></i> <strong>Análisis Visual:</strong> Gráficas intuitivas para entender dónde va tu dinero.</li>
-                    <li><i class="fa-solid fa-piggy-bank"></i> <strong>Presupuestos:</strong> Establece límites de gasto y metas de ahorro.</li>
-                    <li><i class="fa-solid fa-file-export"></i> <strong>Exportación:</strong> Genera informes en Excel/CSV para tu contabilidad.</li>
-                    <li><i class="fa-solid fa-calculator"></i> <strong>Herramientas:</strong> Calculadoras de préstamos y conversión de divisas.</li>
-                    <li><i class="fa-solid fa-lock"></i> <strong>100% Privado:</strong> Base de datos local. Tus finanzas no salen de tu móvil.</li>
+                    <li><i class="fa-solid fa-wallet"></i> <strong data-i18n="finance_feat1_title">Total Control:</strong> <span data-i18n="finance_feat1_desc">Quick registration of income, expenses, and transfers.</span></li>
+                    <li><i class="fa-solid fa-chart-pie"></i> <strong data-i18n="finance_feat2_title">Visual Analysis:</strong> <span data-i18n="finance_feat2_desc">Intuitive charts to understand where your money goes.</span></li>
+                    <li><i class="fa-solid fa-piggy-bank"></i> <strong data-i18n="finance_feat3_title">Budgets:</strong> <span data-i18n="finance_feat3_desc">Set spending limits and savings goals.</span></li>
+                    <li><i class="fa-solid fa-file-export"></i> <strong data-i18n="finance_feat4_title">Export:</strong> <span data-i18n="finance_feat4_desc">Generate Excel/CSV reports for your accounting.</span></li>
+                    <li><i class="fa-solid fa-calculator"></i> <strong data-i18n="finance_feat5_title">Tools:</strong> <span data-i18n="finance_feat5_desc">Loan calculators and currency conversion.</span></li>
+                    <li><i class="fa-solid fa-lock"></i> <strong data-i18n="finance_feat6_title">100% Private:</strong> <span data-i18n="finance_feat6_desc">Local database. Your finances do not leave your mobile.</span></li>
 
                     <li style="opacity: 0.7; font-style: italic; margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 5px; font-size: 0.85rem;">
-                        <i class="fa-solid fa-circle-check"></i> Sin cuentas en la nube ni conexión bancaria requerida.
+                        <i class="fa-solid fa-circle-check"></i> <span data-i18n="finance_note">No cloud accounts or bank connection required.</span>
                     </li>
                 </ul>
             </div>
 
             <div class="store-buttons">
-                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button>
+                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> <span data-i18n="btn_testing">In testing</span></button>
             </div>
         </div>
         <div class="card-image-placeholder">
@@ -159,29 +185,29 @@
                 <h2>Totem Player</h2>
             </div>
 
-            <p>El reproductor inteligente para integraciones. Controla tu TV mediante <strong>comandos API REST</strong>. Ideal para domótica, hoteles o control remoto personalizado.</p>
+            <p data-i18n="player_desc">The smart player for integrations. Control your TV via <strong>REST API commands</strong>. Ideal for home automation, hotels, or custom remote control.</p>
 
             <button class="btn-details" onclick="toggleDetails(this)">
-                Ver capacidades <i class="fa-solid fa-chevron-down"></i>
+                <span data-i18n="btn_caps">View capabilities</span> <i class="fa-solid fa-chevron-down"></i>
             </button>
 
             <div class="details-content">
                 <ul>
-                    <li><i class="fa-solid fa-server"></i> <strong>Servidor Local:</strong> Escucha en el puerto 8085 de tu TV.</li>
-                    <li><i class="fa-solid fa-code"></i> <strong>API RESTful:</strong> Control total vía JSON (Play, Pause, Seek).</li>
-                    <li><i class="fa-solid fa-rotate"></i> <strong>Feedback Real:</strong> Consulta el estado (tiempo, volumen) al instante.</li>
-                    <li><i class="fa-solid fa-robot"></i> <strong>Automatizable:</strong> Intégralo con Home Assistant o scripts propios.</li>
+                    <li><i class="fa-solid fa-server"></i> <strong data-i18n="player_feat1_title">Local Server:</strong> <span data-i18n="player_feat1_desc">Listens on port 8085 of your TV.</span></li>
+                    <li><i class="fa-solid fa-code"></i> <strong data-i18n="player_feat2_title">RESTful API:</strong> <span data-i18n="player_feat2_desc">Total control via JSON (Play, Pause, Seek).</span></li>
+                    <li><i class="fa-solid fa-rotate"></i> <strong data-i18n="player_feat3_title">Real Feedback:</strong> <span data-i18n="player_feat3_desc">Check status (time, volume) instantly.</span></li>
+                    <li><i class="fa-solid fa-robot"></i> <strong data-i18n="player_feat4_title">Automatable:</strong> <span data-i18n="player_feat4_desc">Integrate it with Home Assistant or custom scripts.</span></li>
                 </ul>
             </div>
 
             <div class="store-buttons" style="margin-top: 20px;">
                 <a href="api.html" class="btn-store" style="background: var(--color-player); color: black; font-weight: bold;">
-                    <i class="fa-solid fa-book"></i> Ver Documentación API
+                    <i class="fa-solid fa-book"></i> <span data-i18n="btn_api">View API Documentation</span>
                 </a>
-                <button class="btn-store amazon disabled"><i class="fa-brands fa-amazon"></i> En pruebas</button>
-                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> En pruebas</button><br>
-                <a href="faq.html" style="color: var(--text-muted); text-decoration: underline; font-size: 0.9rem;">
-                    ¿Problemas con el Cast? Ver Guía de Solución
+                <button class="btn-store amazon disabled"><i class="fa-brands fa-amazon"></i> <span data-i18n="btn_testing">In testing</span></button>
+                <button class="btn-store google disabled"><i class="fa-brands fa-google-play"></i> <span data-i18n="btn_testing">In testing</span></button><br>
+                <a href="faq.html" style="color: var(--text-muted); text-decoration: underline; font-size: 0.9rem;" data-i18n="link_faq_cast">
+                    Problems with Cast? See Solution Guide
                 </a>
             </div>
         </div>
@@ -194,11 +220,11 @@
 <section id="todopeques" class="todopeques-section">
     <div class="container">
         <div class="tp-content">
-            <span class="tp-label">Contenido Web</span>
+            <span class="tp-label" data-i18n="tp_label">Web Content</span>
             <h2>Todopeques</h2>
-            <p>Un espacio dedicado al cuidado, crianza y diversión de los más pequeños. Artículos, noticias y consejos para padres modernos.</p>
+            <p data-i18n="tp_desc">A space dedicated to the care, upbringing, and fun of the little ones. Articles, news, and tips for modern parents.</p>
             <a href="http://todopeques.atwebpages.com/" target="_blank" rel="noopener noreferrer" class="btn btn-peques">
-                Visitar Web <i class="fa-solid fa-arrow-right"></i>
+                <span data-i18n="btn_visit">Visit Website</span> <i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
         <div class="tp-visual">
@@ -211,18 +237,18 @@
     <div class="container footer-content">
         <div class="footer-left">
             <p>&copy; 2025 Totem World.</p>
-            <p class="footer-sub">Desarrollado con ❤️ y código limpio.</p>
+            <p class="footer-sub" data-i18n="footer_made">Developed with ❤️ and clean code.</p>
             <p style="margin-top: 10px; font-size: 0.8rem;">
-                <a href="privacy.html" style="text-decoration: underline; color: var(--text-muted);">Política de Privacidad</a>
+                <a href="privacy.html" style="text-decoration: underline; color: var(--text-muted);" data-i18n="footer_privacy">Privacy Policy</a>
             </p>
             <p style="margin-top: 10px; font-size: 0.8rem;">
-                <a href="terms.html" style="text-decoration: underline; color: var(--text-muted);">Condiciones del Servicio</a>
+                <a href="terms.html" style="text-decoration: underline; color: var(--text-muted);" data-i18n="footer_terms">Terms of Service</a>
             </p>
         </div>
         <div class="socials">
-            <span class="social-label">Sígueme en:</span>
+            <span class="social-label" data-i18n="footer_follow">Follow me on:</span>
             <a href="https://t.me/ChollosOfertasAmazon" target="_blank" class="social-link telegram" aria-label="Canal de Ofertas">
-                <i class="fa-brands fa-telegram"></i> Ofertas Amazon
+                <i class="fa-brands fa-telegram"></i> <span data-i18n="social_telegram">Amazon Deals</span>
             </a>
             <a href="https://github.com/alejandroelix" target="_blank" aria-label="GitHub">
                 <i class="fa-brands fa-github"></i> GitHub
