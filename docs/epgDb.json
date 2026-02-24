@@ -1624,17 +1624,2558 @@
     "url": "https://raw.githubusercontent.com/acidjesuz/EPGTalk/master/US_local_guide.xml.gz"
   },
   {
-    "name": "EPG Source All2",
-    "group": "Others",
-    "subgroup": "Others",
-    "description": "Enjoy a unified EPG experience",
-    "url": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-  },
-  {
     "name": "EPG Source UK 2",
     "group": "Others",
     "subgroup": "Others",
     "description": "Enjoy a unified EPG UK experience",
     "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"
+  },
+  {
+    "name": "EPG Source AE1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG AE1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_AE1.xml.gz"
+  },
+  {
+    "name": "EPG Source AL1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG AL1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz"
+  },
+  {
+    "name": "EPG Source ALJAZEERA1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG ALJAZEERA1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz"
+  },
+  {
+    "name": "EPG Source ALL SOURCES1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG ALL SOURCES1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+  },
+  {
+    "name": "EPG Source AR1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG AR1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
+  },
+  {
+    "name": "EPG Source ASIANTELEVISION1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG ASIANTELEVISION1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ASIANTELEVISION1.xml.gz"
+  },
+  {
+    "name": "EPG Source AT1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG AT1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
+  },
+  {
+    "name": "EPG Source AU1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG AU1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz"
+  },
+  {
+    "name": "EPG Source BA1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG BA1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz"
+  },
+  {
+    "name": "EPG Source BB1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG BB1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BB1.xml.gz"
+  },
+  {
+    "name": "EPG Source BE2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG BE2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz"
+  },
+  {
+    "name": "EPG Source BEIN1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG BEIN1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BEIN1.xml.gz"
+  },
+  {
+    "name": "EPG Source BG1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG BG1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz"
+  },
+  {
+    "name": "EPG Source BR1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG BR1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+  },
+  {
+    "name": "EPG Source BR2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG BR2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+  },
+  {
+    "name": "EPG Source CA2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG CA2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz"
+  },
+  {
+    "name": "EPG Source CH1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG CH1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
+  },
+  {
+    "name": "EPG Source CL1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG CL1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
+  },
+  {
+    "name": "EPG Source CO1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG CO1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz"
+  },
+  {
+    "name": "EPG Source CR1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG CR1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz"
+  },
+  {
+    "name": "EPG Source CY1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG CY1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz"
+  },
+  {
+    "name": "EPG Source CZ1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG CZ1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz"
+  },
+  {
+    "name": "EPG Source DE1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG DE1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+  },
+  {
+    "name": "EPG Source DELUXEMUSIC1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG DELUXEMUSIC1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DELUXEMUSIC1.xml.gz"
+  },
+  {
+    "name": "EPG Source DIRECTVSPORTS1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG DIRECTVSPORTS1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DIRECTVSPORTS1.xml.gz"
+  },
+  {
+    "name": "EPG Source DISTROTV1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG DISTROTV1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz"
+  },
+  {
+    "name": "EPG Source DK1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG DK1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz"
+  },
+  {
+    "name": "EPG Source DO1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG DO1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz"
+  },
+  {
+    "name": "EPG Source DRAFTKINGS1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG DRAFTKINGS1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DRAFTKINGS1.xml.gz"
+  },
+  {
+    "name": "EPG Source DUMMY CHANNELS",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG DUMMY CHANNELS experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz"
+  },
+  {
+    "name": "EPG Source EC1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG EC1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz"
+  },
+  {
+    "name": "EPG Source EG1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG EG1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz"
+  },
+  {
+    "name": "EPG Source ES1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG ES1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+  },
+  {
+    "name": "EPG Source FANDUEL1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG FANDUEL1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz"
+  },
+  {
+    "name": "EPG Source FI1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG FI1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz"
+  },
+  {
+    "name": "EPG Source FR1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG FR1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz"
+  },
+  {
+    "name": "EPG Source GR1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG GR1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz"
+  },
+  {
+    "name": "EPG Source HK1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG HK1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz"
+  },
+  {
+    "name": "EPG Source HR1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG HR1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz"
+  },
+  {
+    "name": "EPG Source HU1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG HU1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz"
+  },
+  {
+    "name": "EPG Source ID1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG ID1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz"
+  },
+  {
+    "name": "EPG Source IE1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG IE1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz"
+  },
+  {
+    "name": "EPG Source IL1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG IL1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
+  },
+  {
+    "name": "EPG Source IN1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG IN1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+  },
+  {
+    "name": "EPG Source IN2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG IN2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz"
+  },
+  {
+    "name": "EPG Source IN4",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG IN4 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz"
+  },
+  {
+    "name": "EPG Source IT1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG IT1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+  },
+  {
+    "name": "EPG Source JM1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG JM1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_JM1.xml.gz"
+  },
+  {
+    "name": "EPG Source JP1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG JP1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz"
+  },
+  {
+    "name": "EPG Source JP2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG JP2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_JP2.xml.gz"
+  },
+  {
+    "name": "EPG Source KE1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG KE1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_KE1.xml.gz"
+  },
+  {
+    "name": "EPG Source KR1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG KR1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz"
+  },
+  {
+    "name": "EPG Source LT1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG LT1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_LT1.xml.gz"
+  },
+  {
+    "name": "EPG Source LU1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG LU1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_LU1.xml.gz"
+  },
+  {
+    "name": "EPG Source LV1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG LV1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz"
+  },
+  {
+    "name": "EPG Source MN1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG MN1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_MN1.xml.gz"
+  },
+  {
+    "name": "EPG Source MT1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG MT1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_MT1.xml.gz"
+  },
+  {
+    "name": "EPG Source MX1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG MX1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
+  },
+  {
+    "name": "EPG Source MY1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG MY1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz"
+  },
+  {
+    "name": "EPG Source NG1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG NG1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_NG1.xml.gz"
+  },
+  {
+    "name": "EPG Source NL1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG NL1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz"
+  },
+  {
+    "name": "EPG Source NO1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG NO1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz"
+  },
+  {
+    "name": "EPG Source NZ1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG NZ1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz"
+  },
+  {
+    "name": "EPG Source PA1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PA1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PA1.xml.gz"
+  },
+  {
+    "name": "EPG Source PE1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PE1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz"
+  },
+  {
+    "name": "EPG Source PEACOCK1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PEACOCK1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PEACOCK1.xml.gz"
+  },
+  {
+    "name": "EPG Source PH1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PH1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz"
+  },
+  {
+    "name": "EPG Source PH2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PH2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz"
+  },
+  {
+    "name": "EPG Source PK1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PK1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PK1.xml.gz"
+  },
+  {
+    "name": "EPG Source PL1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PL1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz"
+  },
+  {
+    "name": "EPG Source PLEX1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PLEX1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz"
+  },
+  {
+    "name": "EPG Source POWERNATION1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG POWERNATION1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_POWERNATION1.xml.gz"
+  },
+  {
+    "name": "EPG Source PT1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG PT1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz"
+  },
+  {
+    "name": "EPG Source RAKUTEN1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG RAKUTEN1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN1.xml.gz"
+  },
+  {
+    "name": "EPG Source RALLY TV1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG RALLY TV1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_RALLY_TV1.xml.gz"
+  },
+  {
+    "name": "EPG Source RO1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG RO1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz"
+  },
+  {
+    "name": "EPG Source RO2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG RO2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz"
+  },
+  {
+    "name": "EPG Source RS1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG RS1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz"
+  },
+  {
+    "name": "EPG Source SA1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG SA1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz"
+  },
+  {
+    "name": "EPG Source SA2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG SA2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SA2.xml.gz"
+  },
+  {
+    "name": "EPG Source SE1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG SE1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+  },
+  {
+    "name": "EPG Source SG1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG SG1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz"
+  },
+  {
+    "name": "EPG Source SK1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG SK1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz"
+  },
+  {
+    "name": "EPG Source SPORTKLUB1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG SPORTKLUB1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SPORTKLUB1.xml.gz"
+  },
+  {
+    "name": "EPG Source SSPORTPLUS1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG SSPORTPLUS1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SSPORTPLUS1.xml.gz"
+  },
+  {
+    "name": "EPG Source SV1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG SV1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
+  },
+  {
+    "name": "EPG Source TBNPLUS1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG TBNPLUS1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_TBNPLUS1.xml.gz"
+  },
+  {
+    "name": "EPG Source TH1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG TH1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_TH1.xml.gz"
+  },
+  {
+    "name": "EPG Source THESPORTPLUS1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG THESPORTPLUS1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_THESPORTPLUS1.xml.gz"
+  },
+  {
+    "name": "EPG Source TR1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG TR1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz"
+  },
+  {
+    "name": "EPG Source TR3",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG TR3 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz"
+  },
+  {
+    "name": "EPG Source UK1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG UK1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+  },
+  {
+    "name": "EPG Source US2",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG US2 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
+  },
+  {
+    "name": "EPG Source US LOCALS1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG US LOCALS1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz"
+  },
+  {
+    "name": "EPG Source US SPORTS1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG US SPORTS1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz"
+  },
+  {
+    "name": "EPG Source UY1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG UY1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz"
+  },
+  {
+    "name": "EPG Source VN1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG VN1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz"
+  },
+  {
+    "name": "EPG Source VOA1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG VOA1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_VOA1.xml.gz"
+  },
+  {
+    "name": "EPG Source ZA1",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG ZA1 experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz"
+  },
+  {
+    "name": "EPG Source Viva Russia",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG viva-russia.ru experience",
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz"
+  },
+  {
+    "name": "EPG Source LocomotionTV",
+    "group": "Epgshare",
+    "subgroup": "Others",
+    "description": "Enjoy a unified EPG locomotiontv experience",
+    "url": "https://epgshare01.online/epgshare01/locomotiontv.xml.gz"
+  },
+  {
+    "name": "Albania 1",
+    "group": "Openepg",
+    "subgroup": "Albania",
+    "description": "Enjoy a unified EPG experience for Albania 1",
+    "url": "https://www.open-epg.com/files/albania1.xml.gz"
+  },
+  {
+    "name": "Argentina 1",
+    "group": "Openepg",
+    "subgroup": "Argentina",
+    "description": "Enjoy a unified EPG experience for Argentina 1",
+    "url": "https://www.open-epg.com/files/argentina1.xml.gz"
+  },
+  {
+    "name": "Argentina 2",
+    "group": "Openepg",
+    "subgroup": "Argentina",
+    "description": "Enjoy a unified EPG experience for Argentina 2",
+    "url": "https://www.open-epg.com/files/argentina2.xml.gz"
+  },
+  {
+    "name": "Argentina 3",
+    "group": "Openepg",
+    "subgroup": "Argentina",
+    "description": "Enjoy a unified EPG experience for Argentina 3",
+    "url": "https://www.open-epg.com/files/argentina3.xml.gz"
+  },
+  {
+    "name": "Argentina 4",
+    "group": "Openepg",
+    "subgroup": "Argentina",
+    "description": "Enjoy a unified EPG experience for Argentina 4",
+    "url": "https://www.open-epg.com/files/argentina4.xml.gz"
+  },
+  {
+    "name": "Argentina 5",
+    "group": "Openepg",
+    "subgroup": "Argentina",
+    "description": "Enjoy a unified EPG experience for Argentina 5",
+    "url": "https://www.open-epg.com/files/argentina5.xml.gz"
+  },
+  {
+    "name": "Australia 1",
+    "group": "Openepg",
+    "subgroup": "Australia",
+    "description": "Enjoy a unified EPG experience for Australia 1",
+    "url": "https://www.open-epg.com/files/australia1.xml.gz"
+  },
+  {
+    "name": "Australia 2",
+    "group": "Openepg",
+    "subgroup": "Australia",
+    "description": "Enjoy a unified EPG experience for Australia 2",
+    "url": "https://www.open-epg.com/files/australia2.xml.gz"
+  },
+  {
+    "name": "Australia 3",
+    "group": "Openepg",
+    "subgroup": "Australia",
+    "description": "Enjoy a unified EPG experience for Australia 3",
+    "url": "https://www.open-epg.com/files/australia3.xml.gz"
+  },
+  {
+    "name": "Australia 4",
+    "group": "Openepg",
+    "subgroup": "Australia",
+    "description": "Enjoy a unified EPG experience for Australia 4",
+    "url": "https://www.open-epg.com/files/australia4.xml.gz"
+  },
+  {
+    "name": "Austria 1",
+    "group": "Openepg",
+    "subgroup": "Austria",
+    "description": "Enjoy a unified EPG experience for Austria 1",
+    "url": "https://www.open-epg.com/files/austria1.xml.gz"
+  },
+  {
+    "name": "Austria 2",
+    "group": "Openepg",
+    "subgroup": "Austria",
+    "description": "Enjoy a unified EPG experience for Austria 2",
+    "url": "https://www.open-epg.com/files/austria2.xml.gz"
+  },
+  {
+    "name": "Austria 3",
+    "group": "Openepg",
+    "subgroup": "Austria",
+    "description": "Enjoy a unified EPG experience for Austria 3",
+    "url": "https://www.open-epg.com/files/austria3.xml.gz"
+  },
+  {
+    "name": "Austria 4",
+    "group": "Openepg",
+    "subgroup": "Austria",
+    "description": "Enjoy a unified EPG experience for Austria 4",
+    "url": "https://www.open-epg.com/files/austria4.xml.gz"
+  },
+  {
+    "name": "Belgium",
+    "group": "Openepg",
+    "subgroup": "Belgium",
+    "description": "Enjoy a unified EPG experience for Belgium",
+    "url": "https://www.open-epg.com/files/belgium.xml.gz"
+  },
+  {
+    "name": "Bolivia 1",
+    "group": "Openepg",
+    "subgroup": "Bolivia",
+    "description": "Enjoy a unified EPG experience for Bolivia 1",
+    "url": "https://www.open-epg.com/files/bolivia1.xml.gz"
+  },
+  {
+    "name": "Bolivia 2",
+    "group": "Openepg",
+    "subgroup": "Bolivia",
+    "description": "Enjoy a unified EPG experience for Bolivia 2",
+    "url": "https://www.open-epg.com/files/bolivia2.xml.gz"
+  },
+  {
+    "name": "Bosnia 1",
+    "group": "Openepg",
+    "subgroup": "Bosnia",
+    "description": "Enjoy a unified EPG experience for Bosnia 1",
+    "url": "https://www.open-epg.com/files/bosnia1.xml.gz"
+  },
+  {
+    "name": "Bosnia 2",
+    "group": "Openepg",
+    "subgroup": "Bosnia",
+    "description": "Enjoy a unified EPG experience for Bosnia 2",
+    "url": "https://www.open-epg.com/files/bosnia2.xml.gz"
+  },
+  {
+    "name": "Brazil 1",
+    "group": "Openepg",
+    "subgroup": "Brazil",
+    "description": "Enjoy a unified EPG experience for Brazil 1",
+    "url": "https://www.open-epg.com/files/brazil1.xml.gz"
+  },
+  {
+    "name": "Brazil 2",
+    "group": "Openepg",
+    "subgroup": "Brazil",
+    "description": "Enjoy a unified EPG experience for Brazil 2",
+    "url": "https://www.open-epg.com/files/brazil2.xml.gz"
+  },
+  {
+    "name": "Brazil 3",
+    "group": "Openepg",
+    "subgroup": "Brazil",
+    "description": "Enjoy a unified EPG experience for Brazil 3",
+    "url": "https://www.open-epg.com/files/brazil3.xml.gz"
+  },
+  {
+    "name": "Brazil 4",
+    "group": "Openepg",
+    "subgroup": "Brazil",
+    "description": "Enjoy a unified EPG experience for Brazil 4",
+    "url": "https://www.open-epg.com/files/brazil4.xml.gz"
+  },
+  {
+    "name": "Brazil 5",
+    "group": "Openepg",
+    "subgroup": "Brazil",
+    "description": "Enjoy a unified EPG experience for Brazil 5",
+    "url": "https://www.open-epg.com/files/brazil5.xml.gz"
+  },
+  {
+    "name": "Bulgaria 1",
+    "group": "Openepg",
+    "subgroup": "Bulgaria",
+    "description": "Enjoy a unified EPG experience for Bulgaria 1",
+    "url": "https://www.open-epg.com/files/bulgaria1.xml.gz"
+  },
+  {
+    "name": "Bulgaria 2",
+    "group": "Openepg",
+    "subgroup": "Bulgaria",
+    "description": "Enjoy a unified EPG experience for Bulgaria 2",
+    "url": "https://www.open-epg.com/files/bulgaria2.xml.gz"
+  },
+  {
+    "name": "Bulgaria 4",
+    "group": "Openepg",
+    "subgroup": "Bulgaria",
+    "description": "Enjoy a unified EPG experience for Bulgaria 4",
+    "url": "https://www.open-epg.com/files/bulgaria4.xml.gz"
+  },
+  {
+    "name": "Canada 1",
+    "group": "Openepg",
+    "subgroup": "Canada",
+    "description": "Enjoy a unified EPG experience for Canada 1",
+    "url": "https://www.open-epg.com/files/canada1.xml.gz"
+  },
+  {
+    "name": "Canada 2",
+    "group": "Openepg",
+    "subgroup": "Canada",
+    "description": "Enjoy a unified EPG experience for Canada 2",
+    "url": "https://www.open-epg.com/files/canada2.xml.gz"
+  },
+  {
+    "name": "Canada 3",
+    "group": "Openepg",
+    "subgroup": "Canada",
+    "description": "Enjoy a unified EPG experience for Canada 3",
+    "url": "https://www.open-epg.com/files/canada3.xml.gz"
+  },
+  {
+    "name": "Canada 5",
+    "group": "Openepg",
+    "subgroup": "Canada",
+    "description": "Enjoy a unified EPG experience for Canada 5",
+    "url": "https://www.open-epg.com/files/canada5.xml.gz"
+  },
+  {
+    "name": "Canada 6",
+    "group": "Openepg",
+    "subgroup": "Canada",
+    "description": "Enjoy a unified EPG experience for Canada 6",
+    "url": "https://www.open-epg.com/files/canada6.xml.gz"
+  },
+  {
+    "name": "Canada 7",
+    "group": "Openepg",
+    "subgroup": "Canada",
+    "description": "Enjoy a unified EPG experience for Canada 7",
+    "url": "https://www.open-epg.com/files/canada7.xml.gz"
+  },
+  {
+    "name": "Chile 1",
+    "group": "Openepg",
+    "subgroup": "Chile",
+    "description": "Enjoy a unified EPG experience for Chile 1",
+    "url": "https://www.open-epg.com/files/chile1.xml.gz"
+  },
+  {
+    "name": "Chile 2",
+    "group": "Openepg",
+    "subgroup": "Chile",
+    "description": "Enjoy a unified EPG experience for Chile 2",
+    "url": "https://www.open-epg.com/files/chile2.xml.gz"
+  },
+  {
+    "name": "China 1",
+    "group": "Openepg",
+    "subgroup": "China",
+    "description": "Enjoy a unified EPG experience for China 1",
+    "url": "https://www.open-epg.com/files/china1.xml.gz"
+  },
+  {
+    "name": "China 3",
+    "group": "Openepg",
+    "subgroup": "China",
+    "description": "Enjoy a unified EPG experience for China 3",
+    "url": "https://www.open-epg.com/files/china3.xml.gz"
+  },
+  {
+    "name": "Colombia 1",
+    "group": "Openepg",
+    "subgroup": "Colombia",
+    "description": "Enjoy a unified EPG experience for Colombia 1",
+    "url": "https://www.open-epg.com/files/colombia1.xml.gz"
+  },
+  {
+    "name": "Colombia 2",
+    "group": "Openepg",
+    "subgroup": "Colombia",
+    "description": "Enjoy a unified EPG experience for Colombia 2",
+    "url": "https://www.open-epg.com/files/colombia2.xml.gz"
+  },
+  {
+    "name": "Costa Rica 1",
+    "group": "Openepg",
+    "subgroup": "Costa Rica",
+    "description": "Enjoy a unified EPG experience for Costa Rica 1",
+    "url": "https://www.open-epg.com/files/costarica1.xml.gz"
+  },
+  {
+    "name": "Croatia 1",
+    "group": "Openepg",
+    "subgroup": "Croatia",
+    "description": "Enjoy a unified EPG experience for Croatia 1",
+    "url": "https://www.open-epg.com/files/croatia1.xml.gz"
+  },
+  {
+    "name": "Croatia 2",
+    "group": "Openepg",
+    "subgroup": "Croatia",
+    "description": "Enjoy a unified EPG experience for Croatia 2",
+    "url": "https://www.open-epg.com/files/croatia2.xml.gz"
+  },
+  {
+    "name": "Croatia 3",
+    "group": "Openepg",
+    "subgroup": "Croatia",
+    "description": "Enjoy a unified EPG experience for Croatia 3",
+    "url": "https://www.open-epg.com/files/croatia3.xml.gz"
+  },
+  {
+    "name": "Croatia 4",
+    "group": "Openepg",
+    "subgroup": "Croatia",
+    "description": "Enjoy a unified EPG experience for Croatia 4",
+    "url": "https://www.open-epg.com/files/croatia4.xml.gz"
+  },
+  {
+    "name": "Croatia 5",
+    "group": "Openepg",
+    "subgroup": "Croatia",
+    "description": "Enjoy a unified EPG experience for Croatia 5",
+    "url": "https://www.open-epg.com/files/croatia5.xml.gz"
+  },
+  {
+    "name": "Croatia 6",
+    "group": "Openepg",
+    "subgroup": "Croatia",
+    "description": "Enjoy a unified EPG experience for Croatia 6",
+    "url": "https://www.open-epg.com/files/croatia6.xml.gz"
+  },
+  {
+    "name": "Croatia 7",
+    "group": "Openepg",
+    "subgroup": "Croatia",
+    "description": "Enjoy a unified EPG experience for Croatia 7",
+    "url": "https://www.open-epg.com/files/croatia7.xml.gz"
+  },
+  {
+    "name": "Croatia 8",
+    "group": "Openepg",
+    "subgroup": "Croatia",
+    "description": "Enjoy a unified EPG experience for Croatia 8",
+    "url": "https://www.open-epg.com/files/croatia8.xml.gz"
+  },
+  {
+    "name": "Cyprus 1",
+    "group": "Openepg",
+    "subgroup": "Cyprus",
+    "description": "Enjoy a unified EPG experience for Cyprus 1",
+    "url": "https://www.open-epg.com/files/cyprus1.xml.gz"
+  },
+  {
+    "name": "Cyprus 2",
+    "group": "Openepg",
+    "subgroup": "Cyprus",
+    "description": "Enjoy a unified EPG experience for Cyprus 2",
+    "url": "https://www.open-epg.com/files/cyprus2.xml.gz"
+  },
+  {
+    "name": "Czech 1",
+    "group": "Openepg",
+    "subgroup": "Czech",
+    "description": "Enjoy a unified EPG experience for Czech 1",
+    "url": "https://www.open-epg.com/files/czech1.xml.gz"
+  },
+  {
+    "name": "Czech 3",
+    "group": "Openepg",
+    "subgroup": "Czech",
+    "description": "Enjoy a unified EPG experience for Czech 3",
+    "url": "https://www.open-epg.com/files/czech3.xml.gz"
+  },
+  {
+    "name": "Czech 4",
+    "group": "Openepg",
+    "subgroup": "Czech",
+    "description": "Enjoy a unified EPG experience for Czech 4",
+    "url": "https://www.open-epg.com/files/czech4.xml.gz"
+  },
+  {
+    "name": "Denmark 1",
+    "group": "Openepg",
+    "subgroup": "Denmark",
+    "description": "Enjoy a unified EPG experience for Denmark 1",
+    "url": "https://www.open-epg.com/files/denmark1.xml.gz"
+  },
+  {
+    "name": "Denmark 2",
+    "group": "Openepg",
+    "subgroup": "Denmark",
+    "description": "Enjoy a unified EPG experience for Denmark 2",
+    "url": "https://www.open-epg.com/files/denmark2.xml.gz"
+  },
+  {
+    "name": "Denmark 3",
+    "group": "Openepg",
+    "subgroup": "Denmark",
+    "description": "Enjoy a unified EPG experience for Denmark 3",
+    "url": "https://www.open-epg.com/files/denmark3.xml.gz"
+  },
+  {
+    "name": "Denmark 4",
+    "group": "Openepg",
+    "subgroup": "Denmark",
+    "description": "Enjoy a unified EPG experience for Denmark 4",
+    "url": "https://www.open-epg.com/files/denmark4.xml.gz"
+  },
+  {
+    "name": "Denmark 5",
+    "group": "Openepg",
+    "subgroup": "Denmark",
+    "description": "Enjoy a unified EPG experience for Denmark 5",
+    "url": "https://www.open-epg.com/files/denmark5.xml.gz"
+  },
+  {
+    "name": "Denmark 6",
+    "group": "Openepg",
+    "subgroup": "Denmark",
+    "description": "Enjoy a unified EPG experience for Denmark 6",
+    "url": "https://www.open-epg.com/files/denmark6.xml.gz"
+  },
+  {
+    "name": "Dominican 1",
+    "group": "Openepg",
+    "subgroup": "Dominican",
+    "description": "Enjoy a unified EPG experience for Dominican 1",
+    "url": "https://www.open-epg.com/files/dominican1.xml.gz"
+  },
+  {
+    "name": "Ecuador 1",
+    "group": "Openepg",
+    "subgroup": "Ecuador",
+    "description": "Enjoy a unified EPG experience for Ecuador 1",
+    "url": "https://www.open-epg.com/files/ecuador1.xml.gz"
+  },
+  {
+    "name": "Egypt 1",
+    "group": "Openepg",
+    "subgroup": "Egypt",
+    "description": "Enjoy a unified EPG experience for Egypt 1",
+    "url": "https://www.open-epg.com/files/egypt1.xml.gz"
+  },
+  {
+    "name": "Egypt 2",
+    "group": "Openepg",
+    "subgroup": "Egypt",
+    "description": "Enjoy a unified EPG experience for Egypt 2",
+    "url": "https://www.open-epg.com/files/egypt2.xml.gz"
+  },
+  {
+    "name": "El Salvador 1",
+    "group": "Openepg",
+    "subgroup": "El Salvador",
+    "description": "Enjoy a unified EPG experience for El Salvador 1",
+    "url": "https://www.open-epg.com/files/elsalvador1.xml.gz"
+  },
+  {
+    "name": "Estonia 1",
+    "group": "Openepg",
+    "subgroup": "Estonia",
+    "description": "Enjoy a unified EPG experience for Estonia 1",
+    "url": "https://www.open-epg.com/files/estonia1.xml.gz"
+  },
+  {
+    "name": "Finland 1",
+    "group": "Openepg",
+    "subgroup": "Finland",
+    "description": "Enjoy a unified EPG experience for Finland 1",
+    "url": "https://www.open-epg.com/files/finland1.xml.gz"
+  },
+  {
+    "name": "Finland 2",
+    "group": "Openepg",
+    "subgroup": "Finland",
+    "description": "Enjoy a unified EPG experience for Finland 2",
+    "url": "https://www.open-epg.com/files/finland2.xml.gz"
+  },
+  {
+    "name": "Finland 3",
+    "group": "Openepg",
+    "subgroup": "Finland",
+    "description": "Enjoy a unified EPG experience for Finland 3",
+    "url": "https://www.open-epg.com/files/finland3.xml.gz"
+  },
+  {
+    "name": "Finland 4",
+    "group": "Openepg",
+    "subgroup": "Finland",
+    "description": "Enjoy a unified EPG experience for Finland 4",
+    "url": "https://www.open-epg.com/files/finland4.xml.gz"
+  },
+  {
+    "name": "France 1",
+    "group": "Openepg",
+    "subgroup": "France",
+    "description": "Enjoy a unified EPG experience for France 1",
+    "url": "https://www.open-epg.com/files/france1.xml.gz"
+  },
+  {
+    "name": "France 2",
+    "group": "Openepg",
+    "subgroup": "France",
+    "description": "Enjoy a unified EPG experience for France 2",
+    "url": "https://www.open-epg.com/files/france2.xml.gz"
+  },
+  {
+    "name": "France 3",
+    "group": "Openepg",
+    "subgroup": "France",
+    "description": "Enjoy a unified EPG experience for France 3",
+    "url": "https://www.open-epg.com/files/france3.xml.gz"
+  },
+  {
+    "name": "Georgia 1",
+    "group": "Openepg",
+    "subgroup": "Georgia",
+    "description": "Enjoy a unified EPG experience for Georgia 1",
+    "url": "https://www.open-epg.com/files/georgia1.xml.gz"
+  },
+  {
+    "name": "Georgia 2",
+    "group": "Openepg",
+    "subgroup": "Georgia",
+    "description": "Enjoy a unified EPG experience for Georgia 2",
+    "url": "https://www.open-epg.com/files/georgia2.xml.gz"
+  },
+  {
+    "name": "Germany 1",
+    "group": "Openepg",
+    "subgroup": "Germany",
+    "description": "Enjoy a unified EPG experience for Germany 1",
+    "url": "https://www.open-epg.com/files/germany1.xml.gz"
+  },
+  {
+    "name": "Germany 2",
+    "group": "Openepg",
+    "subgroup": "Germany",
+    "description": "Enjoy a unified EPG experience for Germany 2",
+    "url": "https://www.open-epg.com/files/germany2.xml.gz"
+  },
+  {
+    "name": "Germany 3",
+    "group": "Openepg",
+    "subgroup": "Germany",
+    "description": "Enjoy a unified EPG experience for Germany 3",
+    "url": "https://www.open-epg.com/files/germany3.xml.gz"
+  },
+  {
+    "name": "Germany 4",
+    "group": "Openepg",
+    "subgroup": "Germany",
+    "description": "Enjoy a unified EPG experience for Germany 4",
+    "url": "https://www.open-epg.com/files/germany4.xml.gz"
+  },
+  {
+    "name": "Germany 5",
+    "group": "Openepg",
+    "subgroup": "Germany",
+    "description": "Enjoy a unified EPG experience for Germany 5",
+    "url": "https://www.open-epg.com/files/germany5.xml.gz"
+  },
+  {
+    "name": "Ghana 1",
+    "group": "Openepg",
+    "subgroup": "Ghana",
+    "description": "Enjoy a unified EPG experience for Ghana 1",
+    "url": "https://www.open-epg.com/files/ghana1.xml.gz"
+  },
+  {
+    "name": "Greece 1",
+    "group": "Openepg",
+    "subgroup": "Greece",
+    "description": "Enjoy a unified EPG experience for Greece 1",
+    "url": "https://www.open-epg.com/files/greece1.xml.gz"
+  },
+  {
+    "name": "Greece 2",
+    "group": "Openepg",
+    "subgroup": "Greece",
+    "description": "Enjoy a unified EPG experience for Greece 2",
+    "url": "https://www.open-epg.com/files/greece2.xml.gz"
+  },
+  {
+    "name": "Greece 3",
+    "group": "Openepg",
+    "subgroup": "Greece",
+    "description": "Enjoy a unified EPG experience for Greece 3",
+    "url": "https://www.open-epg.com/files/greece3.xml.gz"
+  },
+  {
+    "name": "Greece 4",
+    "group": "Openepg",
+    "subgroup": "Greece",
+    "description": "Enjoy a unified EPG experience for Greece 4",
+    "url": "https://www.open-epg.com/files/greece4.xml.gz"
+  },
+  {
+    "name": "Guatemala 1",
+    "group": "Openepg",
+    "subgroup": "Guatemala",
+    "description": "Enjoy a unified EPG experience for Guatemala 1",
+    "url": "https://www.open-epg.com/files/guatemala1.xml.gz"
+  },
+  {
+    "name": "Honduras 1",
+    "group": "Openepg",
+    "subgroup": "Honduras",
+    "description": "Enjoy a unified EPG experience for Honduras 1",
+    "url": "https://www.open-epg.com/files/honduras1.xml.gz"
+  },
+  {
+    "name": "Hong Kong 1",
+    "group": "Openepg",
+    "subgroup": "Hong Kong",
+    "description": "Enjoy a unified EPG experience for Hong Kong 1",
+    "url": "https://www.open-epg.com/files/hongkong1.xml.gz"
+  },
+  {
+    "name": "Hong Kong 2",
+    "group": "Openepg",
+    "subgroup": "Hong Kong",
+    "description": "Enjoy a unified EPG experience for Hong Kong 2",
+    "url": "https://www.open-epg.com/files/hongkong2.xml.gz"
+  },
+  {
+    "name": "Hong Kong 3",
+    "group": "Openepg",
+    "subgroup": "Hong Kong",
+    "description": "Enjoy a unified EPG experience for Hong Kong 3",
+    "url": "https://www.open-epg.com/files/hongkong3.xml.gz"
+  },
+  {
+    "name": "Hong Kong 4",
+    "group": "Openepg",
+    "subgroup": "Hong Kong",
+    "description": "Enjoy a unified EPG experience for Hong Kong 4",
+    "url": "https://www.open-epg.com/files/hongkong4.xml.gz"
+  },
+  {
+    "name": "Hong Kong 5",
+    "group": "Openepg",
+    "subgroup": "Hong Kong",
+    "description": "Enjoy a unified EPG experience for Hong Kong 5",
+    "url": "https://www.open-epg.com/files/hongkong5.xml.gz"
+  },
+  {
+    "name": "Hungary 1",
+    "group": "Openepg",
+    "subgroup": "Hungary",
+    "description": "Enjoy a unified EPG experience for Hungary 1",
+    "url": "https://www.open-epg.com/files/hungary1.xml.gz"
+  },
+  {
+    "name": "Iceland 1",
+    "group": "Openepg",
+    "subgroup": "Iceland",
+    "description": "Enjoy a unified EPG experience for Iceland 1",
+    "url": "https://www.open-epg.com/files/iceland1.xml.gz"
+  },
+  {
+    "name": "Iceland 2",
+    "group": "Openepg",
+    "subgroup": "Iceland",
+    "description": "Enjoy a unified EPG experience for Iceland 2",
+    "url": "https://www.open-epg.com/files/iceland2.xml.gz"
+  },
+  {
+    "name": "Iceland 3",
+    "group": "Openepg",
+    "subgroup": "Iceland",
+    "description": "Enjoy a unified EPG experience for Iceland 3",
+    "url": "https://www.open-epg.com/files/iceland3.xml.gz"
+  },
+  {
+    "name": "India 1",
+    "group": "Openepg",
+    "subgroup": "India",
+    "description": "Enjoy a unified EPG experience for India 1",
+    "url": "https://www.open-epg.com/files/india1.xml.gz"
+  },
+  {
+    "name": "India 2",
+    "group": "Openepg",
+    "subgroup": "India",
+    "description": "Enjoy a unified EPG experience for India 2",
+    "url": "https://www.open-epg.com/files/india2.xml.gz"
+  },
+  {
+    "name": "India 3",
+    "group": "Openepg",
+    "subgroup": "India",
+    "description": "Enjoy a unified EPG experience for India 3",
+    "url": "https://www.open-epg.com/files/india3.xml.gz"
+  },
+  {
+    "name": "India 4",
+    "group": "Openepg",
+    "subgroup": "India",
+    "description": "Enjoy a unified EPG experience for India 4",
+    "url": "https://www.open-epg.com/files/india4.xml.gz"
+  },
+  {
+    "name": "India 5",
+    "group": "Openepg",
+    "subgroup": "India",
+    "description": "Enjoy a unified EPG experience for India 5",
+    "url": "https://www.open-epg.com/files/india5.xml.gz"
+  },
+  {
+    "name": "India 6",
+    "group": "Openepg",
+    "subgroup": "India",
+    "description": "Enjoy a unified EPG experience for India 6",
+    "url": "https://www.open-epg.com/files/india6.xml.gz"
+  },
+  {
+    "name": "Indonesia 1",
+    "group": "Openepg",
+    "subgroup": "Indonesia",
+    "description": "Enjoy a unified EPG experience for Indonesia 1",
+    "url": "https://www.open-epg.com/files/indonesia1.xml.gz"
+  },
+  {
+    "name": "Indonesia 2",
+    "group": "Openepg",
+    "subgroup": "Indonesia",
+    "description": "Enjoy a unified EPG experience for Indonesia 2",
+    "url": "https://www.open-epg.com/files/indonesia2.xml.gz"
+  },
+  {
+    "name": "Indonesia 3",
+    "group": "Openepg",
+    "subgroup": "Indonesia",
+    "description": "Enjoy a unified EPG experience for Indonesia 3",
+    "url": "https://www.open-epg.com/files/indonesia3.xml.gz"
+  },
+  {
+    "name": "Indonesia 4",
+    "group": "Openepg",
+    "subgroup": "Indonesia",
+    "description": "Enjoy a unified EPG experience for Indonesia 4",
+    "url": "https://www.open-epg.com/files/indonesia4.xml.gz"
+  },
+  {
+    "name": "Indonesia 5",
+    "group": "Openepg",
+    "subgroup": "Indonesia",
+    "description": "Enjoy a unified EPG experience for Indonesia 5",
+    "url": "https://www.open-epg.com/files/indonesia5.xml.gz"
+  },
+  {
+    "name": "Indonesia 6",
+    "group": "Openepg",
+    "subgroup": "Indonesia",
+    "description": "Enjoy a unified EPG experience for Indonesia 6",
+    "url": "https://www.open-epg.com/files/indonesia6.xml.gz"
+  },
+  {
+    "name": "Ireland 1",
+    "group": "Openepg",
+    "subgroup": "Ireland",
+    "description": "Enjoy a unified EPG experience for Ireland 1",
+    "url": "https://www.open-epg.com/files/ireland1.xml.gz"
+  },
+  {
+    "name": "Ireland 2",
+    "group": "Openepg",
+    "subgroup": "Ireland",
+    "description": "Enjoy a unified EPG experience for Ireland 2",
+    "url": "https://www.open-epg.com/files/ireland2.xml.gz"
+  },
+  {
+    "name": "Ireland 3",
+    "group": "Openepg",
+    "subgroup": "Ireland",
+    "description": "Enjoy a unified EPG experience for Ireland 3",
+    "url": "https://www.open-epg.com/files/ireland3.xml.gz"
+  },
+  {
+    "name": "Ireland 4",
+    "group": "Openepg",
+    "subgroup": "Ireland",
+    "description": "Enjoy a unified EPG experience for Ireland 4",
+    "url": "https://www.open-epg.com/files/ireland4.xml.gz"
+  },
+  {
+    "name": "Israel 1",
+    "group": "Openepg",
+    "subgroup": "Israel",
+    "description": "Enjoy a unified EPG experience for Israel 1",
+    "url": "https://www.open-epg.com/files/israel1.xml.gz"
+  },
+  {
+    "name": "Israel 2",
+    "group": "Openepg",
+    "subgroup": "Israel",
+    "description": "Enjoy a unified EPG experience for Israel 2",
+    "url": "https://www.open-epg.com/files/israel2.xml.gz"
+  },
+  {
+    "name": "Italy 1",
+    "group": "Openepg",
+    "subgroup": "Italy",
+    "description": "Enjoy a unified EPG experience for Italy 1",
+    "url": "https://www.open-epg.com/files/italy1.xml.gz"
+  },
+  {
+    "name": "Italy 2",
+    "group": "Openepg",
+    "subgroup": "Italy",
+    "description": "Enjoy a unified EPG experience for Italy 2",
+    "url": "https://www.open-epg.com/files/italy2.xml.gz"
+  },
+  {
+    "name": "Italy 3",
+    "group": "Openepg",
+    "subgroup": "Italy",
+    "description": "Enjoy a unified EPG experience for Italy 3",
+    "url": "https://www.open-epg.com/files/italy3.xml.gz"
+  },
+  {
+    "name": "Italy 4",
+    "group": "Openepg",
+    "subgroup": "Italy",
+    "description": "Enjoy a unified EPG experience for Italy 4",
+    "url": "https://www.open-epg.com/files/italy4.xml.gz"
+  },
+  {
+    "name": "Italy 5",
+    "group": "Openepg",
+    "subgroup": "Italy",
+    "description": "Enjoy a unified EPG experience for Italy 5",
+    "url": "https://www.open-epg.com/files/italy5.xml.gz"
+  },
+  {
+    "name": "Italy 6",
+    "group": "Openepg",
+    "subgroup": "Italy",
+    "description": "Enjoy a unified EPG experience for Italy 6",
+    "url": "https://www.open-epg.com/files/italy6.xml.gz"
+  },
+  {
+    "name": "Italy 7",
+    "group": "Openepg",
+    "subgroup": "Italy",
+    "description": "Enjoy a unified EPG experience for Italy 7",
+    "url": "https://www.open-epg.com/files/italy7.xml.gz"
+  },
+  {
+    "name": "Italy 8",
+    "group": "Openepg",
+    "subgroup": "Italy",
+    "description": "Enjoy a unified EPG experience for Italy 8",
+    "url": "https://www.open-epg.com/files/italy8.xml.gz"
+  },
+  {
+    "name": "Ivory Coast 1",
+    "group": "Openepg",
+    "subgroup": "Ivory Coast",
+    "description": "Enjoy a unified EPG experience for Ivory Coast 1",
+    "url": "https://www.open-epg.com/files/ivorycoast1.xml.gz"
+  },
+  {
+    "name": "Jamaica 1",
+    "group": "Openepg",
+    "subgroup": "Jamaica",
+    "description": "Enjoy a unified EPG experience for Jamaica 1",
+    "url": "https://www.open-epg.com/files/jamaica1.xml.gz"
+  },
+  {
+    "name": "Japan 1",
+    "group": "Openepg",
+    "subgroup": "Japan",
+    "description": "Enjoy a unified EPG experience for Japan 1",
+    "url": "https://www.open-epg.com/files/japan1.xml.gz"
+  },
+  {
+    "name": "Japan 2",
+    "group": "Openepg",
+    "subgroup": "Japan",
+    "description": "Enjoy a unified EPG experience for Japan 2",
+    "url": "https://www.open-epg.com/files/japan2.xml.gz"
+  },
+  {
+    "name": "Japan 3",
+    "group": "Openepg",
+    "subgroup": "Japan",
+    "description": "Enjoy a unified EPG experience for Japan 3",
+    "url": "https://www.open-epg.com/files/japan3.xml.gz"
+  },
+  {
+    "name": "Kenya 1",
+    "group": "Openepg",
+    "subgroup": "Kenya",
+    "description": "Enjoy a unified EPG experience for Kenya 1",
+    "url": "https://www.open-epg.com/files/kenya1.xml.gz"
+  },
+  {
+    "name": "Kenya 2",
+    "group": "Openepg",
+    "subgroup": "Kenya",
+    "description": "Enjoy a unified EPG experience for Kenya 2",
+    "url": "https://www.open-epg.com/files/kenya2.xml.gz"
+  },
+  {
+    "name": "Korea 1",
+    "group": "Openepg",
+    "subgroup": "Korea",
+    "description": "Enjoy a unified EPG experience for Korea 1",
+    "url": "https://www.open-epg.com/files/korea1.xml.gz"
+  },
+  {
+    "name": "Latvia 1",
+    "group": "Openepg",
+    "subgroup": "Latvia",
+    "description": "Enjoy a unified EPG experience for Latvia 1",
+    "url": "https://www.open-epg.com/files/latvia1.xml.gz"
+  },
+  {
+    "name": "Latvia 2",
+    "group": "Openepg",
+    "subgroup": "Latvia",
+    "description": "Enjoy a unified EPG experience for Latvia 2",
+    "url": "https://www.open-epg.com/files/latvia2.xml.gz"
+  },
+  {
+    "name": "Lithuania 1",
+    "group": "Openepg",
+    "subgroup": "Lithuania",
+    "description": "Enjoy a unified EPG experience for Lithuania 1",
+    "url": "https://www.open-epg.com/files/lithuania1.xml.gz"
+  },
+  {
+    "name": "Lithuania 2",
+    "group": "Openepg",
+    "subgroup": "Lithuania",
+    "description": "Enjoy a unified EPG experience for Lithuania 2",
+    "url": "https://www.open-epg.com/files/lithuania2.xml.gz"
+  },
+  {
+    "name": "Lithuania 3",
+    "group": "Openepg",
+    "subgroup": "Lithuania",
+    "description": "Enjoy a unified EPG experience for Lithuania 3",
+    "url": "https://www.open-epg.com/files/lithuania3.xml.gz"
+  },
+  {
+    "name": "Luxembourg 1",
+    "group": "Openepg",
+    "subgroup": "Luxembourg",
+    "description": "Enjoy a unified EPG experience for Luxembourg 1",
+    "url": "https://www.open-epg.com/files/luxembourg1.xml.gz"
+  },
+  {
+    "name": "Macau 1",
+    "group": "Openepg",
+    "subgroup": "Macau",
+    "description": "Enjoy a unified EPG experience for Macau 1",
+    "url": "https://www.open-epg.com/files/macau1.xml.gz"
+  },
+  {
+    "name": "Macedonia 1",
+    "group": "Openepg",
+    "subgroup": "Macedonia",
+    "description": "Enjoy a unified EPG experience for Macedonia 1",
+    "url": "https://www.open-epg.com/files/macedonia1.xml.gz"
+  },
+  {
+    "name": "Madagascar 1",
+    "group": "Openepg",
+    "subgroup": "Madagascar",
+    "description": "Enjoy a unified EPG experience for Madagascar 1",
+    "url": "https://www.open-epg.com/files/madagascar1.xml.gz"
+  },
+  {
+    "name": "Malawi 1",
+    "group": "Openepg",
+    "subgroup": "Malawi",
+    "description": "Enjoy a unified EPG experience for Malawi 1",
+    "url": "https://www.open-epg.com/files/malawi1.xml.gz"
+  },
+  {
+    "name": "Malawi 2",
+    "group": "Openepg",
+    "subgroup": "Malawi",
+    "description": "Enjoy a unified EPG experience for Malawi 2",
+    "url": "https://www.open-epg.com/files/malawi2.xml.gz"
+  },
+  {
+    "name": "Malaysia 1",
+    "group": "Openepg",
+    "subgroup": "Malaysia",
+    "description": "Enjoy a unified EPG experience for Malaysia 1",
+    "url": "https://www.open-epg.com/files/malaysia1.xml.gz"
+  },
+  {
+    "name": "Malaysia 2",
+    "group": "Openepg",
+    "subgroup": "Malaysia",
+    "description": "Enjoy a unified EPG experience for Malaysia 2",
+    "url": "https://www.open-epg.com/files/malaysia2.xml.gz"
+  },
+  {
+    "name": "Malaysia 3",
+    "group": "Openepg",
+    "subgroup": "Malaysia",
+    "description": "Enjoy a unified EPG experience for Malaysia 3",
+    "url": "https://www.open-epg.com/files/malaysia3.xml.gz"
+  },
+  {
+    "name": "Malta 1",
+    "group": "Openepg",
+    "subgroup": "Malta",
+    "description": "Enjoy a unified EPG experience for Malta 1",
+    "url": "https://www.open-epg.com/files/malta1.xml.gz"
+  },
+  {
+    "name": "Mauritius 1",
+    "group": "Openepg",
+    "subgroup": "Mauritius",
+    "description": "Enjoy a unified EPG experience for Mauritius 1",
+    "url": "https://www.open-epg.com/files/mauritius1.xml.gz"
+  },
+  {
+    "name": "Mexico 1",
+    "group": "Openepg",
+    "subgroup": "Mexico",
+    "description": "Enjoy a unified EPG experience for Mexico 1",
+    "url": "https://www.open-epg.com/files/mexico1.xml.gz"
+  },
+  {
+    "name": "Mexico 2",
+    "group": "Openepg",
+    "subgroup": "Mexico",
+    "description": "Enjoy a unified EPG experience for Mexico 2",
+    "url": "https://www.open-epg.com/files/mexico2.xml.gz"
+  },
+  {
+    "name": "Mongolia 1",
+    "group": "Openepg",
+    "subgroup": "Mongolia",
+    "description": "Enjoy a unified EPG experience for Mongolia 1",
+    "url": "https://www.open-epg.com/files/mongolia1.xml.gz"
+  },
+  {
+    "name": "Montenegro 1",
+    "group": "Openepg",
+    "subgroup": "Montenegro",
+    "description": "Enjoy a unified EPG experience for Montenegro 1",
+    "url": "https://www.open-epg.com/files/montenegro1.xml.gz"
+  },
+  {
+    "name": "Morocco 1",
+    "group": "Openepg",
+    "subgroup": "Morocco",
+    "description": "Enjoy a unified EPG experience for Morocco 1",
+    "url": "https://www.open-epg.com/files/morocco1.xml.gz"
+  },
+  {
+    "name": "Morocco 2",
+    "group": "Openepg",
+    "subgroup": "Morocco",
+    "description": "Enjoy a unified EPG experience for Morocco 2",
+    "url": "https://www.open-epg.com/files/morocco2.xml.gz"
+  },
+  {
+    "name": "Mozambique 1",
+    "group": "Openepg",
+    "subgroup": "Mozambique",
+    "description": "Enjoy a unified EPG experience for Mozambique 1",
+    "url": "https://www.open-epg.com/files/mozambique1.xml.gz"
+  },
+  {
+    "name": "Namibia 1",
+    "group": "Openepg",
+    "subgroup": "Namibia",
+    "description": "Enjoy a unified EPG experience for Namibia 1",
+    "url": "https://www.open-epg.com/files/namibia1.xml.gz"
+  },
+  {
+    "name": "Netherlands",
+    "group": "Openepg",
+    "subgroup": "Netherlands",
+    "description": "Enjoy a unified EPG experience for Netherlands",
+    "url": "https://www.open-epg.com/files/netherlands.xml.gz"
+  },
+  {
+    "name": "New Caledonia 1",
+    "group": "Openepg",
+    "subgroup": "New Caledonia",
+    "description": "Enjoy a unified EPG experience for New Caledonia 1",
+    "url": "https://www.open-epg.com/files/newcaledonia1.xml.gz"
+  },
+  {
+    "name": "New Zealand 1",
+    "group": "Openepg",
+    "subgroup": "New Zealand",
+    "description": "Enjoy a unified EPG experience for New Zealand 1",
+    "url": "https://www.open-epg.com/files/newzealand1.xml.gz"
+  },
+  {
+    "name": "New Zealand 2",
+    "group": "Openepg",
+    "subgroup": "New Zealand",
+    "description": "Enjoy a unified EPG experience for New Zealand 2",
+    "url": "https://www.open-epg.com/files/newzealand2.xml.gz"
+  },
+  {
+    "name": "Nigeria 1",
+    "group": "Openepg",
+    "subgroup": "Nigeria",
+    "description": "Enjoy a unified EPG experience for Nigeria 1",
+    "url": "https://www.open-epg.com/files/nigeria1.xml.gz"
+  },
+  {
+    "name": "Norway 1",
+    "group": "Openepg",
+    "subgroup": "Norway",
+    "description": "Enjoy a unified EPG experience for Norway 1",
+    "url": "https://www.open-epg.com/files/norway1.xml.gz"
+  },
+  {
+    "name": "Norway 2",
+    "group": "Openepg",
+    "subgroup": "Norway",
+    "description": "Enjoy a unified EPG experience for Norway 2",
+    "url": "https://www.open-epg.com/files/norway2.xml.gz"
+  },
+  {
+    "name": "Pakistan 2",
+    "group": "Openepg",
+    "subgroup": "Pakistan",
+    "description": "Enjoy a unified EPG experience for Pakistan 2",
+    "url": "https://www.open-epg.com/files/pakistan2.xml.gz"
+  },
+  {
+    "name": "Pakistan 4",
+    "group": "Openepg",
+    "subgroup": "Pakistan",
+    "description": "Enjoy a unified EPG experience for Pakistan 4",
+    "url": "https://www.open-epg.com/files/pakistan4.xml.gz"
+  },
+  {
+    "name": "Palestine 1",
+    "group": "Openepg",
+    "subgroup": "Palestine",
+    "description": "Enjoy a unified EPG experience for Palestine 1",
+    "url": "https://www.open-epg.com/files/palestine1.xml.gz"
+  },
+  {
+    "name": "Panama 1",
+    "group": "Openepg",
+    "subgroup": "Panama",
+    "description": "Enjoy a unified EPG experience for Panama 1",
+    "url": "https://www.open-epg.com/files/panama1.xml.gz"
+  },
+  {
+    "name": "Paraguay 1",
+    "group": "Openepg",
+    "subgroup": "Paraguay",
+    "description": "Enjoy a unified EPG experience for Paraguay 1",
+    "url": "https://www.open-epg.com/files/paraguay1.xml.gz"
+  },
+  {
+    "name": "Paraguay 2",
+    "group": "Openepg",
+    "subgroup": "Paraguay",
+    "description": "Enjoy a unified EPG experience for Paraguay 2",
+    "url": "https://www.open-epg.com/files/paraguay2.xml.gz"
+  },
+  {
+    "name": "Peru 1",
+    "group": "Openepg",
+    "subgroup": "Peru",
+    "description": "Enjoy a unified EPG experience for Peru 1",
+    "url": "https://www.open-epg.com/files/peru1.xml.gz"
+  },
+  {
+    "name": "Peru 2",
+    "group": "Openepg",
+    "subgroup": "Peru",
+    "description": "Enjoy a unified EPG experience for Peru 2",
+    "url": "https://www.open-epg.com/files/peru2.xml.gz"
+  },
+  {
+    "name": "Peru 3",
+    "group": "Openepg",
+    "subgroup": "Peru",
+    "description": "Enjoy a unified EPG experience for Peru 3",
+    "url": "https://www.open-epg.com/files/peru3.xml.gz"
+  },
+  {
+    "name": "Philippines 2",
+    "group": "Openepg",
+    "subgroup": "Philippines",
+    "description": "Enjoy a unified EPG experience for Philippines 2",
+    "url": "https://www.open-epg.com/files/philippines2.xml.gz"
+  },
+  {
+    "name": "Poland 1",
+    "group": "Openepg",
+    "subgroup": "Poland",
+    "description": "Enjoy a unified EPG experience for Poland 1",
+    "url": "https://www.open-epg.com/files/poland1.xml.gz"
+  },
+  {
+    "name": "Poland 2",
+    "group": "Openepg",
+    "subgroup": "Poland",
+    "description": "Enjoy a unified EPG experience for Poland 2",
+    "url": "https://www.open-epg.com/files/poland2.xml.gz"
+  },
+  {
+    "name": "Portugal 1",
+    "group": "Openepg",
+    "subgroup": "Portugal",
+    "description": "Enjoy a unified EPG experience for Portugal 1",
+    "url": "https://www.open-epg.com/files/portugal1.xml.gz"
+  },
+  {
+    "name": "Portugal 2",
+    "group": "Openepg",
+    "subgroup": "Portugal",
+    "description": "Enjoy a unified EPG experience for Portugal 2",
+    "url": "https://www.open-epg.com/files/portugal2.xml.gz"
+  },
+  {
+    "name": "Puerto Rico 1",
+    "group": "Openepg",
+    "subgroup": "Puerto Rico",
+    "description": "Enjoy a unified EPG experience for Puerto Rico 1",
+    "url": "https://www.open-epg.com/files/puertorico1.xml.gz"
+  },
+  {
+    "name": "Puerto Rico 2",
+    "group": "Openepg",
+    "subgroup": "Puerto Rico",
+    "description": "Enjoy a unified EPG experience for Puerto Rico 2",
+    "url": "https://www.open-epg.com/files/puertorico2.xml.gz"
+  },
+  {
+    "name": "Qatar 1",
+    "group": "Openepg",
+    "subgroup": "Qatar",
+    "description": "Enjoy a unified EPG experience for Qatar 1",
+    "url": "https://www.open-epg.com/files/qatar1.xml.gz"
+  },
+  {
+    "name": "Qatar 2",
+    "group": "Openepg",
+    "subgroup": "Qatar",
+    "description": "Enjoy a unified EPG experience for Qatar 2",
+    "url": "https://www.open-epg.com/files/qatar2.xml.gz"
+  },
+  {
+    "name": "Qatar 3",
+    "group": "Openepg",
+    "subgroup": "Qatar",
+    "description": "Enjoy a unified EPG experience for Qatar 3",
+    "url": "https://www.open-epg.com/files/qatar3.xml.gz"
+  },
+  {
+    "name": "Qatar 4",
+    "group": "Openepg",
+    "subgroup": "Qatar",
+    "description": "Enjoy a unified EPG experience for Qatar 4",
+    "url": "https://www.open-epg.com/files/qatar1.xml.gz"
+  },
+  {
+    "name": "Qatar 5",
+    "group": "Openepg",
+    "subgroup": "Qatar",
+    "description": "Enjoy a unified EPG experience for Qatar 5",
+    "url": "https://www.open-epg.com/files/qatar5.xml.gz"
+  },
+  {
+    "name": "Qatar 6",
+    "group": "Openepg",
+    "subgroup": "Qatar",
+    "description": "Enjoy a unified EPG experience for Qatar 6",
+    "url": "https://www.open-epg.com/files/qatar6.xml.gz"
+  },
+  {
+    "name": "Reunion 1",
+    "group": "Openepg",
+    "subgroup": "Reunion",
+    "description": "Enjoy a unified EPG experience for Reunion 1",
+    "url": "https://www.open-epg.com/files/reunion1.xml.gz"
+  },
+  {
+    "name": "Romania 1",
+    "group": "Openepg",
+    "subgroup": "Romania",
+    "description": "Enjoy a unified EPG experience for Romania 1",
+    "url": "https://www.open-epg.com/files/romania1.xml.gz"
+  },
+  {
+    "name": "Romania 2",
+    "group": "Openepg",
+    "subgroup": "Romania",
+    "description": "Enjoy a unified EPG experience for Romania 2",
+    "url": "https://www.open-epg.com/files/romania2.xml.gz"
+  },
+  {
+    "name": "Russia 1",
+    "group": "Openepg",
+    "subgroup": "Russia",
+    "description": "Enjoy a unified EPG experience for Russia 1",
+    "url": "https://www.open-epg.com/files/russia1.xml.gz"
+  },
+  {
+    "name": "Russia 2",
+    "group": "Openepg",
+    "subgroup": "Russia",
+    "description": "Enjoy a unified EPG experience for Russia 2",
+    "url": "https://www.open-epg.com/files/russia2.xml.gz"
+  },
+  {
+    "name": "Russia 3",
+    "group": "Openepg",
+    "subgroup": "Russia",
+    "description": "Enjoy a unified EPG experience for Russia 3",
+    "url": "https://www.open-epg.com/files/russia3.xml.gz"
+  },
+  {
+    "name": "Saudi Arabia 1",
+    "group": "Openepg",
+    "subgroup": "Saudi Arabia",
+    "description": "Enjoy a unified EPG experience for Saudi Arabia 1",
+    "url": "https://www.open-epg.com/files/saudiarabia1.xml.gz"
+  },
+  {
+    "name": "Saudi Arabia 2",
+    "group": "Openepg",
+    "subgroup": "Saudi Arabia",
+    "description": "Enjoy a unified EPG experience for Saudi Arabia 2",
+    "url": "https://www.open-epg.com/files/saudiarabia2.xml.gz"
+  },
+  {
+    "name": "Saudi Arabia 3",
+    "group": "Openepg",
+    "subgroup": "Saudi Arabia",
+    "description": "Enjoy a unified EPG experience for Saudi Arabia 3",
+    "url": "https://www.open-epg.com/files/saudiarabia3.xml.gz"
+  },
+  {
+    "name": "Saudi Arabia 4",
+    "group": "Openepg",
+    "subgroup": "Saudi Arabia",
+    "description": "Enjoy a unified EPG experience for Saudi Arabia 4",
+    "url": "https://www.open-epg.com/files/saudiarabia4.xml.gz"
+  },
+  {
+    "name": "Saudi Arabia 5",
+    "group": "Openepg",
+    "subgroup": "Saudi Arabia",
+    "description": "Enjoy a unified EPG experience for Saudi Arabia 5",
+    "url": "https://www.open-epg.com/files/saudiarabia5.xml.gz"
+  },
+  {
+    "name": "Saudi Arabia 6",
+    "group": "Openepg",
+    "subgroup": "Saudi Arabia",
+    "description": "Enjoy a unified EPG experience for Saudi Arabia 6",
+    "url": "https://www.open-epg.com/files/saudiarabia6.xml.gz"
+  },
+  {
+    "name": "Scotland 1",
+    "group": "Openepg",
+    "subgroup": "Scotland",
+    "description": "Enjoy a unified EPG experience for Scotland 1",
+    "url": "https://www.open-epg.com/files/scotland1.xml.gz"
+  },
+  {
+    "name": "Senegal 1",
+    "group": "Openepg",
+    "subgroup": "Senegal",
+    "description": "Enjoy a unified EPG experience for Senegal 1",
+    "url": "https://www.open-epg.com/files/senegal1.xml.gz"
+  },
+  {
+    "name": "Serbia 1",
+    "group": "Openepg",
+    "subgroup": "Serbia",
+    "description": "Enjoy a unified EPG experience for Serbia 1",
+    "url": "https://www.open-epg.com/files/serbia1.xml.gz"
+  },
+  {
+    "name": "Serbia 2",
+    "group": "Openepg",
+    "subgroup": "Serbia",
+    "description": "Enjoy a unified EPG experience for Serbia 2",
+    "url": "https://www.open-epg.com/files/serbia2.xml.gz"
+  },
+  {
+    "name": "Serbia 4",
+    "group": "Openepg",
+    "subgroup": "Serbia",
+    "description": "Enjoy a unified EPG experience for Serbia 4",
+    "url": "https://www.open-epg.com/files/serbia4.xml.gz"
+  },
+  {
+    "name": "Serbia 5",
+    "group": "Openepg",
+    "subgroup": "Serbia",
+    "description": "Enjoy a unified EPG experience for Serbia 5",
+    "url": "https://www.open-epg.com/files/serbia5.xml.gz"
+  },
+  {
+    "name": "Singapore 1",
+    "group": "Openepg",
+    "subgroup": "Singapore",
+    "description": "Enjoy a unified EPG experience for Singapore 1",
+    "url": "https://www.open-epg.com/files/singapore1.xml.gz"
+  },
+  {
+    "name": "Singapore 2",
+    "group": "Openepg",
+    "subgroup": "Singapore",
+    "description": "Enjoy a unified EPG experience for Singapore 2",
+    "url": "https://www.open-epg.com/files/singapore2.xml.gz"
+  },
+  {
+    "name": "Singapore 3",
+    "group": "Openepg",
+    "subgroup": "Singapore",
+    "description": "Enjoy a unified EPG experience for Singapore 3",
+    "url": "https://www.open-epg.com/files/singapore3.xml.gz"
+  },
+  {
+    "name": "Slovakia 1",
+    "group": "Openepg",
+    "subgroup": "Slovakia",
+    "description": "Enjoy a unified EPG experience for Slovakia 1",
+    "url": "https://www.open-epg.com/files/slovakia1.xml.gz"
+  },
+  {
+    "name": "Slovakia 2",
+    "group": "Openepg",
+    "subgroup": "Slovakia",
+    "description": "Enjoy a unified EPG experience for Slovakia 2",
+    "url": "https://www.open-epg.com/files/slovakia2.xml.gz"
+  },
+  {
+    "name": "Slovakia 3",
+    "group": "Openepg",
+    "subgroup": "Slovakia",
+    "description": "Enjoy a unified EPG experience for Slovakia 3",
+    "url": "https://www.open-epg.com/files/slovakia3.xml.gz"
+  },
+  {
+    "name": "Slovenia 1",
+    "group": "Openepg",
+    "subgroup": "Slovenia",
+    "description": "Enjoy a unified EPG experience for Slovenia 1",
+    "url": "https://www.open-epg.com/files/slovenia1.xml.gz"
+  },
+  {
+    "name": "Slovenia 2",
+    "group": "Openepg",
+    "subgroup": "Slovenia",
+    "description": "Enjoy a unified EPG experience for Slovenia 2",
+    "url": "https://www.open-epg.com/files/slovenia2.xml.gz"
+  },
+  {
+    "name": "Slovenia 3",
+    "group": "Openepg",
+    "subgroup": "Slovenia",
+    "description": "Enjoy a unified EPG experience for Slovenia 3",
+    "url": "https://www.open-epg.com/files/slovenia3.xml.gz"
+  },
+  {
+    "name": "South Africa 1",
+    "group": "Openepg",
+    "subgroup": "South Africa",
+    "description": "Enjoy a unified EPG experience for South Africa 1",
+    "url": "https://www.open-epg.com/files/southafrica1.xml.gz"
+  },
+  {
+    "name": "South Africa 2",
+    "group": "Openepg",
+    "subgroup": "South Africa",
+    "description": "Enjoy a unified EPG experience for South Africa 2",
+    "url": "https://www.open-epg.com/files/southafrica2.xml.gz"
+  },
+  {
+    "name": "Spain 1",
+    "group": "Openepg",
+    "subgroup": "Spain",
+    "description": "Enjoy a unified EPG experience for Spain 1",
+    "url": "https://www.open-epg.com/files/spain1.xml.gz"
+  },
+  {
+    "name": "Spain 2",
+    "group": "Openepg",
+    "subgroup": "Spain",
+    "description": "Enjoy a unified EPG experience for Spain 2",
+    "url": "https://www.open-epg.com/files/spain2.xml.gz"
+  },
+  {
+    "name": "Spain 3",
+    "group": "Openepg",
+    "subgroup": "Spain",
+    "description": "Enjoy a unified EPG experience for Spain 3",
+    "url": "https://www.open-epg.com/files/spain3.xml.gz"
+  },
+  {
+    "name": "Spain 4",
+    "group": "Openepg",
+    "subgroup": "Spain",
+    "description": "Enjoy a unified EPG experience for Spain 4",
+    "url": "https://www.open-epg.com/files/spain4.xml.gz"
+  },
+  {
+    "name": "Spain 5",
+    "group": "Openepg",
+    "subgroup": "Spain",
+    "description": "Enjoy a unified EPG experience for Spain 5",
+    "url": "https://www.open-epg.com/files/spain5.xml.gz"
+  },
+  {
+    "name": "Spain 6",
+    "group": "Openepg",
+    "subgroup": "Spain",
+    "description": "Enjoy a unified EPG experience for Spain 6",
+    "url": "https://www.open-epg.com/files/spain6.xml.gz"
+  },
+  {
+    "name": "Spain 7",
+    "group": "Openepg",
+    "subgroup": "Spain",
+    "description": "Enjoy a unified EPG experience for Spain 7",
+    "url": "https://www.open-epg.com/files/spain7.xml.gz"
+  },
+  {
+    "name": "Sports 1",
+    "group": "Openepg",
+    "subgroup": "Sports",
+    "description": "Enjoy a unified EPG experience for Sports 1",
+    "url": "https://www.open-epg.com/files/sports1.xml.gz"
+  },
+  {
+    "name": "Sports 4",
+    "group": "Openepg",
+    "subgroup": "Sports",
+    "description": "Enjoy a unified EPG experience for Sports 4",
+    "url": "https://www.open-epg.com/files/sports4.xml.gz"
+  },
+  {
+    "name": "Sports 5",
+    "group": "Openepg",
+    "subgroup": "Sports",
+    "description": "Enjoy a unified EPG experience for Sports 5",
+    "url": "https://www.open-epg.com/files/sports5.xml.gz"
+  },
+  {
+    "name": "Sweden 1",
+    "group": "Openepg",
+    "subgroup": "Sweden",
+    "description": "Enjoy a unified EPG experience for Sweden 1",
+    "url": "https://www.open-epg.com/files/sweden1.xml.gz"
+  },
+  {
+    "name": "Sweden 2",
+    "group": "Openepg",
+    "subgroup": "Sweden",
+    "description": "Enjoy a unified EPG experience for Sweden 2",
+    "url": "https://www.open-epg.com/files/sweden2.xml.gz"
+  },
+  {
+    "name": "Sweden 3",
+    "group": "Openepg",
+    "subgroup": "Sweden",
+    "description": "Enjoy a unified EPG experience for Sweden 3",
+    "url": "https://www.open-epg.com/files/sweden3.xml.gz"
+  },
+  {
+    "name": "Sweden 4",
+    "group": "Openepg",
+    "subgroup": "Sweden",
+    "description": "Enjoy a unified EPG experience for Sweden 4",
+    "url": "https://www.open-epg.com/files/sweden4.xml.gz"
+  },
+  {
+    "name": "Switzerland 2",
+    "group": "Openepg",
+    "subgroup": "Switzerland",
+    "description": "Enjoy a unified EPG experience for Switzerland 2",
+    "url": "https://www.open-epg.com/files/switzerland2.xml.gz"
+  },
+  {
+    "name": "Switzerland 3",
+    "group": "Openepg",
+    "subgroup": "Switzerland",
+    "description": "Enjoy a unified EPG experience for Switzerland 3",
+    "url": "https://www.open-epg.com/files/switzerland3.xml.gz"
+  },
+  {
+    "name": "Switzerland 4",
+    "group": "Openepg",
+    "subgroup": "Switzerland",
+    "description": "Enjoy a unified EPG experience for Switzerland 4",
+    "url": "https://www.open-epg.com/files/switzerland4.xml.gz"
+  },
+  {
+    "name": "Taiwan 1",
+    "group": "Openepg",
+    "subgroup": "Taiwan",
+    "description": "Enjoy a unified EPG experience for Taiwan 1",
+    "url": "https://www.open-epg.com/files/taiwan1.xml.gz"
+  },
+  {
+    "name": "Taiwan 2",
+    "group": "Openepg",
+    "subgroup": "Taiwan",
+    "description": "Enjoy a unified EPG experience for Taiwan 2",
+    "url": "https://www.open-epg.com/files/taiwan2.xml.gz"
+  },
+  {
+    "name": "Tanzania 1",
+    "group": "Openepg",
+    "subgroup": "Tanzania",
+    "description": "Enjoy a unified EPG experience for Tanzania 1",
+    "url": "https://www.open-epg.com/files/tanzania1.xml.gz"
+  },
+  {
+    "name": "Thailand 1",
+    "group": "Openepg",
+    "subgroup": "Thailand",
+    "description": "Enjoy a unified EPG experience for Thailand 1",
+    "url": "https://www.open-epg.com/files/thailand1.xml.gz"
+  },
+  {
+    "name": "Thailand 2",
+    "group": "Openepg",
+    "subgroup": "Thailand",
+    "description": "Enjoy a unified EPG experience for Thailand 2",
+    "url": "https://www.open-epg.com/files/thailand2.xml.gz"
+  },
+  {
+    "name": "Trinidad 1",
+    "group": "Openepg",
+    "subgroup": "Trinidad",
+    "description": "Enjoy a unified EPG experience for Trinidad 1",
+    "url": "https://www.open-epg.com/files/trinidad1.xml.gz"
+  },
+  {
+    "name": "Turkey 1",
+    "group": "Openepg",
+    "subgroup": "Turkey",
+    "description": "Enjoy a unified EPG experience for Turkey 1",
+    "url": "https://www.open-epg.com/files/turkey1.xml.gz"
+  },
+  {
+    "name": "Turkey 2",
+    "group": "Openepg",
+    "subgroup": "Turkey",
+    "description": "Enjoy a unified EPG experience for Turkey 2",
+    "url": "https://www.open-epg.com/files/turkey2.xml.gz"
+  },
+  {
+    "name": "Turkey 3",
+    "group": "Openepg",
+    "subgroup": "Turkey",
+    "description": "Enjoy a unified EPG experience for Turkey 3",
+    "url": "https://www.open-epg.com/files/turkey3.xml.gz"
+  },
+  {
+    "name": "Turkey 4",
+    "group": "Openepg",
+    "subgroup": "Turkey",
+    "description": "Enjoy a unified EPG experience for Turkey 4",
+    "url": "https://www.open-epg.com/files/turkey4.xml.gz"
+  },
+  {
+    "name": "Turkey 5",
+    "group": "Openepg",
+    "subgroup": "Turkey",
+    "description": "Enjoy a unified EPG experience for Turkey 5",
+    "url": "https://www.open-epg.com/files/turkey5.xml.gz"
+  },
+  {
+    "name": "UAE 6",
+    "group": "Openepg",
+    "subgroup": "UAE",
+    "description": "Enjoy a unified EPG experience for UAE 6",
+    "url": "https://www.open-epg.com/files/uae6.xml.gz"
+  },
+  {
+    "name": "Uganda 1",
+    "group": "Openepg",
+    "subgroup": "Uganda",
+    "description": "Enjoy a unified EPG experience for Uganda 1",
+    "url": "https://www.open-epg.com/files/uganda1.xml.gz"
+  },
+  {
+    "name": "Uganda 2",
+    "group": "Openepg",
+    "subgroup": "Uganda",
+    "description": "Enjoy a unified EPG experience for Uganda 2",
+    "url": "https://www.open-epg.com/files/uganda2.xml.gz"
+  },
+  {
+    "name": "Ukraine 1",
+    "group": "Openepg",
+    "subgroup": "Ukraine",
+    "description": "Enjoy a unified EPG experience for Ukraine 1",
+    "url": "https://www.open-epg.com/files/ukraine1.xml.gz"
+  },
+  {
+    "name": "United Kingdom 1",
+    "group": "Openepg",
+    "subgroup": "United Kingdom",
+    "description": "Enjoy a unified EPG experience for United Kingdom 1",
+    "url": "https://www.open-epg.com/files/unitedkingdom1.xml.gz"
+  },
+  {
+    "name": "United Kingdom 2",
+    "group": "Openepg",
+    "subgroup": "United Kingdom",
+    "description": "Enjoy a unified EPG experience for United Kingdom 2",
+    "url": "https://www.open-epg.com/files/unitedkingdom2.xml.gz"
+  },
+  {
+    "name": "United Kingdom 3",
+    "group": "Openepg",
+    "subgroup": "United Kingdom",
+    "description": "Enjoy a unified EPG experience for United Kingdom 3",
+    "url": "https://www.open-epg.com/files/unitedkingdom3.xml.gz"
+  },
+  {
+    "name": "United Kingdom 4",
+    "group": "Openepg",
+    "subgroup": "United Kingdom",
+    "description": "Enjoy a unified EPG experience for United Kingdom 4",
+    "url": "https://www.open-epg.com/files/unitedkingdom4.xml.gz"
+  },
+  {
+    "name": "United Kingdom 5",
+    "group": "Openepg",
+    "subgroup": "United Kingdom",
+    "description": "Enjoy a unified EPG experience for United Kingdom 5",
+    "url": "https://www.open-epg.com/files/unitedkingdom5.xml.gz"
+  },
+  {
+    "name": "United States 10",
+    "group": "Openepg",
+    "subgroup": "United States",
+    "description": "Enjoy a unified EPG experience for United States 10",
+    "url": "https://www.open-epg.com/files/unitedstates10.xml.gz"
+  },
+  {
+    "name": "United States 11",
+    "group": "Openepg",
+    "subgroup": "United States",
+    "description": "Enjoy a unified EPG experience for United States 11",
+    "url": "https://www.open-epg.com/files/unitedstates11.xml.gz"
+  },
+  {
+    "name": "United States 3",
+    "group": "Openepg",
+    "subgroup": "United States",
+    "description": "Enjoy a unified EPG experience for United States 3",
+    "url": "https://www.open-epg.com/files/unitedstates3.xml.gz"
+  },
+  {
+    "name": "United States 4",
+    "group": "Openepg",
+    "subgroup": "United States",
+    "description": "Enjoy a unified EPG experience for United States 4",
+    "url": "https://www.open-epg.com/files/unitedstates4.xml.gz"
+  },
+  {
+    "name": "United States 6",
+    "group": "Openepg",
+    "subgroup": "United States",
+    "description": "Enjoy a unified EPG experience for United States 6",
+    "url": "https://www.open-epg.com/files/unitedstates6.xml.gz"
+  },
+  {
+    "name": "United States 7",
+    "group": "Openepg",
+    "subgroup": "United States",
+    "description": "Enjoy a unified EPG experience for United States 7",
+    "url": "https://www.open-epg.com/files/unitedstates7.xml.gz"
+  },
+  {
+    "name": "United States 8",
+    "group": "Openepg",
+    "subgroup": "United States",
+    "description": "Enjoy a unified EPG experience for United States 8",
+    "url": "https://www.open-epg.com/files/unitedstates8.xml.gz"
+  },
+  {
+    "name": "United States 9",
+    "group": "Openepg",
+    "subgroup": "United States",
+    "description": "Enjoy a unified EPG experience for United States 9",
+    "url": "https://www.open-epg.com/files/unitedstates9.xml.gz"
+  },
+  {
+    "name": "Uruguay 1",
+    "group": "Openepg",
+    "subgroup": "Uruguay",
+    "description": "Enjoy a unified EPG experience for Uruguay 1",
+    "url": "https://www.open-epg.com/files/uruguay1.xml.gz"
+  },
+  {
+    "name": "Uruguay 2",
+    "group": "Openepg",
+    "subgroup": "Uruguay",
+    "description": "Enjoy a unified EPG experience for Uruguay 2",
+    "url": "https://www.open-epg.com/files/uruguay2.xml.gz"
+  },
+  {
+    "name": "Uzbekistan 1",
+    "group": "Openepg",
+    "subgroup": "Uzbekistan",
+    "description": "Enjoy a unified EPG experience for Uzbekistan 1",
+    "url": "https://www.open-epg.com/files/uzbekistan1.xml.gz"
+  },
+  {
+    "name": "Venezuela 1",
+    "group": "Openepg",
+    "subgroup": "Venezuela",
+    "description": "Enjoy a unified EPG experience for Venezuela 1",
+    "url": "https://www.open-epg.com/files/venezuela1.xml.gz"
+  },
+  {
+    "name": "Vietnam 1",
+    "group": "Openepg",
+    "subgroup": "Vietnam",
+    "description": "Enjoy a unified EPG experience for Vietnam 1",
+    "url": "https://www.open-epg.com/files/vietnam1.xml.gz"
+  },
+  {
+    "name": "Zambia 1",
+    "group": "Openepg",
+    "subgroup": "Zambia",
+    "description": "Enjoy a unified EPG experience for Zambia 1",
+    "url": "https://www.open-epg.com/files/zambia1.xml.gz"
+  },
+  {
+    "name": "Zimbabwe 1",
+    "group": "Openepg",
+    "subgroup": "Zimbabwe",
+    "description": "Enjoy a unified EPG experience for Zimbabwe 1",
+    "url": "https://www.open-epg.com/files/zimbabwe1.xml.gz"
   }
 ]
