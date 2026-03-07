@@ -3,10 +3,13 @@
 
 # 2. Hacer una excepción para la carpeta 'docs'
 !docs/
+!.well-known/
 
 # 3. Hacer una excepción para todo el contenido dentro de 'docs'
 !docs/**
+!.well-known/**
 
 # 4. (Opcional) Hacer una excepción para el propio .gitignore
 # para que se suba y se guarden estas reglas
 !.gitignore
+!.nojekyll
