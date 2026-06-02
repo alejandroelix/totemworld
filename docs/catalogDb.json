@@ -1,0 +1,3635 @@
+[
+  {
+    "country": "TDTChannels Tv",
+    "region": "Europe",
+    "description": "Live TV from Spain (TDTChannels)",
+    "m3uUrl": "https://www.tdtchannels.com/lists/tv.m3u8",
+    "epgUrl": "https://www.tdtchannels.com/epg/TV.xml.gz"
+  },
+  {
+    "country": "TDTChannels Radio",
+    "region": "Europe",
+    "description": "Radio stations from Spain (TDTChannels)",
+    "m3uUrl": "https://www.tdtchannels.com/lists/radio.m3u8",
+    "epgUrl": "https://www.tdtchannels.com/epg/TV.xml.gz"
+  },
+  {
+    "country": "TDTChannels TV+Radio",
+    "region": "Europe",
+    "description": "TV and Radio from Spain (TDTChannels)",
+    "m3uUrl": "https://www.tdtchannels.com/lists/tvradio.m3u8",
+    "epgUrl": "https://www.tdtchannels.com/epg/TV.xml.gz"
+  },
+  {
+    "country": "Argentina",
+    "region": "Americas",
+    "description": "Live TV channels from Argentina",
+    "m3uUrl": "https://www.m3u.cl/lista/AR.m3u",
+    "epgUrl": "https://www.open-epg.com/files/argentina1.xml.gz"
+  },
+  {
+    "country": "Bolivia",
+    "region": "Americas",
+    "description": "Live TV channels from Bolivia",
+    "m3uUrl": "https://www.m3u.cl/lista/BO.m3u",
+    "epgUrl": "https://www.open-epg.com/files/bolivia1.xml.gz"
+  },
+  {
+    "country": "Brazil",
+    "region": "Americas",
+    "description": "Live TV channels from Brazil",
+    "m3uUrl": "https://www.m3u.cl/lista/BR.m3u",
+    "epgUrl": "https://www.open-epg.com/files/brazil1.xml.gz"
+  },
+  {
+    "country": "Chile",
+    "region": "Americas",
+    "description": "Live TV channels from Chile",
+    "m3uUrl": "https://www.m3u.cl/lista/CL.m3u",
+    "epgUrl": "https://www.open-epg.com/files/chile1.xml.gz"
+  },
+  {
+    "country": "Colombia",
+    "region": "Americas",
+    "description": "Live TV channels from Colombia",
+    "m3uUrl": "https://www.m3u.cl/lista/CO.m3u",
+    "epgUrl": "https://www.open-epg.com/files/colombia1.xml.gz"
+  },
+  {
+    "country": "Ecuador",
+    "region": "Americas",
+    "description": "Live TV channels from Ecuador",
+    "m3uUrl": "https://www.m3u.cl/lista/EC.m3u",
+    "epgUrl": "https://www.open-epg.com/files/ecuador1.xml.gz"
+  },
+  {
+    "country": "Spain",
+    "region": "Europe",
+    "description": "Live TV channels from Spain",
+    "m3uUrl": "https://www.m3u.cl/lista/ES.m3u",
+    "epgUrl": "https://www.open-epg.com/files/spain1.xml.gz"
+  },
+  {
+    "country": "Mexico",
+    "region": "Americas",
+    "description": "Live TV channels from Mexico",
+    "m3uUrl": "https://www.m3u.cl/lista/MX.m3u",
+    "epgUrl": "https://www.open-epg.com/files/mexico1.xml.gz"
+  },
+  {
+    "country": "Paraguay",
+    "region": "Americas",
+    "description": "Live TV channels from Paraguay",
+    "m3uUrl": "https://www.m3u.cl/lista/PY.m3u",
+    "epgUrl": "https://www.open-epg.com/files/paraguay1.xml.gz"
+  },
+  {
+    "country": "Peru",
+    "region": "Americas",
+    "description": "Live TV channels from Peru",
+    "m3uUrl": "https://www.m3u.cl/lista/PE.m3u",
+    "epgUrl": "https://www.open-epg.com/files/peru1.xml.gz"
+  },
+  {
+    "country": "Dominican Republic",
+    "region": "Americas",
+    "description": "Live TV channels from Dominican Republic",
+    "m3uUrl": "https://www.m3u.cl/lista/DO.m3u",
+    "epgUrl": "https://www.open-epg.com/files/dominican1.xml.gz"
+  },
+  {
+    "country": "Venezuela",
+    "region": "Americas",
+    "description": "Live TV channels from Venezuela",
+    "m3uUrl": "https://www.m3u.cl/lista/VE.m3u",
+    "epgUrl": "https://www.open-epg.com/files/venezuela1.xml.gz"
+  },
+  {
+    "country": "Music",
+    "region": "Global",
+    "description": "Global Music channels",
+    "m3uUrl": "https://www.m3u.cl/lista/musica.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Religious",
+    "region": "Global",
+    "description": "Global Religious channels",
+    "m3uUrl": "https://www.m3u.cl/lista/religiosos.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Total Channels",
+    "region": "Global",
+    "description": "Combined M3U.CL list",
+    "m3uUrl": "https://www.m3u.cl/lista/total.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Telechancho Infinity",
+    "region": "Global",
+    "description": "General streams from Telechancho",
+    "m3uUrl": "https://telechancho.github.io/telechancho-iptv/telechancho-infinity.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Telechancho Infinity 2",
+    "region": "Global",
+    "description": "General streams from Telechancho 2",
+    "m3uUrl": "https://telechancho.github.io/infinity.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Free Tv",
+    "region": "Global",
+    "description": "Free-TV general playlist",
+    "m3uUrl": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+    "epgUrl": null
+  },
+  {
+    "country": "Grouped by country and content",
+    "region": "Global",
+    "description": "Devsground combined list",
+    "m3uUrl": "https://raw.githubusercontent.com/devsground/IPTV/master/all/grouped_by_country_and_content.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Grouped by country",
+    "region": "Global",
+    "description": "Devsground by country",
+    "m3uUrl": "https://raw.githubusercontent.com/devsground/IPTV/master/all/grouped_by_countrym3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Grouped by content",
+    "region": "Global",
+    "description": "Devsground by content",
+    "m3uUrl": "https://raw.githubusercontent.com/devsground/IPTV/master/all/grouped_by_content.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "International",
+    "region": "Global",
+    "description": "International channels list",
+    "m3uUrl": "https://raw.githubusercontent.com/devsground/IPTV/master/all/international.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "All Freearhey",
+    "region": "Global",
+    "description": "Comprehensive list by Freearhey",
+    "m3uUrl": "https://raw.githubusercontent.com/freearhey/iptv/master/index.all.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Main playlist",
+    "region": "IPTV-ORG Collections",
+    "description": "This playlist includes all known channels available",
+    "m3uUrl": "https://iptv-org.github.io/iptv/index.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Grouped by Category",
+    "region": "IPTV-ORG Collections",
+    "description": "All channels grouped by category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/index.category.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Grouped by Language",
+    "region": "IPTV-ORG Collections",
+    "description": "All channels grouped by language",
+    "m3uUrl": "https://iptv-org.github.io/iptv/index.language.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Grouped by Country",
+    "region": "IPTV-ORG Collections",
+    "description": "All channels grouped by country",
+    "m3uUrl": "https://iptv-org.github.io/iptv/index.country.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Grouped by Region",
+    "region": "IPTV-ORG Collections",
+    "description": "All channels grouped by region",
+    "m3uUrl": "https://iptv-org.github.io/iptv/index.region.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Animation",
+    "region": "Categories",
+    "description": "Animation category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/animation.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Auto",
+    "region": "Categories",
+    "description": "Automotive category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/auto.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Business",
+    "region": "Categories",
+    "description": "Business category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/business.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Classic",
+    "region": "Categories",
+    "description": "Classic category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/classic.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Comedy",
+    "region": "Categories",
+    "description": "Comedy category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/comedy.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Cooking",
+    "region": "Categories",
+    "description": "Cooking category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/cooking.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Culture",
+    "region": "Categories",
+    "description": "Culture category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/culture.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Documentary",
+    "region": "Categories",
+    "description": "Documentary category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/documentary.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Education",
+    "region": "Categories",
+    "description": "Education category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/education.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Entertainment",
+    "region": "Categories",
+    "description": "Entertainment category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/entertainment.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Family",
+    "region": "Categories",
+    "description": "Family category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/family.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "General",
+    "region": "Categories",
+    "description": "General category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/general.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kids",
+    "region": "Categories",
+    "description": "Kids category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/kids.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Legislative",
+    "region": "Categories",
+    "description": "Legislative category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/legislative.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Lifestyle",
+    "region": "Categories",
+    "description": "Lifestyle category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/lifestyle.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Movies",
+    "region": "Categories",
+    "description": "Movies category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Music",
+    "region": "Categories",
+    "description": "Music category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/music.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "News",
+    "region": "Categories",
+    "description": "News category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/news.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Outdoor",
+    "region": "Categories",
+    "description": "Outdoor category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/outdoor.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Relax",
+    "region": "Categories",
+    "description": "Relax category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/relax.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Religious",
+    "region": "Categories",
+    "description": "Religious category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/religious.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Science",
+    "region": "Categories",
+    "description": "Science category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/science.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Series",
+    "region": "Categories",
+    "description": "Series category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/series.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Shop",
+    "region": "Categories",
+    "description": "Shopping category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/shop.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Sports",
+    "region": "Categories",
+    "description": "Sports category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/sports.m3u",
+    "epgUrl": "https://www.open-epg.com/files/sports1.xml.gz"
+  },
+  {
+    "country": "Travel",
+    "region": "Categories",
+    "description": "Travel category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/travel.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Weather",
+    "region": "Categories",
+    "description": "Weather category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/weather.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Undefined",
+    "region": "Categories",
+    "description": "Undefined category",
+    "m3uUrl": "https://iptv-org.github.io/iptv/categories/undefined.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Acoli",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ach.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Adhola",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/adh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Afar",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/aar.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Afrikaans",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/afr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Albanian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/sqi.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Algerian Sign Language",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/asp.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Alur",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/alz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Amharic",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/amh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Arabic",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ara.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Armenian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hye.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Assamese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/asm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Assyrian Neo-Aramaic",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/aii.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Ayizo Gbe",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ayb.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Aymara",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/aym.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Azerbaijani",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/aze.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Baatonum",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/bba.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bambara",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/bam.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bashkir",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/bak.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Basque",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/eus.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Belarusian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/bel.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bengali",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ben.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bhojpuri",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/bho.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bosnian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/bos.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bulgarian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/bul.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Burmese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mya.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Catalan",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/cat.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Central Atlas Tamazight",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tzm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Central Kurdish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ckb.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Chhattisgarhi",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hne.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Chiga",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/cgg.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Chinese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/zho.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Croatian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hrv.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Czech",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ces.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Danish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/dan.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dari (Parsi)",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/prd.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dendi (Benin)",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ddn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dhanwar (Nepal)",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/dhw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dhivehi",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/div.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dholuo",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/luo.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dimili",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/zza.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dutch",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/nld.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Egyptian Arabic",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/arz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "English",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/eng.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Estonian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/est.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Ewe",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ewe.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Faroese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fao.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Fataleka",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/far.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Filipino",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fil.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Finnish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fin.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Fon",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fon.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "French",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fra.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Fulah",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ful.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Gaelic",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/gla.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Galician",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/glg.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Ganda",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/lug.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Gen",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/gej.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Georgian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kat.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "German",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/deu.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Gikuyu",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kik.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Goan Konkani",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/gom.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Greek",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ell.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Guadeloupean Creole French",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/gcf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Gujarati",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/guj.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Gun",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/guw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Haitian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hat.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Hausa",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hau.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Hebrew",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/heb.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Hindi",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hin.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Hmong",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hmn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Hungarian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hun.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Icelandic",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/isl.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Indonesian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ind.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Inuktitut",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/iku.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Irish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/gle.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Isekiri",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/its.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Italian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ita.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Japanese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/jpn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Javanese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/jav.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kabiyè",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kbp.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kabyle",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kab.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kannada",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kan.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kapampangan",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/pam.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kazakh",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kaz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Khmer",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/khm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Khorasani Turkish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kmz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kinyarwanda",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kin.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kirghiz",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kir.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kituba (Congo)",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mkw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kongo",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kon.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Konkani (macrolanguage)",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kok.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Korean",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kor.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kumam",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kdi.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kurdish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/kur.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Lango (Uganda)",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/laj.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Lao",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/lao.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Latin",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/lat.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Latvian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/lav.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Letzeburgesch",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ltz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Lingala",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/lin.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Lithuanian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/lit.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Luba-Lulua",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/lua.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Macedonian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mkd.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Malay",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/msa.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Malayalam",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mal.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Maltese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mlt.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mandarin Chinese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/cmn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mandinka",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mnk.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Maori",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mri.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Marathi",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mar.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Min Nan Chinese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/nan.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mongolian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/mon.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Montenegrin",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/cnr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Moroccan Sign Language",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/xms.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mycenaean Greek",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/gmy.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Nepali",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/nep.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Norwegian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/nor.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Norwegian Bokmål",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/nob.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Nyankole",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/nyn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Nyoro",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/nyo.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Oriya (macrolanguage)",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ori.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Panjabi",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/pan.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Papiamento",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/pap.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Pashto",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/pus.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Persian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fas.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Polish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/pol.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Portuguese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/por.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Pulaar",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fuc.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Quechua",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/que.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Romanian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ron.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Romany",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/rom.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Russian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/rus.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saint Lucian Creole French",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/acf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Samoan",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/smo.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Santali",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/sat.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Serbian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/srp.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Serbo-Croatian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/hbs.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Sinhala",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/sin.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Slovak",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/slk.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Slovenian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/slv.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Somali",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/som.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "South African Sign Language",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/sfs.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "South Ndebele",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/nbl.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Spanish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/spa.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Swahili",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/swa.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Swati",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ssw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Swedish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/swe.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Syriac",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/syr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tachawit",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/shy.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tachelhit",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/shi.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tagalog",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tgl.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tahitian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tah.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tajik",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tgk.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tamashek",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tmh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tamasheq",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/taq.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tamil",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tam.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tarifit",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/rif.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tatar",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tat.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Telugu",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tel.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Thai",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tha.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tibetan",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/bod.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tigrinya",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tir.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tooro",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ttj.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tsonga",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tso.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Turkish",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tur.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Turkmen",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/tuk.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Uighur",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/uig.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Ukrainian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ukr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Urdu",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/urd.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Uzbek",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/uzb.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Venda",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/ven.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Vietnamese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/vie.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Welsh",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/cym.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Western Frisian",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fry.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Western Niger Fulfulde",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/fuh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Wolof",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/wol.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Xhosa",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/xho.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Yakut",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/sah.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Yoruba",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/yor.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Yucatec Maya",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/yua.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Yue Chinese",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/yue.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Zarma",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/dje.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Zulu",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/zul.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Undefined Language",
+    "region": "Languages",
+    "description": "Language streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/languages/undefined.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Afghanistan",
+    "region": "Asia",
+    "description": "Live TV channels from Afghanistan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/af.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Albania",
+    "region": "Europe",
+    "description": "Live TV channels from Albania",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/al.m3u",
+    "epgUrl": "https://www.open-epg.com/files/albania1.xml.gz"
+  },
+  {
+    "country": "Algeria",
+    "region": "Africa",
+    "description": "Live TV channels from Algeria",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/dz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "American Samoa",
+    "region": "Oceania",
+    "description": "Live TV channels from American Samoa",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/as.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Andorra",
+    "region": "Europe",
+    "description": "Live TV channels from Andorra",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ad.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Angola",
+    "region": "Africa",
+    "description": "Live TV channels from Angola",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ao.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Anguilla",
+    "region": "Americas",
+    "description": "Live TV channels from Anguilla",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ai.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "region": "Americas",
+    "description": "Live TV channels from Antigua and Barbuda",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ag.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Argentina",
+    "region": "Americas",
+    "description": "Live TV channels from Argentina",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ar.m3u",
+    "epgUrl": "https://www.open-epg.com/files/argentina1.xml.gz"
+  },
+  {
+    "country": "Armenia",
+    "region": "Asia",
+    "description": "Live TV channels from Armenia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/am.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Aruba",
+    "region": "Americas",
+    "description": "Live TV channels from Aruba",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/aw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Australia",
+    "region": "Oceania",
+    "description": "Live TV channels from Australia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/au.m3u",
+    "epgUrl": "https://www.open-epg.com/files/australia1.xml.gz"
+  },
+  {
+    "country": "Austria",
+    "region": "Europe",
+    "description": "Live TV channels from Austria",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/at.m3u",
+    "epgUrl": "https://www.open-epg.com/files/austria1.xml.gz"
+  },
+  {
+    "country": "Azerbaijan",
+    "region": "Asia",
+    "description": "Live TV channels from Azerbaijan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/az.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bahamas",
+    "region": "Americas",
+    "description": "Live TV channels from Bahamas",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bs.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bahrain",
+    "region": "Asia",
+    "description": "Live TV channels from Bahrain",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bangladesh",
+    "region": "Asia",
+    "description": "Live TV channels from Bangladesh",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bd.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Barbados",
+    "region": "Americas",
+    "description": "Live TV channels from Barbados",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bb.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Belarus",
+    "region": "Europe",
+    "description": "Live TV channels from Belarus",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/by.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Belgium",
+    "region": "Europe",
+    "description": "Live TV channels from Belgium",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/be.m3u",
+    "epgUrl": "https://www.open-epg.com/files/belgium.xml.gz"
+  },
+  {
+    "country": "Belize",
+    "region": "Americas",
+    "description": "Live TV channels from Belize",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Benin",
+    "region": "Africa",
+    "description": "Live TV channels from Benin",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bj.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bermuda",
+    "region": "Americas",
+    "description": "Live TV channels from Bermuda",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bhutan",
+    "region": "Asia",
+    "description": "Live TV channels from Bhutan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bt.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bolivia",
+    "region": "Americas",
+    "description": "Live TV channels from Bolivia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bo.m3u",
+    "epgUrl": "https://www.open-epg.com/files/bolivia1.xml.gz"
+  },
+  {
+    "country": "Bonaire",
+    "region": "Americas",
+    "description": "Live TV channels from Bonaire",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bq.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "description": "Live TV channels from Bosnia and Herzegovina",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ba.m3u",
+    "epgUrl": "https://www.open-epg.com/files/bosnia1.xml.gz"
+  },
+  {
+    "country": "Botswana",
+    "region": "Africa",
+    "description": "Live TV channels from Botswana",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bouvet Island",
+    "region": "Global",
+    "description": "Live TV channels from Bouvet Island",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bv.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Brazil",
+    "region": "Americas",
+    "description": "Live TV channels from Brazil",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/br.m3u",
+    "epgUrl": "https://www.open-epg.com/files/brazil1.xml.gz"
+  },
+  {
+    "country": "British Virgin Islands",
+    "region": "Americas",
+    "description": "Live TV channels from British Virgin Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/vg.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Brunei",
+    "region": "Asia",
+    "description": "Live TV channels from Brunei",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Bulgaria",
+    "region": "Europe",
+    "description": "Live TV channels from Bulgaria",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bg.m3u",
+    "epgUrl": "https://www.open-epg.com/files/bulgaria1.xml.gz"
+  },
+  {
+    "country": "Burkina Faso",
+    "region": "Africa",
+    "description": "Live TV channels from Burkina Faso",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Burundi",
+    "region": "Africa",
+    "description": "Live TV channels from Burundi",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bi.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Cambodia",
+    "region": "Asia",
+    "description": "Live TV channels from Cambodia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/kh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Cameroon",
+    "region": "Africa",
+    "description": "Live TV channels from Cameroon",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Canada",
+    "region": "Americas",
+    "description": "Live TV channels from Canada",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ca.m3u",
+    "epgUrl": "https://www.open-epg.com/files/canada1.xml.gz"
+  },
+  {
+    "country": "Cape Verde",
+    "region": "Africa",
+    "description": "Live TV channels from Cape Verde",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cv.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Cayman Islands",
+    "region": "Americas",
+    "description": "Live TV channels from Cayman Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ky.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Central African Republic",
+    "region": "Africa",
+    "description": "Live TV channels from Central African Republic",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Chad",
+    "region": "Africa",
+    "description": "Live TV channels from Chad",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/td.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Chile",
+    "region": "Americas",
+    "description": "Live TV channels from Chile",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cl.m3u",
+    "epgUrl": "https://www.open-epg.com/files/chile1.xml.gz"
+  },
+  {
+    "country": "China",
+    "region": "Asia",
+    "description": "Live TV channels from China",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+    "epgUrl": "https://www.open-epg.com/files/china1.xml.gz"
+  },
+  {
+    "country": "Colombia",
+    "region": "Americas",
+    "description": "Live TV channels from Colombia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/co.m3u",
+    "epgUrl": "https://www.open-epg.com/files/colombia1.xml.gz"
+  },
+  {
+    "country": "Comoros",
+    "region": "Africa",
+    "description": "Live TV channels from Comoros",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/km.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Cook Islands",
+    "region": "Oceania",
+    "description": "Live TV channels from Cook Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ck.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Costa Rica",
+    "region": "Americas",
+    "description": "Live TV channels from Costa Rica",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cr.m3u",
+    "epgUrl": "https://www.open-epg.com/files/costarica1.xml.gz"
+  },
+  {
+    "country": "Croatia",
+    "region": "Europe",
+    "description": "Live TV channels from Croatia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/hr.m3u",
+    "epgUrl": "https://www.open-epg.com/files/croatia1.xml.gz"
+  },
+  {
+    "country": "Cuba",
+    "region": "Americas",
+    "description": "Live TV channels from Cuba",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cu.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Curacao",
+    "region": "Americas",
+    "description": "Live TV channels from Curacao",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Cyprus",
+    "region": "Europe",
+    "description": "Live TV channels from Cyprus",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cy.m3u",
+    "epgUrl": "https://www.open-epg.com/files/cyprus1.xml.gz"
+  },
+  {
+    "country": "Czech Republic",
+    "region": "Europe",
+    "description": "Live TV channels from Czech Republic",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cz.m3u",
+    "epgUrl": "https://www.open-epg.com/files/czech1.xml.gz"
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "region": "Africa",
+    "description": "Live TV channels from Democratic Republic of the Congo",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cd.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Denmark",
+    "region": "Europe",
+    "description": "Live TV channels from Denmark",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/dk.m3u",
+    "epgUrl": "https://www.open-epg.com/files/denmark1.xml.gz"
+  },
+  {
+    "country": "Djibouti",
+    "region": "Africa",
+    "description": "Live TV channels from Djibouti",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/dj.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dominica",
+    "region": "Americas",
+    "description": "Live TV channels from Dominica",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/dm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Dominican Republic",
+    "region": "Americas",
+    "description": "Live TV channels from Dominican Republic",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/do.m3u",
+    "epgUrl": "https://www.open-epg.com/files/dominican1.xml.gz"
+  },
+  {
+    "country": "East Timor",
+    "region": "Asia",
+    "description": "Live TV channels from East Timor",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tl.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Ecuador",
+    "region": "Americas",
+    "description": "Live TV channels from Ecuador",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ec.m3u",
+    "epgUrl": "https://www.open-epg.com/files/ecuador1.xml.gz"
+  },
+  {
+    "country": "Egypt",
+    "region": "Africa",
+    "description": "Live TV channels from Egypt",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/eg.m3u",
+    "epgUrl": "https://www.open-epg.com/files/egypt1.xml.gz"
+  },
+  {
+    "country": "El Salvador",
+    "region": "Americas",
+    "description": "Live TV channels from El Salvador",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sv.m3u",
+    "epgUrl": "https://www.open-epg.com/files/elsalvador1.xml.gz"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "region": "Africa",
+    "description": "Live TV channels from Equatorial Guinea",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gq.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Eritrea",
+    "region": "Africa",
+    "description": "Live TV channels from Eritrea",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/er.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Estonia",
+    "region": "Europe",
+    "description": "Live TV channels from Estonia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ee.m3u",
+    "epgUrl": "https://www.open-epg.com/files/estonia1.xml.gz"
+  },
+  {
+    "country": "Ethiopia",
+    "region": "Africa",
+    "description": "Live TV channels from Ethiopia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/et.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Falkland Islands",
+    "region": "Americas",
+    "description": "Live TV channels from Falkland Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/fk.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Faroe Islands",
+    "region": "Europe",
+    "description": "Live TV channels from Faroe Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/fo.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Fiji",
+    "region": "Oceania",
+    "description": "Live TV channels from Fiji",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/fj.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Finland",
+    "region": "Europe",
+    "description": "Live TV channels from Finland",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/fi.m3u",
+    "epgUrl": "https://www.open-epg.com/files/finland1.xml.gz"
+  },
+  {
+    "country": "France",
+    "region": "Europe",
+    "description": "Live TV channels from France",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/fr.m3u",
+    "epgUrl": "https://www.open-epg.com/files/france1.xml.gz"
+  },
+  {
+    "country": "French Guiana",
+    "region": "Americas",
+    "description": "Live TV channels from French Guiana",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "French Polynesia",
+    "region": "Oceania",
+    "description": "Live TV channels from French Polynesia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "French Southern Territories",
+    "region": "Global",
+    "description": "Live TV channels from French Southern Territories",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Gabon",
+    "region": "Africa",
+    "description": "Live TV channels from Gabon",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ga.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Gambia",
+    "region": "Africa",
+    "description": "Live TV channels from Gambia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Georgia",
+    "region": "Europe",
+    "description": "Live TV channels from Georgia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ge.m3u",
+    "epgUrl": "https://www.open-epg.com/files/georgia1.xml.gz"
+  },
+  {
+    "country": "Germany",
+    "region": "Europe",
+    "description": "Live TV channels from Germany",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/de.m3u",
+    "epgUrl": "https://www.open-epg.com/files/germany1.xml.gz"
+  },
+  {
+    "country": "Ghana",
+    "region": "Africa",
+    "description": "Live TV channels from Ghana",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gh.m3u",
+    "epgUrl": "https://www.open-epg.com/files/ghana1.xml.gz"
+  },
+  {
+    "country": "Greece",
+    "region": "Europe",
+    "description": "Live TV channels from Greece",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gr.m3u",
+    "epgUrl": "https://www.open-epg.com/files/greece1.xml.gz"
+  },
+  {
+    "country": "Greenland",
+    "region": "Americas",
+    "description": "Live TV channels from Greenland",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gl.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Grenada",
+    "region": "Americas",
+    "description": "Live TV channels from Grenada",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gd.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Guadeloupe",
+    "region": "Americas",
+    "description": "Live TV channels from Guadeloupe",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gp.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Guam",
+    "region": "Oceania",
+    "description": "Live TV channels from Guam",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gu.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Guatemala",
+    "region": "Americas",
+    "description": "Live TV channels from Guatemala",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gt.m3u",
+    "epgUrl": "https://www.open-epg.com/files/guatemala1.xml.gz"
+  },
+  {
+    "country": "Guernsey",
+    "region": "Europe",
+    "description": "Live TV channels from Guernsey",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gg.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Guinea",
+    "region": "Africa",
+    "description": "Live TV channels from Guinea",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Guinea-Bissau",
+    "region": "Africa",
+    "description": "Live TV channels from Guinea-Bissau",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Guyana",
+    "region": "Americas",
+    "description": "Live TV channels from Guyana",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gy.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Haiti",
+    "region": "Americas",
+    "description": "Live TV channels from Haiti",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ht.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Honduras",
+    "region": "Americas",
+    "description": "Live TV channels from Honduras",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/hn.m3u",
+    "epgUrl": "https://www.open-epg.com/files/honduras1.xml.gz"
+  },
+  {
+    "country": "Hong Kong",
+    "region": "Asia",
+    "description": "Live TV channels from Hong Kong",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+    "epgUrl": "https://www.open-epg.com/files/hongkong1.xml.gz"
+  },
+  {
+    "country": "Hungary",
+    "region": "Europe",
+    "description": "Live TV channels from Hungary",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/hu.m3u",
+    "epgUrl": "https://www.open-epg.com/files/hungary1.xml.gz"
+  },
+  {
+    "country": "Iceland",
+    "region": "Europe",
+    "description": "Live TV channels from Iceland",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/is.m3u",
+    "epgUrl": "https://www.open-epg.com/files/iceland1.xml.gz"
+  },
+  {
+    "country": "India",
+    "region": "Asia",
+    "description": "Live TV channels from India",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/in.m3u",
+    "epgUrl": "https://www.open-epg.com/files/india1.xml.gz"
+  },
+  {
+    "country": "Indonesia",
+    "region": "Asia",
+    "description": "Live TV channels from Indonesia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/id.m3u",
+    "epgUrl": "https://www.open-epg.com/files/indonesia1.xml.gz"
+  },
+  {
+    "country": "Iran",
+    "region": "Asia",
+    "description": "Live TV channels from Iran",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ir.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Iraq",
+    "region": "Asia",
+    "description": "Live TV channels from Iraq",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/iq.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Ireland",
+    "region": "Europe",
+    "description": "Live TV channels from Ireland",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ie.m3u",
+    "epgUrl": "https://www.open-epg.com/files/ireland1.xml.gz"
+  },
+  {
+    "country": "Israel",
+    "region": "Asia",
+    "description": "Live TV channels from Israel",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/il.m3u",
+    "epgUrl": "https://www.open-epg.com/files/israel1.xml.gz"
+  },
+  {
+    "country": "Italy",
+    "region": "Europe",
+    "description": "Live TV channels from Italy",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/it.m3u",
+    "epgUrl": "https://www.open-epg.com/files/italy1.xml.gz"
+  },
+  {
+    "country": "Ivory Coast",
+    "region": "Africa",
+    "description": "Live TV channels from Ivory Coast",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ci.m3u",
+    "epgUrl": "https://www.open-epg.com/files/ivorycoast1.xml.gz"
+  },
+  {
+    "country": "Jamaica",
+    "region": "Americas",
+    "description": "Live TV channels from Jamaica",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/jm.m3u",
+    "epgUrl": "https://www.open-epg.com/files/jamaica1.xml.gz"
+  },
+  {
+    "country": "Japan",
+    "region": "Asia",
+    "description": "Live TV channels from Japan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+    "epgUrl": "https://www.open-epg.com/files/japan1.xml.gz"
+  },
+  {
+    "country": "Jordan",
+    "region": "Asia",
+    "description": "Live TV channels from Jordan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/jo.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kazakhstan",
+    "region": "Asia",
+    "description": "Live TV channels from Kazakhstan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/kz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kenya",
+    "region": "Africa",
+    "description": "Live TV channels from Kenya",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ke.m3u",
+    "epgUrl": "https://www.open-epg.com/files/kenya1.xml.gz"
+  },
+  {
+    "country": "Kiribati",
+    "region": "Oceania",
+    "description": "Live TV channels from Kiribati",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ki.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kosovo",
+    "region": "Europe",
+    "description": "Live TV channels from Kosovo",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/xk.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kuwait",
+    "region": "Asia",
+    "description": "Live TV channels from Kuwait",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/kw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Kyrgyzstan",
+    "region": "Asia",
+    "description": "Live TV channels from Kyrgyzstan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/kg.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Laos",
+    "region": "Asia",
+    "description": "Live TV channels from Laos",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/la.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Latvia",
+    "region": "Europe",
+    "description": "Live TV channels from Latvia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/lv.m3u",
+    "epgUrl": "https://www.open-epg.com/files/latvia1.xml.gz"
+  },
+  {
+    "country": "Lebanon",
+    "region": "Asia",
+    "description": "Live TV channels from Lebanon",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/lb.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Lesotho",
+    "region": "Africa",
+    "description": "Live TV channels from Lesotho",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ls.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Liberia",
+    "region": "Africa",
+    "description": "Live TV channels from Liberia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/lr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Libya",
+    "region": "Africa",
+    "description": "Live TV channels from Libya",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ly.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Liechtenstein",
+    "region": "Europe",
+    "description": "Live TV channels from Liechtenstein",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/li.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Lithuania",
+    "region": "Europe",
+    "description": "Live TV channels from Lithuania",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/lt.m3u",
+    "epgUrl": "https://www.open-epg.com/files/lithuania1.xml.gz"
+  },
+  {
+    "country": "Luxembourg",
+    "region": "Europe",
+    "description": "Live TV channels from Luxembourg",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/lu.m3u",
+    "epgUrl": "https://www.open-epg.com/files/luxembourg1.xml.gz"
+  },
+  {
+    "country": "Macao",
+    "region": "Asia",
+    "description": "Live TV channels from Macao",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mo.m3u",
+    "epgUrl": "https://www.open-epg.com/files/macau1.xml.gz"
+  },
+  {
+    "country": "Madagascar",
+    "region": "Africa",
+    "description": "Live TV channels from Madagascar",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mg.m3u",
+    "epgUrl": "https://www.open-epg.com/files/madagascar1.xml.gz"
+  },
+  {
+    "country": "Malawi",
+    "region": "Africa",
+    "description": "Live TV channels from Malawi",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mw.m3u",
+    "epgUrl": "https://www.open-epg.com/files/malawi1.xml.gz"
+  },
+  {
+    "country": "Malaysia",
+    "region": "Asia",
+    "description": "Live TV channels from Malaysia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/my.m3u",
+    "epgUrl": "https://www.open-epg.com/files/malaysia1.xml.gz"
+  },
+  {
+    "country": "Maldives",
+    "region": "Asia",
+    "description": "Live TV channels from Maldives",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mv.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mali",
+    "region": "Africa",
+    "description": "Live TV channels from Mali",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ml.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Malta",
+    "region": "Europe",
+    "description": "Live TV channels from Malta",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mt.m3u",
+    "epgUrl": "https://www.open-epg.com/files/malta1.xml.gz"
+  },
+  {
+    "country": "Marshall Islands",
+    "region": "Oceania",
+    "description": "Live TV channels from Marshall Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Martinique",
+    "region": "Americas",
+    "description": "Live TV channels from Martinique",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mq.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mauritania",
+    "region": "Africa",
+    "description": "Live TV channels from Mauritania",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mauritius",
+    "region": "Africa",
+    "description": "Live TV channels from Mauritius",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mu.m3u",
+    "epgUrl": "https://www.open-epg.com/files/mauritius1.xml.gz"
+  },
+  {
+    "country": "Mayotte",
+    "region": "Africa",
+    "description": "Live TV channels from Mayotte",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/yt.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mexico",
+    "region": "Americas",
+    "description": "Live TV channels from Mexico",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mx.m3u",
+    "epgUrl": "https://www.open-epg.com/files/mexico1.xml.gz"
+  },
+  {
+    "country": "Micronesia",
+    "region": "Oceania",
+    "description": "Live TV channels from Micronesia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/fm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Moldova",
+    "region": "Europe",
+    "description": "Live TV channels from Moldova",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/md.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Monaco",
+    "region": "Europe",
+    "description": "Live TV channels from Monaco",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mc.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Mongolia",
+    "region": "Asia",
+    "description": "Live TV channels from Mongolia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mn.m3u",
+    "epgUrl": "https://www.open-epg.com/files/mongolia1.xml.gz"
+  },
+  {
+    "country": "Montenegro",
+    "region": "Europe",
+    "description": "Live TV channels from Montenegro",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/me.m3u",
+    "epgUrl": "https://www.open-epg.com/files/montenegro1.xml.gz"
+  },
+  {
+    "country": "Montserrat",
+    "region": "Americas",
+    "description": "Live TV channels from Montserrat",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ms.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Morocco",
+    "region": "Africa",
+    "description": "Live TV channels from Morocco",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ma.m3u",
+    "epgUrl": "https://www.open-epg.com/files/morocco1.xml.gz"
+  },
+  {
+    "country": "Mozambique",
+    "region": "Africa",
+    "description": "Live TV channels from Mozambique",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mz.m3u",
+    "epgUrl": "https://www.open-epg.com/files/mozambique1.xml.gz"
+  },
+  {
+    "country": "Myanmar",
+    "region": "Asia",
+    "description": "Live TV channels from Myanmar",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Namibia",
+    "region": "Africa",
+    "description": "Live TV channels from Namibia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/na.m3u",
+    "epgUrl": "https://www.open-epg.com/files/namibia1.xml.gz"
+  },
+  {
+    "country": "Nauru",
+    "region": "Oceania",
+    "description": "Live TV channels from Nauru",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/nr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Nepal",
+    "region": "Asia",
+    "description": "Live TV channels from Nepal",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/np.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Netherlands",
+    "region": "Europe",
+    "description": "Live TV channels from Netherlands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/nl.m3u",
+    "epgUrl": "https://www.open-epg.com/files/netherlands.xml.gz"
+  },
+  {
+    "country": "New Caledonia",
+    "region": "Oceania",
+    "description": "Live TV channels from New Caledonia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/nc.m3u",
+    "epgUrl": "https://www.open-epg.com/files/newcaledonia1.xml.gz"
+  },
+  {
+    "country": "New Zealand",
+    "region": "Oceania",
+    "description": "Live TV channels from New Zealand",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/nz.m3u",
+    "epgUrl": "https://www.open-epg.com/files/newzealand1.xml.gz"
+  },
+  {
+    "country": "Nicaragua",
+    "region": "Americas",
+    "description": "Live TV channels from Nicaragua",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ni.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Niger",
+    "region": "Africa",
+    "description": "Live TV channels from Niger",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ne.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Nigeria",
+    "region": "Africa",
+    "description": "Live TV channels from Nigeria",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ng.m3u",
+    "epgUrl": "https://www.open-epg.com/files/nigeria1.xml.gz"
+  },
+  {
+    "country": "Niue",
+    "region": "Oceania",
+    "description": "Live TV channels from Niue",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/nu.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Norfolk Island",
+    "region": "Oceania",
+    "description": "Live TV channels from Norfolk Island",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/nf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "North Korea",
+    "region": "Asia",
+    "description": "Live TV channels from North Korea",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/kp.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "North Macedonia",
+    "region": "Europe",
+    "description": "Live TV channels from North Macedonia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mk.m3u",
+    "epgUrl": "https://www.open-epg.com/files/macedonia1.xml.gz"
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "region": "Oceania",
+    "description": "Live TV channels from Northern Mariana Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mp.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Norway",
+    "region": "Europe",
+    "description": "Live TV channels from Norway",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/no.m3u",
+    "epgUrl": "https://www.open-epg.com/files/norway1.xml.gz"
+  },
+  {
+    "country": "Oman",
+    "region": "Asia",
+    "description": "Live TV channels from Oman",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/om.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Pakistan",
+    "region": "Asia",
+    "description": "Live TV channels from Pakistan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pk.m3u",
+    "epgUrl": "https://www.open-epg.com/files/pakistan1.xml.gz"
+  },
+  {
+    "country": "Palau",
+    "region": "Oceania",
+    "description": "Live TV channels from Palau",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Palestine",
+    "region": "Asia",
+    "description": "Live TV channels from Palestine",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ps.m3u",
+    "epgUrl": "https://www.open-epg.com/files/palestine1.xml.gz"
+  },
+  {
+    "country": "Panama",
+    "region": "Americas",
+    "description": "Live TV channels from Panama",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pa.m3u",
+    "epgUrl": "https://www.open-epg.com/files/panama1.xml.gz"
+  },
+  {
+    "country": "Papua New Guinea",
+    "region": "Oceania",
+    "description": "Live TV channels from Papua New Guinea",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pg.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Paraguay",
+    "region": "Americas",
+    "description": "Live TV channels from Paraguay",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/py.m3u",
+    "epgUrl": "https://www.open-epg.com/files/paraguay1.xml.gz"
+  },
+  {
+    "country": "Peru",
+    "region": "Americas",
+    "description": "Live TV channels from Peru",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pe.m3u",
+    "epgUrl": "https://www.open-epg.com/files/peru1.xml.gz"
+  },
+  {
+    "country": "Philippines",
+    "region": "Asia",
+    "description": "Live TV channels from Philippines",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ph.m3u",
+    "epgUrl": "https://www.open-epg.com/files/philippines2.xml.gz"
+  },
+  {
+    "country": "Pitcairn Islands",
+    "region": "Oceania",
+    "description": "Live TV channels from Pitcairn Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Poland",
+    "region": "Europe",
+    "description": "Live TV channels from Poland",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pl.m3u",
+    "epgUrl": "https://www.open-epg.com/files/poland1.xml.gz"
+  },
+  {
+    "country": "Portugal",
+    "region": "Europe",
+    "description": "Live TV channels from Portugal",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pt.m3u",
+    "epgUrl": "https://www.open-epg.com/files/portugal1.xml.gz"
+  },
+  {
+    "country": "Puerto Rico",
+    "region": "Americas",
+    "description": "Live TV channels from Puerto Rico",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pr.m3u",
+    "epgUrl": "https://www.open-epg.com/files/puertorico1.xml.gz"
+  },
+  {
+    "country": "Qatar",
+    "region": "Asia",
+    "description": "Live TV channels from Qatar",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/qa.m3u",
+    "epgUrl": "https://www.open-epg.com/files/qatar1.xml.gz"
+  },
+  {
+    "country": "Republic of the Congo",
+    "region": "Africa",
+    "description": "Live TV channels from Republic of the Congo",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/cg.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Reunion",
+    "region": "Africa",
+    "description": "Live TV channels from Reunion",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/re.m3u",
+    "epgUrl": "https://www.open-epg.com/files/reunion1.xml.gz"
+  },
+  {
+    "country": "Romania",
+    "region": "Europe",
+    "description": "Live TV channels from Romania",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ro.m3u",
+    "epgUrl": "https://www.open-epg.com/files/romania1.xml.gz"
+  },
+  {
+    "country": "Russia",
+    "region": "Europe",
+    "description": "Live TV channels from Russia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ru.m3u",
+    "epgUrl": "https://www.open-epg.com/files/russia1.xml.gz"
+  },
+  {
+    "country": "Rwanda",
+    "region": "Africa",
+    "description": "Live TV channels from Rwanda",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/rw.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saint Barthélemy",
+    "region": "Americas",
+    "description": "Live TV channels from Saint Barthélemy",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/bl.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saint Helena",
+    "region": "Africa",
+    "description": "Live TV channels from Saint Helena",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "region": "Americas",
+    "description": "Live TV channels from Saint Kitts and Nevis",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/kn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saint Lucia",
+    "region": "Americas",
+    "description": "Live TV channels from Saint Lucia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/lc.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saint Martin",
+    "region": "Americas",
+    "description": "Live TV channels from Saint Martin",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/mf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saint Pierre and Miquelon",
+    "region": "Americas",
+    "description": "Live TV channels from Saint Pierre and Miquelon",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/pm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "region": "Americas",
+    "description": "Live TV channels from Saint Vincent and the Grenadines",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/vc.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Samoa",
+    "region": "Oceania",
+    "description": "Live TV channels from Samoa",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ws.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "San Marino",
+    "region": "Europe",
+    "description": "Live TV channels from San Marino",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "region": "Africa",
+    "description": "Live TV channels from Sao Tome and Principe",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/st.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Saudi Arabia",
+    "region": "Asia",
+    "description": "Live TV channels from Saudi Arabia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sa.m3u",
+    "epgUrl": "https://www.open-epg.com/files/saudiarabia1.xml.gz"
+  },
+  {
+    "country": "Senegal",
+    "region": "Africa",
+    "description": "Live TV channels from Senegal",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sn.m3u",
+    "epgUrl": "https://www.open-epg.com/files/senegal1.xml.gz"
+  },
+  {
+    "country": "Serbia",
+    "region": "Europe",
+    "description": "Live TV channels from Serbia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/rs.m3u",
+    "epgUrl": "https://www.open-epg.com/files/serbia1.xml.gz"
+  },
+  {
+    "country": "Seychelles",
+    "region": "Africa",
+    "description": "Live TV channels from Seychelles",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sc.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Sierra Leone",
+    "region": "Africa",
+    "description": "Live TV channels from Sierra Leone",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sl.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Singapore",
+    "region": "Asia",
+    "description": "Live TV channels from Singapore",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sg.m3u",
+    "epgUrl": "https://www.open-epg.com/files/singapore1.xml.gz"
+  },
+  {
+    "country": "Sint Maarten",
+    "region": "Americas",
+    "description": "Live TV channels from Sint Maarten",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sx.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Slovakia",
+    "region": "Europe",
+    "description": "Live TV channels from Slovakia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sk.m3u",
+    "epgUrl": "https://www.open-epg.com/files/slovakia1.xml.gz"
+  },
+  {
+    "country": "Slovenia",
+    "region": "Europe",
+    "description": "Live TV channels from Slovenia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/si.m3u",
+    "epgUrl": "https://www.open-epg.com/files/slovenia1.xml.gz"
+  },
+  {
+    "country": "Solomon Islands",
+    "region": "Oceania",
+    "description": "Live TV channels from Solomon Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sb.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Somalia",
+    "region": "Africa",
+    "description": "Live TV channels from Somalia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/so.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "South Africa",
+    "region": "Africa",
+    "description": "Live TV channels from South Africa",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/za.m3u",
+    "epgUrl": "https://www.open-epg.com/files/southafrica1.xml.gz"
+  },
+  {
+    "country": "South Georgia and the South Sandwich Islands",
+    "region": "Global",
+    "description": "Live TV channels from South Georgia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/gs.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "South Korea",
+    "region": "Asia",
+    "description": "Live TV channels from South Korea",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+    "epgUrl": "https://www.open-epg.com/files/korea1.xml.gz"
+  },
+  {
+    "country": "South Sudan",
+    "region": "Africa",
+    "description": "Live TV channels from South Sudan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ss.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Spain",
+    "region": "Europe",
+    "description": "Live TV channels from Spain",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/es.m3u",
+    "epgUrl": "https://www.open-epg.com/files/spain1.xml.gz"
+  },
+  {
+    "country": "Sri Lanka",
+    "region": "Asia",
+    "description": "Live TV channels from Sri Lanka",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/lk.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Sudan",
+    "region": "Africa",
+    "description": "Live TV channels from Sudan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sd.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Suriname",
+    "region": "Americas",
+    "description": "Live TV channels from Suriname",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Swaziland",
+    "region": "Africa",
+    "description": "Live TV channels from Swaziland",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sz.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Sweden",
+    "region": "Europe",
+    "description": "Live TV channels from Sweden",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/se.m3u",
+    "epgUrl": "https://www.open-epg.com/files/sweden1.xml.gz"
+  },
+  {
+    "country": "Switzerland",
+    "region": "Europe",
+    "description": "Live TV channels from Switzerland",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ch.m3u",
+    "epgUrl": "https://www.open-epg.com/files/switzerland2.xml.gz"
+  },
+  {
+    "country": "Syria",
+    "region": "Asia",
+    "description": "Live TV channels from Syria",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/sy.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Taiwan",
+    "region": "Asia",
+    "description": "Live TV channels from Taiwan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+    "epgUrl": "https://www.open-epg.com/files/taiwan1.xml.gz"
+  },
+  {
+    "country": "Tajikistan",
+    "region": "Asia",
+    "description": "Live TV channels from Tajikistan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tj.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tanzania",
+    "region": "Africa",
+    "description": "Live TV channels from Tanzania",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tz.m3u",
+    "epgUrl": "https://www.open-epg.com/files/tanzania1.xml.gz"
+  },
+  {
+    "country": "Thailand",
+    "region": "Asia",
+    "description": "Live TV channels from Thailand",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/th.m3u",
+    "epgUrl": "https://www.open-epg.com/files/thailand1.xml.gz"
+  },
+  {
+    "country": "Togo",
+    "region": "Africa",
+    "description": "Live TV channels from Togo",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tg.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tokelau",
+    "region": "Oceania",
+    "description": "Live TV channels from Tokelau",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tk.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tonga",
+    "region": "Oceania",
+    "description": "Live TV channels from Tonga",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/to.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "region": "Americas",
+    "description": "Live TV channels from Trinidad and Tobago",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tt.m3u",
+    "epgUrl": "https://www.open-epg.com/files/trinidad1.xml.gz"
+  },
+  {
+    "country": "Tunisia",
+    "region": "Africa",
+    "description": "Live TV channels from Tunisia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tn.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Turkey",
+    "region": "Europe",
+    "description": "Live TV channels from Turkey",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tr.m3u",
+    "epgUrl": "https://www.open-epg.com/files/turkey1.xml.gz"
+  },
+  {
+    "country": "Turkmenistan",
+    "region": "Asia",
+    "description": "Live TV channels from Turkmenistan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tm.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "region": "Americas",
+    "description": "Live TV channels from Turks and Caicos Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tc.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Tuvalu",
+    "region": "Oceania",
+    "description": "Live TV channels from Tuvalu",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/tv.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "U.S. Virgin Islands",
+    "region": "Americas",
+    "description": "Live TV channels from U.S. Virgin Islands",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/vi.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Uganda",
+    "region": "Africa",
+    "description": "Live TV channels from Uganda",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ug.m3u",
+    "epgUrl": "https://www.open-epg.com/files/uganda1.xml.gz"
+  },
+  {
+    "country": "Ukraine",
+    "region": "Europe",
+    "description": "Live TV channels from Ukraine",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ua.m3u",
+    "epgUrl": "https://www.open-epg.com/files/ukraine1.xml.gz"
+  },
+  {
+    "country": "United Arab Emirates",
+    "region": "Asia",
+    "description": "Live TV channels from United Arab Emirates",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ae.m3u",
+    "epgUrl": "https://www.open-epg.com/files/uae6.xml.gz"
+  },
+  {
+    "country": "United Kingdom",
+    "region": "Europe",
+    "description": "Live TV channels from United Kingdom",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/uk.m3u",
+    "epgUrl": "https://www.open-epg.com/files/unitedkingdom1.xml.gz"
+  },
+  {
+    "country": "United States",
+    "region": "Americas",
+    "description": "Live TV channels from United States",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "epgUrl": "https://www.open-epg.com/files/unitedstates3.xml.gz"
+  },
+  {
+    "country": "Uruguay",
+    "region": "Americas",
+    "description": "Live TV channels from Uruguay",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/uy.m3u",
+    "epgUrl": "https://www.open-epg.com/files/uruguay1.xml.gz"
+  },
+  {
+    "country": "Uzbekistan",
+    "region": "Asia",
+    "description": "Live TV channels from Uzbekistan",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/uz.m3u",
+    "epgUrl": "https://www.open-epg.com/files/uzbekistan1.xml.gz"
+  },
+  {
+    "country": "Vanuatu",
+    "region": "Oceania",
+    "description": "Live TV channels from Vanuatu",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/vu.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Vatican City",
+    "region": "Europe",
+    "description": "Live TV channels from Vatican City",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/va.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Venezuela",
+    "region": "Americas",
+    "description": "Live TV channels from Venezuela",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ve.m3u",
+    "epgUrl": "https://www.open-epg.com/files/venezuela1.xml.gz"
+  },
+  {
+    "country": "Vietnam",
+    "region": "Asia",
+    "description": "Live TV channels from Vietnam",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/vn.m3u",
+    "epgUrl": "https://www.open-epg.com/files/vietnam1.xml.gz"
+  },
+  {
+    "country": "Wallis and Futuna",
+    "region": "Oceania",
+    "description": "Live TV channels from Wallis and Futuna",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/wf.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Western Sahara",
+    "region": "Africa",
+    "description": "Live TV channels from Western Sahara",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/eh.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Yemen",
+    "region": "Asia",
+    "description": "Live TV channels from Yemen",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/ye.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Zambia",
+    "region": "Africa",
+    "description": "Live TV channels from Zambia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/zm.m3u",
+    "epgUrl": "https://www.open-epg.com/files/zambia1.xml.gz"
+  },
+  {
+    "country": "Zimbabwe",
+    "region": "Africa",
+    "description": "Live TV channels from Zimbabwe",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/zw.m3u",
+    "epgUrl": "https://www.open-epg.com/files/zimbabwe1.xml.gz"
+  },
+  {
+    "country": "Undefined",
+    "region": "Countries",
+    "description": "Streams with undefined country",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/undefined.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Undefined",
+    "region": "Undefined",
+    "description": "Streams with undefined country",
+    "m3uUrl": "https://iptv-org.github.io/iptv/countries/undefined.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Africa",
+    "region": "Regions",
+    "description": "Streams from Africa",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/afr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Americas",
+    "region": "Regions",
+    "description": "Streams from the Americas",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/amer.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Arab world",
+    "region": "Regions",
+    "description": "Streams from the Arab world",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/arab.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Asia",
+    "region": "Regions",
+    "description": "Streams from Asia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/asia.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Asia-Pacific",
+    "region": "Regions",
+    "description": "Streams from Asia-Pacific",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/apac.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Association of Southeast Asian Nations",
+    "region": "Regions",
+    "description": "Streams from ASEAN countries",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/asean.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Balkan",
+    "region": "Regions",
+    "description": "Streams from Balkan countries",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/balkan.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Benelux",
+    "region": "Regions",
+    "description": "Streams from Benelux countries",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/benelux.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Caribbean",
+    "region": "Regions",
+    "description": "Streams from Caribbean countries",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/carib.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Central America",
+    "region": "Regions",
+    "description": "Streams from Central America",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/cenamer.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Central and Eastern Europe",
+    "region": "Regions",
+    "description": "Streams from Central and Eastern Europe",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/cee.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Central Asia",
+    "region": "Regions",
+    "description": "Streams from Central Asia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/cas.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Commonwealth of Independent States",
+    "region": "Regions",
+    "description": "Streams from CIS countries",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/cis.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Europe",
+    "region": "Regions",
+    "description": "Streams from Europe",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/eur.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Europe, the Middle East and Africa",
+    "region": "Regions",
+    "description": "Streams from EMEA",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/emea.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "European Union",
+    "region": "Regions",
+    "description": "Streams from European Union countries",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/eu.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Hispanic America",
+    "region": "Regions",
+    "description": "Streams from Hispanic America",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/hispam.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Latin America",
+    "region": "Regions",
+    "description": "Streams from Latin America",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/latam.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Latin America and the Caribbean",
+    "region": "Regions",
+    "description": "Streams from Latin America and the Caribbean",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/lac.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Maghreb",
+    "region": "Regions",
+    "description": "Streams from Maghreb countries",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/maghreb.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Middle East",
+    "region": "Regions",
+    "description": "Streams from the Middle East",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/mideast.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Middle East and North Africa",
+    "region": "Regions",
+    "description": "Streams from MENA",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/mena.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Nordics",
+    "region": "Regions",
+    "description": "Streams from Nordic countries",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/nord.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "North America",
+    "region": "Regions",
+    "description": "Streams from North America",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/noram.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Northern America",
+    "region": "Regions",
+    "description": "Streams from Northern America",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/nam.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Northern Europe",
+    "region": "Regions",
+    "description": "Streams from Northern Europe",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/neur.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Oceania",
+    "region": "Regions",
+    "description": "Streams from Oceania",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/oce.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "South America",
+    "region": "Regions",
+    "description": "Streams from South America",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/southam.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "South Asia",
+    "region": "Regions",
+    "description": "Streams from South Asia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/sas.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Southeast Asia",
+    "region": "Regions",
+    "description": "Streams from Southeast Asia",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/sea.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Southern Europe",
+    "region": "Regions",
+    "description": "Streams from Southern Europe",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/ser.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Sub-Saharan Africa",
+    "region": "Regions",
+    "description": "Streams from Sub-Saharan Africa",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/ssa.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "West Africa",
+    "region": "Regions",
+    "description": "Streams from West Africa",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/wafr.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Western Europe",
+    "region": "Regions",
+    "description": "Streams from Western Europe",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/wer.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Worldwide",
+    "region": "Regions",
+    "description": "International streams",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/int.m3u",
+    "epgUrl": null
+  },
+  {
+    "country": "Undefined Region",
+    "region": "Regions",
+    "description": "Streams with undefined region",
+    "m3uUrl": "https://iptv-org.github.io/iptv/regions/undefined.m3u",
+    "epgUrl": null
+  }
+]
