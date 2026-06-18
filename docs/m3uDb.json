@@ -147,34 +147,6 @@
     "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
   },
   {
-    "name": "Grouped by country and content",
-    "group": "Otros",
-    "subgroup": "Live Tv",
-    "description": "",
-    "url": "https://raw.githubusercontent.com/devsground/IPTV/master/all/grouped_by_country_and_content.m3u"
-  },
-  {
-    "name": "Grouped by country",
-    "group": "Otros",
-    "subgroup": "Live Tv",
-    "description": "",
-    "url": "https://raw.githubusercontent.com/devsground/IPTV/master/all/grouped_by_countrym3u"
-  },
-  {
-    "name": "Grouped by content",
-    "group": "Otros",
-    "subgroup": "Live Tv",
-    "description": "",
-    "url": "https://raw.githubusercontent.com/devsground/IPTV/master/all/grouped_by_content.m3u"
-  },
-  {
-    "name": "International",
-    "group": "Otros",
-    "subgroup": "Live Tv",
-    "description": "",
-    "url": "https://raw.githubusercontent.com/devsground/IPTV/master/all/international.m3u"
-  },
-  {
     "name": "All",
     "group": "Otros",
     "subgroup": "IPTV",
